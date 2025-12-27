@@ -8,8 +8,8 @@ public class HurtBox : MonoBehaviour
 
     CharacterBase characterBase;
 
-    public void TakeDamage(int amount){
-        characterBase.TakeDamage(amount);   //poklicemo metodo v BaseCharacterju za taking damage ... on se potem odloci ali se to zgodi ali ne (blocking, grounded...)
+    public void TakeDamage(int damageLevel, string bloodBodyPart){
+        characterBase.TakeDamage(damageLevel, bloodBodyPart);   //poklicemo metodo v BaseCharacterju za taking damage ... on se potem odloci ali se to zgodi ali ne (blocking, grounded...)
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

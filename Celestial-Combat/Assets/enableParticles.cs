@@ -1,28 +1,47 @@
-using Unity.VisualScripting;
+using System;
+using System.Diagnostics;
 using UnityEngine;
 
-public class blocking : StateMachineBehaviour
+public class enableParticles : StateMachineBehaviour
 {
-    PlayerController controller;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
+    ParticleSystem[] ps;
+    ParticleSystem punchPart;
+    bool startPlaying;
+    bool stopPlaying;
+
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       controller = animator.GetComponent<PlayerController>();
-       controller.invincible = true;
+        ps = animator.GetComponentsInChildren<ParticleSystem>();
+        foreach (ParticleSystem ps1 in ps){
+            if (ps1.name == "bigPunchParticles"){
+                punchPart = ps1;
+            }
+        }
+        startPlaying = false;
+        stopPlaying = false;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       if (animator.IsInTransition(0) && controller.invincible && animator.GetNextAnimatorStateInfo(0).IsName("Armature|idle")){
-            controller.invincible = false;        //onemogocimo blokiranje takoj ko spustimo gumb, ko se tranzicija zacne
-       }
+        if (stateInfo.IsName("Armature_flyingPunch")){
+            if (stateInfo.normalizedTime > 0.3 && !startPlaying){
+                punchPart.Play();
+                //UnityEngine.Debug.Log("enabled particles");
+                startPlaying = true;
+            }
+            if (stateInfo.normalizedTime > 0.6 && !stopPlaying){
+                punchPart.Stop();
+                stopPlaying = true;
+            }
+        }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       //controller.blocking = false;
+       punchPart.Stop();   //ce je slucajno animacija prekinjena se particli ugasnejo
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

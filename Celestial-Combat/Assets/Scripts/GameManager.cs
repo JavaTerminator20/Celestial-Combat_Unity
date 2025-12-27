@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
+using Unity.Cinemachine;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -8,6 +10,14 @@ public class GameManager : MonoBehaviour
     OponentController oponent;
     Transform playerTransform;
     Transform oponentTransform;
+    static CinemachineImpulseSource impulseSource;
+    
+    //limit game to 120fps
+    void Awake()
+    {
+        QualitySettings.vSyncCount = 1;   
+        Application.targetFrameRate = 120; // Cap to 120 FPS
+    }
 
     void Start()
     {
@@ -15,6 +25,8 @@ public class GameManager : MonoBehaviour
         oponent = FindFirstObjectByType<OponentController>();
         playerTransform = player.GetComponent<Transform>();
         oponentTransform = oponent.GetComponent<Transform>();
+        impulseSource = GetComponent<CinemachineImpulseSource>();
+
     }
 
     // Update is called once per frame
@@ -35,5 +47,19 @@ public class GameManager : MonoBehaviour
             }
         }
         
+    }
+
+    public void CameraShake(float strength, bool block){
+        //Debug.Log("camera shake");
+        float yStrength = 0.25f;
+        if (block){
+            yStrength = 0f;
+        }   
+        // Vector3 impulse = new Vector3(          // TODO: naredi da bo strength pa yStrength randomizrial (-/+ smer)
+        // Random.Range(-0.2f, 0.2f),              // tiny horizontal variation
+        // Random.Range(-yStrength, yStrength),
+        // 0f);
+        Vector3 impulse = new Vector3(strength, yStrength, 0f);
+        impulseSource.GenerateImpulse(impulse);
     }
 }

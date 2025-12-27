@@ -1,4 +1,6 @@
 using System;
+using System.Drawing;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Scripting.APIUpdating;
 
@@ -17,7 +19,11 @@ public class OponentController : CharacterBase
     }
 
     private Animator animator;
+    public ParticleSystem blockSparks;
 
+    public ParticleSystem PlayerLeftHand;         //to do komponente od igralca
+    public ParticleSystem PlayerRightHand;
+    public ParticleSystem PlayerRightLeg;
 
     void Start()
     {
@@ -29,6 +35,7 @@ public class OponentController : CharacterBase
     void MakeAction(){
         int action = UnityEngine.Random.Range(0, 5);
         animator.SetInteger("action", action);
+
     }
 
     void Move(){
@@ -43,26 +50,69 @@ public class OponentController : CharacterBase
     float hSpeed;
     public int orientation = -1;
     bool weAreHit = false;
+    bool blocking = false;
 
     void clearHit(){
         animator.SetBool("hit", false);
         weAreHit = false;
+        animator.SetBool("knockdown", false);
+    }
+    
+    float knockDownMeter;
+    float decayRate = 2.0f;
+    float lastHitTime = 0.0f;
+    void checkKnockDown(int damage){
+        float comboBonus = 1.0f;
+        if (Time.time - lastHitTime < 1.5f){    //ce damo dva zaporedna udarca, potem dodaj combo bonus na knockdownmeter
+            comboBonus = 2.0f;
+            Debug.Log("we got combo bonus!!");
+        }
+        if (Time.time - lastHitTime > 3.5f){    //resetiramo knockdown meter ce pretece prevec casa med udarci
+            knockDownMeter = 0;
+        }
+
+        knockDownMeter += damage*comboBonus;
+
+        if (knockDownMeter > 20.0f){
+            knockDownMeter += damage;
+            animator.SetBool("knockdown", true);
+            animator.SetInteger("action", 0);
+            animator.SetInteger("dir", 0);
+            knockDownMeter = 0.0f;
+            
+        } else{
+            animator.SetBool("hit", true);
+            animator.SetInteger("action", 0);
+            animator.SetInteger("dir", 0);
+        }
     }
 
-    void GettingHit(int damage){
-        health -= damage;
-        Debug.Log("oponent got hit, current health: " + health);
-        animator.SetBool("hit", true);
-        animator.SetInteger("action", 0);
-        animator.SetInteger("dir", 0);
-        weAreHit = true;
-        Invoke("clearHit", 0.5f);
-        StartCoroutine(HitFreeze(damage));                                 //zazenemo hitFreeze efekt
+    void GettingHit(int damage, float hitStopTime, float cameraShakeIntensity, string bloodBodyPart){
+        if (!blocking){
+            health -= damage;
+            Debug.Log("oponent got hit, current health: " + health);
+            checkKnockDown(damage);
+            lastHitTime = Time.time;
+            weAreHit = true;
+            Invoke("clearHit", 0.4f);
+            StartCoroutine(HitFreeze(hitStopTime));                                 //zazenemo hitFreeze efekt
+            CameraShake(cameraShakeIntensity, false);
+            playBloodVFX(bloodBodyPart, PlayerLeftHand, PlayerRightHand, null, PlayerRightLeg);
+        } else{
+            CameraShake(cameraShakeIntensity, true);
+            blockSparks.Play();
+        }
     }        
+
+    float knockDownSpeed;
+    bool initKDS = true;
 
     void Update()
     {
         AnimatorStateInfo animInfo = animator.GetCurrentAnimatorStateInfo(0);
+        knockDownMeter -= decayRate * Time.unscaledDeltaTime;
+        if (knockDownMeter < 0) knockDownMeter = 0;
+        Debug.Log(knockDownMeter);
 
         if (!weAreHit){
             decisionTimer -= Time.deltaTime;
@@ -77,15 +127,31 @@ public class OponentController : CharacterBase
                 Move();
             }
 
-            
-            // if (animInfo.IsName("Armature|stepBack")){
-            //     transform.position += new Vector3(hSpeed*Time.deltaTime*orientation, 0, 0);
-            // }
-
             if (animInfo.IsName("Armature|stepForward")){
                 transform.position += new Vector3(hSpeed*Time.deltaTime*orientation, 0, 0);
             }
+
+            if (animInfo.IsName("Armature|block")){
+                blocking = true;
+            } else{
+                blocking = false;
+            }
             
+        }
+
+        if (animInfo.IsName("Armature_knockdown")){
+            if (initKDS){
+                knockDownSpeed = 10.0f;
+                initKDS = false;
+            }
+            if (animInfo.normalizedTime < 0.5f){
+                transform.position += new Vector3(-knockDownSpeed * Time.deltaTime*orientation, 0f, 0f);
+                knockDownSpeed -= 15.0f*Time.deltaTime;
+                if (knockDownSpeed < 0){knockDownSpeed = 0;}
+                //Debug.Log(knockDownSpeed);
+            }
+        } else{
+            initKDS = true;
         }
 
         if (animInfo.IsName("Armature_hitStepBackBlended")){

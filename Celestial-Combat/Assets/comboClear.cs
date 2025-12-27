@@ -1,28 +1,28 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class blocking : StateMachineBehaviour
-{
-    PlayerController controller;
+public class comboClear : StateMachineBehaviour
+{   
+    bool clearOnEnter = true;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       controller = animator.GetComponent<PlayerController>();
-       controller.invincible = true;
+        
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       if (animator.IsInTransition(0) && controller.invincible && animator.GetNextAnimatorStateInfo(0).IsName("Armature|idle")){
-            controller.invincible = false;        //onemogocimo blokiranje takoj ko spustimo gumb, ko se tranzicija zacne
-       }
+        if (!animator.IsInTransition(0) && clearOnEnter){
+            animator.GetComponent<PlayerController>().comboQueue.Clear();
+            //Debug.Log("combos cleared");
+            clearOnEnter = false;
+        }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       //controller.blocking = false;
+       clearOnEnter = true;
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

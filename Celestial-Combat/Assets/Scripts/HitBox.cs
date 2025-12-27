@@ -1,24 +1,27 @@
 using System;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 public class HitBox : MonoBehaviour
 {
 
     private Collider collider1;
-    int damage = 0;
+    int damageLevel = 0;
+    string bloodBodyPart;
 
     //metoda ki se klice, ko hitbox zadane nek drug collider ki je oznacen kot "trigger"
     void OnTriggerEnter(Collider other){
         HurtBox hurtbox = other.GetComponent<HurtBox>();    //preverimo ce ima ta collider komponento "HurtBox"
         if (hurtbox != null){
-            hurtbox.TakeDamage(damage);                     //ce je ima, potem poklicemo njeno metodo za Damage
+            hurtbox.TakeDamage(damageLevel, bloodBodyPart);                     //ce je ima, potem poklicemo njeno metodo za damageLevel
         }
     }
 
-    public void EnableColliderAndSetDamage(int damage){
+    public void EnableColliderAndSetDamageLevel(int damageLevel, string bodyPart){
         collider1.enabled = true;
-        this.damage = damage;
+        this.damageLevel = damageLevel;
+        bloodBodyPart = bodyPart;
     }
 
     public void DisableCollider(){
