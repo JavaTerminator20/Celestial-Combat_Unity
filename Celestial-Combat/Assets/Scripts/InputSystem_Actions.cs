@@ -1144,6 +1144,15 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""ult"",
+                    ""type"": ""Value"",
+                    ""id"": ""a97dc57c-c747-445f-912c-c5025532b970"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -1183,7 +1192,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""e2701c93-47bb-4b20-8e28-0084bd65a4f1"",
-                    ""path"": ""<Keyboard>/e"",
+                    ""path"": ""<Keyboard>/i"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
@@ -1194,7 +1203,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""79a40a7e-5ae5-4145-b55f-f8245e6598ca"",
-                    ""path"": ""<Keyboard>/r"",
+                    ""path"": ""<Keyboard>/j"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
@@ -1205,7 +1214,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""d63f5efc-d36d-4898-adf7-37657bf1eacf"",
-                    ""path"": ""<Keyboard>/f"",
+                    ""path"": ""<Keyboard>/k"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
@@ -1216,11 +1225,22 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""8cab6a9d-1a19-4618-83e0-dd3eb745ecdf"",
-                    ""path"": ""<Keyboard>/q"",
+                    ""path"": ""<Keyboard>/o"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
                     ""action"": ""block"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4d25eae5-5c93-4f02-9339-24cbe95a293c"",
+                    ""path"": ""<Keyboard>/l"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ult"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1322,6 +1342,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_playerControls_hook = m_playerControls.FindAction("hook", throwIfNotFound: true);
         m_playerControls_kick = m_playerControls.FindAction("kick", throwIfNotFound: true);
         m_playerControls_block = m_playerControls.FindAction("block", throwIfNotFound: true);
+        m_playerControls_ult = m_playerControls.FindAction("ult", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
@@ -1790,6 +1811,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_playerControls_hook;
     private readonly InputAction m_playerControls_kick;
     private readonly InputAction m_playerControls_block;
+    private readonly InputAction m_playerControls_ult;
     /// <summary>
     /// Provides access to input actions defined in input action map "playerControls".
     /// </summary>
@@ -1829,6 +1851,10 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "playerControls/block".
         /// </summary>
         public InputAction @block => m_Wrapper.m_playerControls_block;
+        /// <summary>
+        /// Provides access to the underlying input action "playerControls/ult".
+        /// </summary>
+        public InputAction @ult => m_Wrapper.m_playerControls_ult;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1876,6 +1902,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @block.started += instance.OnBlock;
             @block.performed += instance.OnBlock;
             @block.canceled += instance.OnBlock;
+            @ult.started += instance.OnUlt;
+            @ult.performed += instance.OnUlt;
+            @ult.canceled += instance.OnUlt;
         }
 
         /// <summary>
@@ -1908,6 +1937,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @block.started -= instance.OnBlock;
             @block.performed -= instance.OnBlock;
             @block.canceled -= instance.OnBlock;
+            @ult.started -= instance.OnUlt;
+            @ult.performed -= instance.OnUlt;
+            @ult.canceled -= instance.OnUlt;
         }
 
         /// <summary>
@@ -2211,5 +2243,12 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnBlock(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "ult" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnUlt(InputAction.CallbackContext context);
     }
 }

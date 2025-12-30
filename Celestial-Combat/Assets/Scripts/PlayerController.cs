@@ -8,6 +8,7 @@ using Unity.VisualScripting;
 using UnityEditor.UI;
 using NUnit.Framework.Constraints;
 
+
 public class PlayerController : CharacterBase
 {
 
@@ -29,8 +30,12 @@ public class PlayerController : CharacterBase
         backFlip = 6,
         flyingPunch = 7,
         releaseBlock = 8,
+        ult = 9,
     }
     public ParticleSystem blockSparks;
+    public ParticleSystem beam;
+    public ParticleSystem beamEnd;
+    public ParticleSystem beamEndOponent;
     private Dictionary<FighterAction, int> priority = new Dictionary<FighterAction, int>        //ce se dve stvari zgodita hkrati, da se doloci katera ima prednost
     {
         { FighterAction.idle, 0 },
@@ -66,6 +71,35 @@ public class PlayerController : CharacterBase
     public void OnBlock(InputValue value)
     { action = value.isPressed ? (int)FighterAction.block : (int)FighterAction.releaseBlock; }
 
+    public void OnUlt(InputValue value)
+    { action = value.isPressed ? (int)FighterAction.ult : (int)FighterAction.releaseBlock; }
+
+
+    public void Ultimate(){
+        Vector3 oponentPos = gameManager.getOponentTransform().position;
+        float distance = Mathf.Abs(oponentPos.x - (transform.position.x + 0.8f*orientation))-0.2f;
+        var beamMain = beam.main;
+        beamMain.startSizeX = distance;
+        //Debug.Log(distance);
+        float avgX = (oponentPos.x + (transform.position.x + 0.8f*orientation))/2;
+        float avgY = (oponentPos.y+1.5f + transform.position.y+1.0f)/2;
+        Debug.Log(avgY);
+        beam.transform.position = new Vector3(avgX, avgY, 5);
+
+        float angle = Mathf.Atan2(oponentPos.y+1.5f -(transform.position.y+1.0f), distance+0.2f) * Mathf.Rad2Deg;
+        Debug.Log("angle is: " + angle);
+        beam.transform.rotation = Quaternion.Euler(0f, 0f, angle*orientation);
+        beam.Play();
+        beamEnd.Play();
+        beamEndOponent.Play();
+        StartCoroutine(gameManager.sustainedShake(10));
+        Invoke("stopBeamEnd", 4.0f);
+    }
+
+    void stopBeamEnd(){
+        beamEnd.Stop();
+        beamEndOponent.Stop();
+    }
 
     //to je couroutine - namesto invoka je uporabljena zato, da lahko passamo argumente
     IEnumerator<WaitForSeconds> clearAction(Queue<int> actionQueue, int action){
@@ -104,8 +138,11 @@ public class PlayerController : CharacterBase
             //Debug.Log("shake when blocking");
             CameraShake(shakeIntensity, true);
             blockSparks.Play();
+            
         }   
     }
+
+    
 
     private Animator animator;
     void Start()
@@ -235,7 +272,7 @@ public class PlayerController : CharacterBase
         oldAction = action;
         
         //Debug.Log("ActionQueue: [" + string.Join(", ", actionQueue) + "]");
-        
+
         //ce smo pritisnili releaseBlock potem nehamo blokirati
         if (action == (int)FighterAction.releaseBlock){
             action = 0;

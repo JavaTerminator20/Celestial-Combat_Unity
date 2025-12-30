@@ -1058,6 +1058,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "ult",
+                    "type": "Value",
+                    "id": "a97dc57c-c747-445f-912c-c5025532b970",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -1097,7 +1106,7 @@
                 {
                     "name": "",
                     "id": "e2701c93-47bb-4b20-8e28-0084bd65a4f1",
-                    "path": "<Keyboard>/e",
+                    "path": "<Keyboard>/i",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
@@ -1108,7 +1117,7 @@
                 {
                     "name": "",
                     "id": "79a40a7e-5ae5-4145-b55f-f8245e6598ca",
-                    "path": "<Keyboard>/r",
+                    "path": "<Keyboard>/j",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
@@ -1119,7 +1128,7 @@
                 {
                     "name": "",
                     "id": "d63f5efc-d36d-4898-adf7-37657bf1eacf",
-                    "path": "<Keyboard>/f",
+                    "path": "<Keyboard>/k",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
@@ -1130,11 +1139,22 @@
                 {
                     "name": "",
                     "id": "8cab6a9d-1a19-4618-83e0-dd3eb745ecdf",
-                    "path": "<Keyboard>/q",
+                    "path": "<Keyboard>/o",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "block",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d25eae5-5c93-4f02-9339-24cbe95a293c",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ult",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
 using Unity.Cinemachine;
+using System.Transactions;
+using UnityEditor.Experimental.GraphView;
 
 
 public class GameManager : MonoBehaviour
@@ -10,7 +12,9 @@ public class GameManager : MonoBehaviour
     OponentController oponent;
     Transform playerTransform;
     Transform oponentTransform;
-    static CinemachineImpulseSource impulseSource;
+    public CinemachineImpulseSource impulseSource;
+
+    
     
     //limit game to 120fps
     void Awake()
@@ -29,6 +33,10 @@ public class GameManager : MonoBehaviour
 
     }
 
+    float maxDist = 8;
+    float borderL = -13f;
+    float borderR = 13f;
+
     // Update is called once per frame
     void Update()
     {   
@@ -46,8 +54,27 @@ public class GameManager : MonoBehaviour
                 oponentTransform.rotation = Quaternion.Euler(0, 90, 0);
             }
         }
-        
+
+        // dolocanje maximalne razdalje med igralcema
+        float excess = Mathf.Abs(playerTransform.position.x - oponentTransform.position.x) - maxDist;
+        if (Mathf.Abs(playerTransform.position.x - oponentTransform.position.x) > maxDist){
+            playerTransform.position += new Vector3(excess*player.orientation, 0, 0);      //samo playerja popravi (nasprotnik je le Bot)
+            //oponentTransform.position += new Vector3(excess*oponent.orientation, 0, 0);
+        }
+
+        // meje levo-desno
+        var playerPos = playerTransform.position;
+        playerPos.x = Mathf.Min(Mathf.Max(playerPos.x, borderL), borderR);
+        playerTransform.position = playerPos;
+
+        var oponentPos = oponentTransform.position;
+        oponentPos.x = Mathf.Min(Mathf.Max(oponentPos.x, borderL), borderR);
+        oponentTransform.position = oponentPos;
+
     }
+
+    public Transform getPlayerTransform(){return playerTransform;}
+    public Transform getOponentTransform(){return oponentTransform;}
 
     public void CameraShake(float strength, bool block){
         //Debug.Log("camera shake");
@@ -60,6 +87,39 @@ public class GameManager : MonoBehaviour
         // Random.Range(-yStrength, yStrength),
         // 0f);
         Vector3 impulse = new Vector3(strength, yStrength, 0f);
+        impulseSource.GenerateImpulse(impulse);
+    }
+
+    //funkcija ki jo poklice PlayerController.cs (v metodu Ult al neki)
+    public IEnumerator<WaitForSecondsRealtime> sustainedShake(int iterations){
+        for (int i = 0; i < iterations; i++){
+            // Vector3 impulse = new Vector3(          // TODO: naredi da bo strength pa yStrength randomizrial (-/+ smer)
+            // Random.Range(-0.2f, 0.2f),              // tiny horizontal variation
+            // Random.Range(-yStrength, yStrength),
+            // 0f);
+            float lowerB = 0.05f;
+            float upperB = 0.1f;
+            float strengthX = Random.Range(lowerB, upperB);
+            int sign1 = Random.Range(-1, 1) > 0 ? 1 : -1;
+            int sign2 = Random.Range(-1, 1) > 0 ? 1 : -1;
+            float strengthY = Random.Range(lowerB, upperB);
+            Vector3 impulse = new Vector3(strengthX*sign1, strengthY*sign2, 0f);
+            impulseSource.GenerateImpulse(impulse);
+            yield return new WaitForSecondsRealtime(0.4f);
+        }
+    }
+
+    //funkcija ki jo poklice bigStomp.cs (ko sonce udari z nogo ob tla)
+    public void StompCameraShake(){
+        StartCoroutine(ActualStomp());   
+    }
+
+    private IEnumerator<WaitForSecondsRealtime> ActualStomp(){
+        Debug.Log("stomp camera shake");
+        Vector3 impulse = new Vector3(0.15f, -0.7f, 0f);
+        impulseSource.GenerateImpulse(impulse);
+        oponent.SunUltFloating();
+        yield return new WaitForSecondsRealtime(0.4f);
         impulseSource.GenerateImpulse(impulse);
     }
 }
