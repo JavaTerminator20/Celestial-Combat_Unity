@@ -9,16 +9,16 @@ public class CharacterBase : MonoBehaviour
 
     protected float hSpeedUniversal = 1.3f;     //horizontal speed obeh igralcev
     protected float hitExtraSpeed = 3.0f;       //konckback speed - koliko se premakne nazaj ko je hittan
-    protected GameManager gameManager;
+    public GameManager gameManager;
 
     protected int health = 100;
 
     //dictionary ki mapira Int(damageLevel) -> Tuple(damageAmount, hitStopTime, CameraShakeIntensity)
     protected Dictionary<int, Tuple<int, float, float>> damageDefinition = new Dictionary<int, Tuple<int, float, float>>{
-        {1, new Tuple<int, float, float>(2, 0.04f, 0.3f)},
-        {2, new Tuple<int, float, float>(5, 0.07f, 0.35f)},
-        {3, new Tuple<int, float, float>(8, 0.10f, 0.4f)},
-        {4, new Tuple<int, float, float>(10, 0.13f, 0.45f)},
+        {1, new Tuple<int, float, float>(2, 0.04f, 0.1f)},
+        {2, new Tuple<int, float, float>(5, 0.07f, 0.15f)},
+        {3, new Tuple<int, float, float>(8, 0.10f, 0.2f)},
+        {4, new Tuple<int, float, float>(10, 0.13f, 0.25f)},
     };
        
 

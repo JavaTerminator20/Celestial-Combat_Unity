@@ -1,6 +1,7 @@
 using System;
 using System.Drawing;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Scripting.APIUpdating;
 
@@ -38,6 +39,14 @@ public class OponentController : CharacterBase
 
     }
 
+    public void SunUltFloating(){
+        animator.SetBool("sunUlt", true);
+        animator.SetBool("hit", true);      //zato da se prekine akcija ki se trenutno izvaja
+        animator.SetInteger("action", 0);
+        animator.SetInteger("dir", 0);
+        weAreHit = true;                //preprecimo izvajanje akcij
+        Invoke("clearHit", 0.4f);
+    }
     void Move(){
         int dir = (int)Time.time % 2;
         if (dir == 0){dir = -1;}
@@ -105,6 +114,7 @@ public class OponentController : CharacterBase
     }        
 
     float knockDownSpeed;
+    float decayFactor;
     bool initKDS = true;
 
     void Update()
@@ -112,9 +122,9 @@ public class OponentController : CharacterBase
         AnimatorStateInfo animInfo = animator.GetCurrentAnimatorStateInfo(0);
         knockDownMeter -= decayRate * Time.unscaledDeltaTime;
         if (knockDownMeter < 0) knockDownMeter = 0;
-        Debug.Log(knockDownMeter);
+        //Debug.Log(knockDownMeter);
 
-        if (!weAreHit){
+        if (false){
             decisionTimer -= Time.deltaTime;
             if (decisionTimer < 0){
                 decisionTimer = 0.8f;
@@ -141,15 +151,17 @@ public class OponentController : CharacterBase
 
         if (animInfo.IsName("Armature_knockdown")){
             if (initKDS){
-                knockDownSpeed = 10.0f;
+                knockDownSpeed = 17.0f;
                 initKDS = false;
+                decayFactor = 50.0f;
             }
             if (animInfo.normalizedTime < 0.5f){
                 transform.position += new Vector3(-knockDownSpeed * Time.deltaTime*orientation, 0f, 0f);
-                knockDownSpeed -= 15.0f*Time.deltaTime;
+                knockDownSpeed -= decayFactor*Time.deltaTime;
                 if (knockDownSpeed < 0){knockDownSpeed = 0;}
                 //Debug.Log(knockDownSpeed);
             }
+            //Debug.Log(knockDownSpeed);
         } else{
             initKDS = true;
         }
