@@ -20,6 +20,8 @@ public class bigBoom : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
        oponent.GetComponent<Animator>().SetBool("sunUlt", false);
+       oponent = FindFirstObjectByType<OponentController>();
+       oponent.GetComponent<Animator>().SetBool("knockdown", false);
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

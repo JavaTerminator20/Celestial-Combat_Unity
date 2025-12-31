@@ -31,6 +31,7 @@ public class PlayerController : CharacterBase
         flyingPunch = 7,
         releaseBlock = 8,
         ult = 9,
+        stumble = 10,
     }
     public ParticleSystem blockSparks;
     public ParticleSystem beam;
@@ -74,6 +75,17 @@ public class PlayerController : CharacterBase
     public void OnUlt(InputValue value)
     { action = value.isPressed ? (int)FighterAction.ult : (int)FighterAction.releaseBlock; }
 
+
+    public void Stumble(){  //ko zemlja izvede svoj ultimate 
+        action = (int)FighterAction.stumble;
+        Debug.Log("action is sumble");
+        Invoke("releaseStumble", 1.0f);
+
+    }
+
+    void releaseStumble(){
+        action = 0;
+    }
 
     public void Ultimate(){
         Vector3 oponentPos = gameManager.getOponentTransform().position;
@@ -170,6 +182,10 @@ public class PlayerController : CharacterBase
     public Queue<int> actionQueue = new Queue<int>();
     public Queue<int> comboQueue = new Queue<int>();
 
+    float knockDownSpeed;
+    float decayFactor;
+    bool initKDS;
+
     void Update()
     {
         rawDir = stepForward - stepBack;
@@ -240,6 +256,24 @@ public class PlayerController : CharacterBase
             }
         }
 
+
+        if (animInfo.IsName("Armature_knockdown")){
+            if (initKDS){
+                knockDownSpeed = initKnockdownSpeed;
+                decayFactor = initDecay;
+                initKDS = false;
+            }
+            if (animInfo.normalizedTime < 0.5f){
+                transform.position += new Vector3(-knockDownSpeed * Time.deltaTime*orientation, 0f, 0f);
+                knockDownSpeed -= decayFactor*Time.deltaTime;
+                if (knockDownSpeed < 0){knockDownSpeed = 0;}
+                //Debug.Log(knockDownSpeed);
+            }
+            //Debug.Log(knockDownSpeed);
+        } else{
+            initKDS = true;
+        }
+
         //s tem gremo ven iz blocking polozaja (brez tega bi ostali v blocking polozaju)
         // if (curAnimPlaying == "Armature_block_faster"){
         //     if (action != 4){              
@@ -266,11 +300,12 @@ public class PlayerController : CharacterBase
         //ce smo zaznali neko akcijo (pritisnjena tipka) in ta akcija ni Idle, potem jo damo v Queue in zazenemo rutino, ki jo bo pobrisala po nekem casovnem obdobju
         //key up nam sluzi da moramo tipko spustiti in se enkrat pritisniti, ce hocem akcijo se enkrat izvesti
 
+        //ta del kode nam omogoci da pritisnemo dva (ali vec) zaporedna gumba ne da bi pri tem spustili predhodnega (in se bo oba registriralo) 
         if (action != oldAction && action != 0 && oldAction != 0){
             keyUp = true;
         }
         oldAction = action;
-        
+
         //Debug.Log("ActionQueue: [" + string.Join(", ", actionQueue) + "]");
 
         //ce smo pritisnili releaseBlock potem nehamo blokirati

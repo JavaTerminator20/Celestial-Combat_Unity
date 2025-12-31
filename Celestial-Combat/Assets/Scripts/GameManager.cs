@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    float maxDist = 8;
+    float maxDist = 9;
     float borderL = -13f;
     float borderR = 13f;
 
@@ -110,16 +110,23 @@ public class GameManager : MonoBehaviour
     }
 
     //funkcija ki jo poklice bigStomp.cs (ko sonce udari z nogo ob tla)
-    public void StompCameraShake(){
-        StartCoroutine(ActualStomp());   
+    public void StompCameraShake(bool sunFloat){
+        StartCoroutine(ActualStomp(sunFloat));   
     }
 
-    private IEnumerator<WaitForSecondsRealtime> ActualStomp(){
+    private IEnumerator<WaitForSecondsRealtime> ActualStomp(bool sunFloat){
         Debug.Log("stomp camera shake");
         Vector3 impulse = new Vector3(0.15f, -0.7f, 0f);
         impulseSource.GenerateImpulse(impulse);
-        oponent.SunUltFloating();
+
+        if (sunFloat) {oponent.SunUltFloating();}
+        else {player.Stumble();} 
+
         yield return new WaitForSecondsRealtime(0.4f);
         impulseSource.GenerateImpulse(impulse);
+    }
+
+    public float GetDistance(){
+        return Mathf.Abs(playerTransform.position.x - oponentTransform.position.x);
     }
 }

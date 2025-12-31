@@ -3,6 +3,7 @@ using System.Drawing;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.Scripting.APIUpdating;
 
 public class OponentController : CharacterBase
@@ -111,11 +112,36 @@ public class OponentController : CharacterBase
             CameraShake(cameraShakeIntensity, true);
             blockSparks.Play();
         }
+    }
+
+    public GameObject ogMoon;
+    public GameObject handMoon;
+    public GameObject airMoon;
+    public void MoonSwitch(){
+        ogMoon.SetActive(false);
+        handMoon.SetActive(true);
+    }
+
+    public void MoonThrow(){
+        airMoon.GetComponent<Transform>().position = new Vector3(transform.position.x + 1.405f*orientation, transform.position.y + 1.619f, transform.position.z + 0.479f);
+        handMoon.SetActive(false);
+        airMoon.SetActive(true);
+        airMoon.GetComponent<Rigidbody>().useGravity = true;
+        float velocityY = -250f + gameManager.GetDistance()*30f;    
+        airMoon.GetComponent<Rigidbody>().AddForce(new Vector3(700f*orientation, velocityY, 30f*orientation));
+    }
+
+    public void BringBackMoon(){
+        ogMoon.SetActive(true);
     }        
 
     float knockDownSpeed;
     float decayFactor;
     bool initKDS = true;
+
+    int jump;
+    public void OnJump(InputValue value)
+    { jump = value.isPressed ? 1 : 0; }
 
     void Update()
     {
@@ -123,7 +149,11 @@ public class OponentController : CharacterBase
         knockDownMeter -= decayRate * Time.unscaledDeltaTime;
         if (knockDownMeter < 0) knockDownMeter = 0;
         //Debug.Log(knockDownMeter);
-
+        if (jump == 1){
+            animator.SetInteger("action", 5);
+        } else{
+            animator.SetInteger("action", 0);
+        }
         if (false){
             decisionTimer -= Time.deltaTime;
             if (decisionTimer < 0){
@@ -151,9 +181,9 @@ public class OponentController : CharacterBase
 
         if (animInfo.IsName("Armature_knockdown")){
             if (initKDS){
-                knockDownSpeed = 17.0f;
+                knockDownSpeed = initKnockdownSpeed;
+                decayFactor = initDecay;
                 initKDS = false;
-                decayFactor = 50.0f;
             }
             if (animInfo.normalizedTime < 0.5f){
                 transform.position += new Vector3(-knockDownSpeed * Time.deltaTime*orientation, 0f, 0f);
