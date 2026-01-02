@@ -14,7 +14,16 @@ public class bigStomp : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         if (stateInfo.normalizedTime > 0.39 && doOnce){
-            animator.GetComponent<PlayerController>().gameManager.StompCameraShake();
+            if (animator.name == "animatedSun"){        //smo v animatorju od Sonca (soncev Ultimate)
+                Debug.Log("sun ultimate");
+                animator.GetComponent<PlayerController>().gameManager.StompCameraShake(true);
+            } 
+            else{                                       //smo v animatorju od Zemlje (zemljin Ultimate)
+                Debug.Log("earth ultimate");
+                animator.GetComponent<OponentController>().gameManager.StompCameraShake(false);
+                animator.GetComponent<OponentController>().MoonSwitch();
+            }
+            
             doOnce = false;
         }
     }

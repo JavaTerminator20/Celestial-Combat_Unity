@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    float maxDist = 8;
+    float maxDist = 9;
     float borderL = -13f;
     float borderR = 13f;
 
@@ -41,16 +41,22 @@ public class GameManager : MonoBehaviour
     void Update()
     {   
         //koda ki uprvalja orientacijo obeh igralcev - ju obraca drug proti drugemu
-        if (player.grounded){
+        if (player.canChangeOrientation){
             if (playerTransform.position.x < oponentTransform.position.x){
                 player.orientation = 1;
-                oponent.orientation = -1;
                 playerTransform.rotation = Quaternion.Euler(0, 90, 0);
-                oponentTransform.rotation = Quaternion.Euler(0, -90, 0);
             } else{
                 player.orientation = -1;
-                oponent.orientation = 1;
                 playerTransform.rotation = Quaternion.Euler(0, -90, 0);
+            }
+        }
+
+        if (oponent.canChangeOrientation){
+            if (playerTransform.position.x < oponentTransform.position.x){
+                oponent.orientation = -1;
+                oponentTransform.rotation = Quaternion.Euler(0, -90, 0);
+            } else{
+                oponent.orientation = 1;
                 oponentTransform.rotation = Quaternion.Euler(0, 90, 0);
             }
         }
@@ -110,16 +116,23 @@ public class GameManager : MonoBehaviour
     }
 
     //funkcija ki jo poklice bigStomp.cs (ko sonce udari z nogo ob tla)
-    public void StompCameraShake(){
-        StartCoroutine(ActualStomp());   
+    public void StompCameraShake(bool sunFloat){
+        StartCoroutine(ActualStomp(sunFloat));   
     }
 
-    private IEnumerator<WaitForSecondsRealtime> ActualStomp(){
+    private IEnumerator<WaitForSecondsRealtime> ActualStomp(bool sunFloat){
         Debug.Log("stomp camera shake");
         Vector3 impulse = new Vector3(0.15f, -0.7f, 0f);
         impulseSource.GenerateImpulse(impulse);
-        oponent.SunUltFloating();
+
+        if (sunFloat) {oponent.SunUltFloating();}
+        else {player.Stumble();} 
+
         yield return new WaitForSecondsRealtime(0.4f);
         impulseSource.GenerateImpulse(impulse);
+    }
+
+    public float GetDistance(){
+        return Mathf.Abs(playerTransform.position.x - oponentTransform.position.x);
     }
 }

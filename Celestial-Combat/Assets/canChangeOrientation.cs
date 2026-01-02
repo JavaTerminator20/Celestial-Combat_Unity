@@ -1,13 +1,19 @@
 using UnityEngine;
 
-public class bigBoom : StateMachineBehaviour
+public class canChangeOrientation : StateMachineBehaviour
 {
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
-    OponentController oponent;
+
+    // ta skripta je potrebna, da ko se zacne izvajati neka akcija, da se izvede v isti smeri - ne da se character med izvajanjem...
+    // ...obrne, ce se zamenjata pozicije igralcev
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       oponent = FindFirstObjectByType<OponentController>();
-       oponent.GetComponent<Animator>().SetBool("knockdown", true);
+        if (animator.name == "animatedSun"){
+            animator.GetComponent<PlayerController>().canChangeOrientation = true;
+        }
+        else{
+            animator.GetComponent<OponentController>().canChangeOrientation = true;
+        }
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -19,9 +25,12 @@ public class bigBoom : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       oponent.GetComponent<Animator>().SetBool("sunUlt", false);
-       oponent = FindFirstObjectByType<OponentController>();
-       oponent.GetComponent<Animator>().SetBool("knockdown", false);
+       if (animator.name == "animatedSun"){
+            animator.GetComponent<PlayerController>().canChangeOrientation = false;
+        }
+        else{
+            animator.GetComponent<OponentController>().canChangeOrientation = false;
+        }
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
