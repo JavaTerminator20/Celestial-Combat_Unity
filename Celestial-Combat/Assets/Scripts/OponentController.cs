@@ -370,7 +370,7 @@ public class OponentController : CharacterBase
             rawDir = 0;
         }
 
-        orientation = player.position.x > transform.position.x ? 1 : -1;
+        //orientation = player.position.x > transform.position.x ? 1 : -1;
 
         dir = rawDir * orientation;
         animator.SetInteger("dir", dir);
@@ -381,7 +381,7 @@ public class OponentController : CharacterBase
 
         AnimatorStateInfo animInfo = animator.GetCurrentAnimatorStateInfo(0);
 
-        if(animInfo.IsName("Armature_knockdown")) return;
+        //if(animInfo.IsName("Armature_knockdown")) return;     ta vrstica onemogoca da se zemlja premakne nazaj pri animaciji knockback
 
         thinkTimer -= Time.deltaTime;
 
@@ -400,109 +400,108 @@ public class OponentController : CharacterBase
         if (knockDownMeter < 0) knockDownMeter = 0;
         //Debug.Log(knockDownMeter);
 
-        if (!weAreHit){
-            // decisionTimer -= Time.deltaTime;
-            // if (decisionTimer < 0){
-            //     decisionTimer = 0.8f;
-            //     MakeAction();
-            // }
+        // decisionTimer -= Time.deltaTime;
+        // if (decisionTimer < 0){
+        //     decisionTimer = 0.8f;
+        //     MakeAction();
+        // }
 
-            // moveTimer -= Time.deltaTime;
-            // if (moveTimer < 0){
-            //     moveTimer = 0.5f;
-            //     Move();
-            // }
+        // moveTimer -= Time.deltaTime;
+        // if (moveTimer < 0){
+        //     moveTimer = 0.5f;
+        //     Move();
+        // }
 
-            if (animInfo.IsName("Armature|stepForward")){
-                transform.position += new Vector3(hSpeed*Time.deltaTime*orientation, 0, 0);
-            }
-
-            if (animInfo.IsName("Armature|block")){
-                blocking = true;
-            } else{
-                blocking = false;
-            }   
-
-            string curAnimPlaying = clipInfo[0].clip.name;
-
-            if (curAnimPlaying == "Armature_backflip"){  //0.67, 1.37
-                grounded = false;
-                float currentTime = animInfo.normalizedTime * animInfo.length;
-                float extraHSpeed = 3.0f;
-                //nastavimo zacetne parametre
-                if (!paramsInit){
-                    gravity = 60.0f;
-                    vSpeed = gravity*(0.632f*animInfo.length - 0.254f*animInfo.length)/2;       //v oklepajih je dolzina skoka (sekunde)
-                    paramsInit = true;
-                }
-
-                //ce smo znotraj pravega casovnega okvirja, potem zacnemo premikati objekt v loku
-                if (currentTime > 0.254*animInfo.length && currentTime < 0.632*animInfo.length){
-                    vSpeed -= gravity * Time.deltaTime;
-                    transform.position += new Vector3(-(hSpeed+extraHSpeed)*Time.deltaTime*orientation, vSpeed*Time.deltaTime, 0.0f);
-                    
-                    if (transform.position.y < 1){
-                        transform.position = new Vector3(transform.position.x, 1, transform.position.z);
-                    }
-                }
-            }
-
-            //premikanje ob predvajanju animacije | TODO: prestavi zacetni del kode direktno pod animacijo (OnStateEnter)
-            if (curAnimPlaying == "Armature_frontFlip"){
-                grounded = false;
-                float currentTime = animInfo.normalizedTime * animInfo.length;
-                float extraHSpeed = 3.5f;             //dodatek k horizontalni hitrosti
-                //nastavimo zacetne parametre
-                if (!paramsInit){
-                    gravity = 40.0f;
-                    vSpeed = gravity*(0.880f*animInfo.length - 0.282f*animInfo.length)/2;       //v oklepajih je dolzina skoka (sekunde)
-                    paramsInit = true;
-                }
-                transform.position += new Vector3(hSpeed*1.6f*Time.deltaTime*orientation, 0, 0);
-                //ce smo znotraj pravega casovnega okvirja, potem zacnemo premikati objekt v loku
-                if (currentTime > 0.282*animInfo.length && currentTime < 0.880*animInfo.length){
-                    vSpeed -= gravity * Time.deltaTime;
-                    transform.position += new Vector3(extraHSpeed*Time.deltaTime*orientation, vSpeed*Time.deltaTime, 0.0f);
-                    
-                    if (transform.position.y < 1){
-                        transform.position = new Vector3(transform.position.x, 1, transform.position.z);
-                    }
-                }
-            }
-
-            if (curAnimPlaying == "Armature_jump"){
-                grounded = false;
-                
-                if (!paramsInit){
-                    paramsInit = true;
-                    gravity = 130.0f;
-                    vSpeed = gravity*(0.6f*animInfo.length - 0.257f*animInfo.length)/2;
-                }
-
-                if (animInfo.normalizedTime > 0.257f && animInfo.normalizedTime < 0.6f){
-                    vSpeed -= gravity * Time.deltaTime;
-                    transform.position += new Vector3(0.0f, vSpeed*Time.deltaTime, 0.0f);
-                    
-                    if (transform.position.y < 1){
-                        transform.position = new Vector3(transform.position.x, 1, transform.position.z);
-                    }
-                }
-            }
-
-            if (curAnimPlaying == "Armature_flyingPunch"){
-                if (animInfo.normalizedTime < 0.65f){
-                    transform.position += new Vector3((hSpeed+1.0f)*Time.deltaTime*orientation, 0f, 0f);
-                }
-            }
-
-            if (curAnimPlaying == "Armature|idle"){
-                paramsInit = false;
-                grounded = true;
-            }
-            
+        if (animInfo.IsName("Armature|stepForward")){
+            transform.position += new Vector3(hSpeed*Time.deltaTime*orientation, 0, 0);
         }
 
+        if (animInfo.IsName("Armature|block")){
+            blocking = true;
+        } else{
+            blocking = false;
+        }   
+
+        string curAnimPlaying = clipInfo[0].clip.name;
+
+        if (curAnimPlaying == "Armature_backflip"){  //0.67, 1.37
+            grounded = false;
+            float currentTime = animInfo.normalizedTime * animInfo.length;
+            float extraHSpeed = 3.0f;
+            //nastavimo zacetne parametre
+            if (!paramsInit){
+                gravity = 60.0f;
+                vSpeed = gravity*(0.632f*animInfo.length - 0.254f*animInfo.length)/2;       //v oklepajih je dolzina skoka (sekunde)
+                paramsInit = true;
+            }
+
+            //ce smo znotraj pravega casovnega okvirja, potem zacnemo premikati objekt v loku
+            if (currentTime > 0.254*animInfo.length && currentTime < 0.632*animInfo.length){
+                vSpeed -= gravity * Time.deltaTime;
+                transform.position += new Vector3(-(hSpeed+extraHSpeed)*Time.deltaTime*orientation, vSpeed*Time.deltaTime, 0.0f);
+                
+                if (transform.position.y < 1){
+                    transform.position = new Vector3(transform.position.x, 1, transform.position.z);
+                }
+            }
+        }
+
+        //premikanje ob predvajanju animacije | TODO: prestavi zacetni del kode direktno pod animacijo (OnStateEnter)
+        if (curAnimPlaying == "Armature_frontFlip"){
+            grounded = false;
+            float currentTime = animInfo.normalizedTime * animInfo.length;
+            float extraHSpeed = 3.5f;             //dodatek k horizontalni hitrosti
+            //nastavimo zacetne parametre
+            if (!paramsInit){
+                gravity = 40.0f;
+                vSpeed = gravity*(0.880f*animInfo.length - 0.282f*animInfo.length)/2;       //v oklepajih je dolzina skoka (sekunde)
+                paramsInit = true;
+            }
+            transform.position += new Vector3(hSpeed*1.6f*Time.deltaTime*orientation, 0, 0);
+            //ce smo znotraj pravega casovnega okvirja, potem zacnemo premikati objekt v loku
+            if (currentTime > 0.282*animInfo.length && currentTime < 0.880*animInfo.length){
+                vSpeed -= gravity * Time.deltaTime;
+                transform.position += new Vector3(extraHSpeed*Time.deltaTime*orientation, vSpeed*Time.deltaTime, 0.0f);
+                
+                if (transform.position.y < 1){
+                    transform.position = new Vector3(transform.position.x, 1, transform.position.z);
+                }
+            }
+        }
+
+        if (curAnimPlaying == "Armature_jump"){
+            grounded = false;
+            
+            if (!paramsInit){
+                paramsInit = true;
+                gravity = 130.0f;
+                vSpeed = gravity*(0.6f*animInfo.length - 0.257f*animInfo.length)/2;
+            }
+
+            if (animInfo.normalizedTime > 0.257f && animInfo.normalizedTime < 0.6f){
+                vSpeed -= gravity * Time.deltaTime;
+                transform.position += new Vector3(0.0f, vSpeed*Time.deltaTime, 0.0f);
+                
+                if (transform.position.y < 1){
+                    transform.position = new Vector3(transform.position.x, 1, transform.position.z);
+                }
+            }
+        }
+
+        if (curAnimPlaying == "Armature_flyingPunch"){
+            if (animInfo.normalizedTime < 0.65f){
+                transform.position += new Vector3((hSpeed+1.0f)*Time.deltaTime*orientation, 0f, 0f);
+            }
+        }
+
+        if (curAnimPlaying == "Armature|idle"){
+            paramsInit = false;
+            grounded = true;
+        }
+        
+
         if (animInfo.IsName("Armature_knockdown")){
+            Debug.Log("inside knockdown");
             if (initKDS){
                 knockDownSpeed = initKnockdownSpeed;
                 decayFactor = initDecay;
