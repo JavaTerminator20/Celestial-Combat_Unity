@@ -124,7 +124,7 @@ public class PlayerController : CharacterBase
         }
     }
 
-    //pol sekunde po pristanku smo invincible
+    //pol sekunde po pristanku smo invincible -- obsolete ker sem implementiral feature, da se udarec zacne in konca v isti smeri
     public IEnumerator<WaitForSeconds> clearInvincible(){
         yield return new WaitForSeconds(0.5f);
         invincible = false;
@@ -173,6 +173,7 @@ public class PlayerController : CharacterBase
     public bool grounded = true;
     public bool invincible = false;                     //bool ki pove da ne moremo prejeti udarca (ko pristanemo pri fron/back flipu, ko smo knocked-down)
     public int orientation = 1;                        //int ki pove v katero smer gledamo: 1:desno, -1:levo
+    public bool canChangeOrientation = true;           //bool ki pove, da se lahko zamenja rotacija (potreben zato, da se udarec zacne in konca v isti smeri - ne da se igralec obrne med izvajanjem nekega dolgega udarca)
     public bool blocking = false;                      //bool ki je true, ko je pritisnjena tipka za block - NE POMENI DA JE ANIMACIJA BLOCK AKTIVNA
     int dir = 0;
 

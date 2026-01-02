@@ -41,16 +41,22 @@ public class GameManager : MonoBehaviour
     void Update()
     {   
         //koda ki uprvalja orientacijo obeh igralcev - ju obraca drug proti drugemu
-        if (player.grounded){
+        if (player.canChangeOrientation){
             if (playerTransform.position.x < oponentTransform.position.x){
                 player.orientation = 1;
-                oponent.orientation = -1;
                 playerTransform.rotation = Quaternion.Euler(0, 90, 0);
-                oponentTransform.rotation = Quaternion.Euler(0, -90, 0);
             } else{
                 player.orientation = -1;
-                oponent.orientation = 1;
                 playerTransform.rotation = Quaternion.Euler(0, -90, 0);
+            }
+        }
+
+        if (oponent.canChangeOrientation){
+            if (playerTransform.position.x < oponentTransform.position.x){
+                oponent.orientation = -1;
+                oponentTransform.rotation = Quaternion.Euler(0, -90, 0);
+            } else{
+                oponent.orientation = 1;
                 oponentTransform.rotation = Quaternion.Euler(0, 90, 0);
             }
         }
