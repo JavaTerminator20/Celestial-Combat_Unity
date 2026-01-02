@@ -77,6 +77,10 @@ public class GameManager : MonoBehaviour
         oponentPos.x = Mathf.Min(Mathf.Max(oponentPos.x, borderL), borderR);
         oponentTransform.position = oponentPos;
 
+        float dist = Mathf.Abs(playerPos.x - oponentPos.x);
+        Debug.Log("Punch hitbox distance: " + dist);
+
+
     }
 
     public Transform getPlayerTransform(){return playerTransform;}

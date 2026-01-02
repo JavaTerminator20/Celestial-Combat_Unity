@@ -20817,10 +20817,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   gameManager: {fileID: 0}
   blockSparks: {fileID: 1858946464}
+  player: {fileID: 2017573270}
   PlayerLeftHand: {fileID: 1278430285}
   PlayerRightHand: {fileID: 1460939799}
   PlayerRightLeg: {fileID: 410876638}
   orientation: -1
+  canMove: 1
   canChangeOrientation: 1
   ogMoon: {fileID: 2111037180}
   handMoon: {fileID: 2109284777}
@@ -43596,7 +43598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8879528566716807029, guid: 22deb5dde5082554e8442a532ff7f8bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9140253385185518857, guid: 22deb5dde5082554e8442a532ff7f8bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
