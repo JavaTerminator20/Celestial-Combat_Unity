@@ -38,5 +38,6 @@ public class HitBox : MonoBehaviour
     void Update()
     {
         
+
     }
 }
