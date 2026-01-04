@@ -85,6 +85,8 @@ public class OponentController : CharacterBase
     int rawDir = 0;
     int dir = 0;
     public bool canMove = true;
+    //public int ultimateMeter = 0;
+    //public int ultimateThreshold = 10;
 
     float DistanceToPlayer() {
         return Mathf.Abs(player.position.x - transform.position.x);
@@ -96,7 +98,7 @@ public class OponentController : CharacterBase
 
     void clearHit(){
         animator.SetBool("hit", false);
-        //weAreHit = false;
+        weAreHit = false;
         //animator.SetBool("knockdown", false);
     }
     
@@ -150,6 +152,11 @@ public class OponentController : CharacterBase
 
         if (!blocking && grounded){
 
+<<<<<<< HEAD
+            
+
+=======
+>>>>>>> f694604eea2e5d94033d0dccbbc071d75a0fb9ff
             health -= damage;
             Debug.Log("oponent got hit, current health: " + health);
             checkKnockDown(damage);
@@ -324,6 +331,22 @@ public class OponentController : CharacterBase
     {
         float dist = DistanceToPlayer();
 
+        if(ultimateMeter >= ultimateThreshold) {
+            if (UnityEngine.Random.value < 0.8f) {
+                animator.SetInteger("action", (int)FighterAction.ultimate);
+                ultimateMeter = 0;
+                currentState = AIState.Recover;
+                return;
+            }
+        }
+
+        if ( dist > punchRange && dist < safeRange && UnityEngine.Random.value < 0.4f) {
+            animator.SetInteger("action", (int)FighterAction.flyingPunch);
+            currentState = AIState.Recover;
+            return;
+        }
+
+
         if (dist <= punchRange)
         {
             // choose between punch or hook
@@ -360,7 +383,7 @@ public class OponentController : CharacterBase
         //Debug.Log("AI State: " + currentState + " | Distance: "+ DistanceToPlayer());
         rawDir = 0;
         float dx = player.position.x - transform.position.x;
-
+        Debug.Log("NPC ultimate meter:"  + ultimateMeter);
         if (currentState == AIState.Approach)
         {
             rawDir = dx > 0 ? 1 : -1;
@@ -381,6 +404,26 @@ public class OponentController : CharacterBase
 
         AnimatorStateInfo animInfo = animator.GetCurrentAnimatorStateInfo(0);
 
+<<<<<<< HEAD
+        //if(animInfo.IsName("Armature_knockdown")) return;
+
+        if (playerIsUsingUltimate)
+        {
+            canMove = false;
+            rawDir = 0;
+
+            return;
+        } else {
+            canMove = true;
+        }
+
+        if (animator.GetBool("knockdown")) {
+
+            //HandleKnockdownMotion(animInfo);
+            return;
+        }
+=======
+>>>>>>> f694604eea2e5d94033d0dccbbc071d75a0fb9ff
         //if(animInfo.IsName("Armature_knockdown")) return;     ta vrstica onemogoca da se zemlja premakne nazaj pri animaciji knockback
 
         thinkTimer -= Time.deltaTime;
