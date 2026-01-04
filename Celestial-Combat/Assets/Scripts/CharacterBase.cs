@@ -16,6 +16,9 @@ public class CharacterBase : MonoBehaviour
 
     protected int health = 100;
 
+    protected float initKnockdownSpeed = 17.0f;
+    protected float initDecay = 60.0f;
+
     //dictionary ki mapira Int(damageLevel) -> Tuple(damageAmount, hitStopTime, CameraShakeIntensity)
     protected Dictionary<int, Tuple<int, float, float>> damageDefinition = new Dictionary<int, Tuple<int, float, float>>{
         {1, new Tuple<int, float, float>(2, 0.04f, 0.1f)},

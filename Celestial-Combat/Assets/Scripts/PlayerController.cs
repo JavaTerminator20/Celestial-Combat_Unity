@@ -31,6 +31,7 @@ public class PlayerController : CharacterBase
         flyingPunch = 7,
         releaseBlock = 8,
         ult = 9,
+        stumble = 10,
     }
     public ParticleSystem blockSparks;
     public ParticleSystem beam;
@@ -85,6 +86,17 @@ public class PlayerController : CharacterBase
     }
 
 
+    public void Stumble(){  //ko zemlja izvede svoj ultimate 
+        action = (int)FighterAction.stumble;
+        Debug.Log("action is sumble");
+        Invoke("releaseStumble", 1.0f);
+
+    }
+
+    void releaseStumble(){
+        action = 0;
+    }
+
     public void Ultimate(){
         usingUltimate = true;
         playerIsUsingUltimate = true;
@@ -130,7 +142,7 @@ public class PlayerController : CharacterBase
         }
     }
 
-    //pol sekunde po pristanku smo invincible
+    //pol sekunde po pristanku smo invincible -- obsolete ker sem implementiral feature, da se udarec zacne in konca v isti smeri
     public IEnumerator<WaitForSeconds> clearInvincible(){
         yield return new WaitForSeconds(0.5f);
         invincible = false;
@@ -179,6 +191,7 @@ public class PlayerController : CharacterBase
     public bool grounded = true;
     public bool invincible = false;                     //bool ki pove da ne moremo prejeti udarca (ko pristanemo pri fron/back flipu, ko smo knocked-down)
     public int orientation = 1;                        //int ki pove v katero smer gledamo: 1:desno, -1:levo
+    public bool canChangeOrientation = true;           //bool ki pove, da se lahko zamenja rotacija (potreben zato, da se udarec zacne in konca v isti smeri - ne da se igralec obrne med izvajanjem nekega dolgega udarca)
     public bool blocking = false;                      //bool ki je true, ko je pritisnjena tipka za block - NE POMENI DA JE ANIMACIJA BLOCK AKTIVNA
     int dir = 0;
 
@@ -187,6 +200,10 @@ public class PlayerController : CharacterBase
 
     public Queue<int> actionQueue = new Queue<int>();
     public Queue<int> comboQueue = new Queue<int>();
+
+    float knockDownSpeed;
+    float decayFactor;
+    bool initKDS;
 
     void Update()
     {
@@ -260,6 +277,24 @@ public class PlayerController : CharacterBase
             }
         }
 
+
+        if (animInfo.IsName("Armature_knockdown")){
+            if (initKDS){
+                knockDownSpeed = initKnockdownSpeed;
+                decayFactor = initDecay;
+                initKDS = false;
+            }
+            if (animInfo.normalizedTime < 0.5f){
+                transform.position += new Vector3(-knockDownSpeed * Time.deltaTime*orientation, 0f, 0f);
+                knockDownSpeed -= decayFactor*Time.deltaTime;
+                if (knockDownSpeed < 0){knockDownSpeed = 0;}
+                //Debug.Log(knockDownSpeed);
+            }
+            //Debug.Log(knockDownSpeed);
+        } else{
+            initKDS = true;
+        }
+
         //s tem gremo ven iz blocking polozaja (brez tega bi ostali v blocking polozaju)
         // if (curAnimPlaying == "Armature_block_faster"){
         //     if (action != 4){              
@@ -286,11 +321,12 @@ public class PlayerController : CharacterBase
         //ce smo zaznali neko akcijo (pritisnjena tipka) in ta akcija ni Idle, potem jo damo v Queue in zazenemo rutino, ki jo bo pobrisala po nekem casovnem obdobju
         //key up nam sluzi da moramo tipko spustiti in se enkrat pritisniti, ce hocem akcijo se enkrat izvesti
 
+        //ta del kode nam omogoci da pritisnemo dva (ali vec) zaporedna gumba ne da bi pri tem spustili predhodnega (in se bo oba registriralo) 
         if (action != oldAction && action != 0 && oldAction != 0){
             keyUp = true;
         }
         oldAction = action;
-        
+
         //Debug.Log("ActionQueue: [" + string.Join(", ", actionQueue) + "]");
 
         //ce smo pritisnili releaseBlock potem nehamo blokirati
