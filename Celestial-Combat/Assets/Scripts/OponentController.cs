@@ -96,7 +96,7 @@ public class OponentController : CharacterBase
 
     void clearHit(){
         animator.SetBool("hit", false);
-        //weAreHit = false;
+        weAreHit = false;
         //animator.SetBool("knockdown", false);
     }
     
@@ -196,7 +196,13 @@ public class OponentController : CharacterBase
     {
         float distance = DistanceToPlayer();
 
-        if(distance > kickRange + 0.5f)
+        float punchIn = punchRange;
+        float punchOut = punchRange + 0.2f;
+
+        float kickIn = kickRange;
+        float kickOut = kickRange + 0.2f;
+
+        if(distance > kickOut)
         {
             float r = UnityEngine.Random.value;
 
@@ -210,7 +216,7 @@ public class OponentController : CharacterBase
             return;
         }
 
-        if(distance > punchRange && distance <= kickRange)
+        if(distance > punchOut && distance <= kickIn)
         {
             float r = UnityEngine.Random.value;
 
@@ -228,7 +234,7 @@ public class OponentController : CharacterBase
             return;
         }
 
-        if( distance <= punchRange) {
+        if( distance <= punchIn) {
 
             float r = UnityEngine.Random.value;
 
@@ -292,6 +298,11 @@ public class OponentController : CharacterBase
 
         animator.SetInteger("action", (int)FighterAction.idle);
 
+        if(DistanceToPlayer() > safeRange)
+        {
+            currentState = AIState.Idle;
+        }
+
     }
 
     void Block()
@@ -323,6 +334,22 @@ public class OponentController : CharacterBase
     void PreformAttack()
     {
         float dist = DistanceToPlayer();
+
+        if(ultimateMeter >= ultimateThreshold) {
+            if (dist > punchRange && UnityEngine.Random.value < 0.8f) {
+                animator.SetInteger("action", (int)FighterAction.ultimate);
+                ultimateMeter = 0;
+                currentState = AIState.Recover;
+                return;
+            }
+
+        }
+
+        if (dist > punchRange && dist < safeRange && UnityEngine.Random.value < 0.5f) {
+            animator.SetInteger("action", (int)FighterAction.flyingPunch);
+            currentState = AIState.Recover;
+            return;
+        }
 
         if (dist <= punchRange)
         {
@@ -360,6 +387,26 @@ public class OponentController : CharacterBase
         //Debug.Log("AI State: " + currentState + " | Distance: "+ DistanceToPlayer());
         rawDir = 0;
         float dx = player.position.x - transform.position.x;
+        Debug.Log("NPC ultimate meter:" + ultimateMeter);
+
+        if (weAreHit) {
+            animator.SetInteger("action", 0);
+            animator.SetInteger("dir", 0);
+            canMove = false;
+            return;
+
+        }
+
+        if (playerIsUsingUltimate)
+        {
+            canMove = false;
+            rawDir = 0;
+
+            return;
+        } else {
+            canMove = true;
+        }
+
 
         if (currentState == AIState.Approach)
         {
@@ -383,12 +430,21 @@ public class OponentController : CharacterBase
 
         //if(animInfo.IsName("Armature_knockdown")) return;     ta vrstica onemogoca da se zemlja premakne nazaj pri animaciji knockback
 
+        
+        if(animator.GetBool("knockdown")) {
+            return;
+        }
+
         thinkTimer -= Time.deltaTime;
 
         if(thinkTimer <= 0f)
         {
-            thinkTimer = UnityEngine.Random.Range(0.4f, 0.9f);
-            DecideNextAction();
+            if (currentState == AIState.Idle || currentState == AIState.Approach || currentState == AIState.Retreat) {
+                thinkTimer = UnityEngine.Random.Range(0.1f, 0.5f);
+                DecideNextAction();
+            } else {
+                thinkTimer = UnityEngine.Random.Range(0.1f, 0.2f);
+            }
         }
 
         RunCurrentState();
@@ -423,6 +479,20 @@ public class OponentController : CharacterBase
         }   
 
         string curAnimPlaying = clipInfo[0].clip.name;
+
+        bool isJumpingAnim = curAnimPlaying == "Armature_jump" ||
+            curAnimPlaying == "Armature_frontFlip" ||
+            curAnimPlaying == "Armature_backflip";
+
+        if(!isJumpingAnim) {
+            paramsInit = false;
+            grounded = true;
+
+            if (transform.position.y > 1.01f)
+            {
+                transform.position = new Vector3(transform.position.x, 1f, transform.position.z);
+            }
+        }
 
         if (curAnimPlaying == "Armature_backflip"){  //0.67, 1.37
             grounded = false;

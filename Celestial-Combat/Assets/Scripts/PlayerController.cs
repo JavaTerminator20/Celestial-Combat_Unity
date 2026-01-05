@@ -37,6 +37,7 @@ public class PlayerController : CharacterBase
     public ParticleSystem beam;
     public ParticleSystem beamEnd;
     public ParticleSystem beamEndOponent;
+    public bool usingUltimate = false;
     private Dictionary<FighterAction, int> priority = new Dictionary<FighterAction, int>        //ce se dve stvari zgodita hkrati, da se doloci katera ima prednost
     {
         { FighterAction.idle, 0 },
@@ -73,7 +74,16 @@ public class PlayerController : CharacterBase
     { action = value.isPressed ? (int)FighterAction.block : (int)FighterAction.releaseBlock; }
 
     public void OnUlt(InputValue value)
-    { action = value.isPressed ? (int)FighterAction.ult : (int)FighterAction.releaseBlock; }
+    { 
+        if (!grounded) return;
+        if(ultimateMeter < ultimateThreshold) return;
+
+        action = value.isPressed ? (int)FighterAction.ult : (int)FighterAction.releaseBlock; 
+    
+        if (value.isPressed) {
+            ultimateMeter = 0;
+        }
+    }
 
 
     public void Stumble(){  //ko zemlja izvede svoj ultimate 
@@ -88,6 +98,9 @@ public class PlayerController : CharacterBase
     }
 
     public void Ultimate(){
+        usingUltimate = true;
+        playerIsUsingUltimate = true;
+
         Vector3 oponentPos = gameManager.getOponentTransform().position;
         float distance = Mathf.Abs(oponentPos.x - (transform.position.x + 0.8f*orientation))-0.2f;
         var beamMain = beam.main;
@@ -111,6 +124,10 @@ public class PlayerController : CharacterBase
     void stopBeamEnd(){
         beamEnd.Stop();
         beamEndOponent.Stop();
+    }
+
+    public void EndUltimate() {
+        playerIsUsingUltimate = false;
     }
 
     //to je couroutine - namesto invoka je uporabljena zato, da lahko passamo argumente
@@ -192,6 +209,8 @@ public class PlayerController : CharacterBase
         rawDir = stepForward - stepBack;
         dir = rawDir * orientation;
         animator.SetInteger("dir", dir);
+
+        Debug.Log("Player ultimate meter:" + ultimateMeter);
 
         if (jump == 1){
             if (dir == 1){
