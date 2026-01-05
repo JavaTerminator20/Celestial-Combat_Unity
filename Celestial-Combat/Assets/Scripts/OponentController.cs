@@ -43,6 +43,8 @@ public class OponentController : CharacterBase
     public ParticleSystem PlayerRightHand;
     public ParticleSystem PlayerRightLeg;
 
+    //int ultimateMeter = 0;
+
     void Start()
     {
         OnHitReceived += GettingHit;        //dodamo metodo na seznam "poslusalcev" - potrebno bi bilo sicer ga odstraniti pri OnDisable(){OnHitReceived -= GettingHit;}
@@ -62,7 +64,7 @@ public class OponentController : CharacterBase
         animator.SetInteger("action", 0);
         animator.SetInteger("dir", 0);
         weAreHit = true;                //preprecimo izvajanje akcij
-        Invoke("clearHit", 0.4f);
+        //Invoke("clearHit", 0.4f);
     }
     void Move(){
         int dir = (int)Time.time % 2;
@@ -97,6 +99,7 @@ public class OponentController : CharacterBase
     void clearHit(){
         animator.SetBool("hit", false);
         weAreHit = false;
+        Debug.Log("cleared hit");
         //animator.SetBool("knockdown", false);
     }
     
@@ -384,10 +387,30 @@ public class OponentController : CharacterBase
 
     void Update()
     {
+        AnimatorStateInfo animInfo = animator.GetCurrentAnimatorStateInfo(0);
+
         //Debug.Log("AI State: " + currentState + " | Distance: "+ DistanceToPlayer());
         rawDir = 0;
         float dx = player.position.x - transform.position.x;
-        Debug.Log("NPC ultimate meter:" + ultimateMeter);
+        //Debug.Log("NPC ultimate meter:" + ultimateMeter);
+
+        if (animInfo.IsName("Armature_knockdown")){
+            Debug.Log("inside knockdown");
+            if (initKDS){
+                knockDownSpeed = initKnockdownSpeed;
+                decayFactor = initDecay;
+                initKDS = false;
+            }
+            if (animInfo.normalizedTime < 0.5f){
+                transform.position += new Vector3(-knockDownSpeed * Time.deltaTime*orientation, 0f, 0f);
+                knockDownSpeed -= decayFactor*Time.deltaTime;
+                if (knockDownSpeed < 0){knockDownSpeed = 0;}
+                //Debug.Log(knockDownSpeed);
+            }
+            //Debug.Log(knockDownSpeed);
+        } else{
+            initKDS = true;
+        }
 
         if (weAreHit) {
             animator.SetInteger("action", 0);
@@ -425,10 +448,6 @@ public class OponentController : CharacterBase
         if (canMove) {
             transform.position += new Vector3(rawDir * hSpeed, 0f, 0f) * Time.deltaTime;
         }
-
-        AnimatorStateInfo animInfo = animator.GetCurrentAnimatorStateInfo(0);
-
-        //if(animInfo.IsName("Armature_knockdown")) return;     ta vrstica onemogoca da se zemlja premakne nazaj pri animaciji knockback
 
         
         if(animator.GetBool("knockdown")) {
@@ -569,24 +588,6 @@ public class OponentController : CharacterBase
             grounded = true;
         }
         
-
-        if (animInfo.IsName("Armature_knockdown")){
-            Debug.Log("inside knockdown");
-            if (initKDS){
-                knockDownSpeed = initKnockdownSpeed;
-                decayFactor = initDecay;
-                initKDS = false;
-            }
-            if (animInfo.normalizedTime < 0.5f){
-                transform.position += new Vector3(-knockDownSpeed * Time.deltaTime*orientation, 0f, 0f);
-                knockDownSpeed -= decayFactor*Time.deltaTime;
-                if (knockDownSpeed < 0){knockDownSpeed = 0;}
-                //Debug.Log(knockDownSpeed);
-            }
-            //Debug.Log(knockDownSpeed);
-        } else{
-            initKDS = true;
-        }
 
         if (animInfo.IsName("Armature_hitStepBackBlended")){
             if (animInfo.normalizedTime < 0.15f){

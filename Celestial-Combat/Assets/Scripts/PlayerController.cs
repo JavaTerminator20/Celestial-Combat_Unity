@@ -50,6 +50,7 @@ public class PlayerController : CharacterBase
     public ParticleSystem OponentLeftHand;         //to do komponente od nasprotnika
     public ParticleSystem OponentRightHand;
     public ParticleSystem OponentRightLeg;
+    //int ultimateMeter = 0;
 
     public void OnStepForward(InputValue value)
     { stepForward = value.isPressed ? 1 : 0; }
@@ -86,9 +87,11 @@ public class PlayerController : CharacterBase
     }
 
 
-    public void Stumble(){  //ko zemlja izvede svoj ultimate 
+    public void Stumble(){  //ko zemlja izvede svoj ultimate
+        animator.SetBool("hit", true);
+        Invoke("clearHit", 1.0f); 
         action = (int)FighterAction.stumble;
-        Debug.Log("action is sumble");
+        Debug.Log("action is stumble");
         Invoke("releaseStumble", 1.0f);
 
     }
@@ -210,7 +213,7 @@ public class PlayerController : CharacterBase
         dir = rawDir * orientation;
         animator.SetInteger("dir", dir);
 
-        Debug.Log("Player ultimate meter:" + ultimateMeter);
+        //Debug.Log("Player ultimate meter:" + ultimateMeter);
 
         if (jump == 1){
             if (dir == 1){
