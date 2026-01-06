@@ -37,11 +37,12 @@ public class OponentController : CharacterBase
 
     private Animator animator;
     public ParticleSystem blockSparks;
-
+    
     public Transform player;
     public ParticleSystem PlayerLeftHand;         //to do komponente od igralca
     public ParticleSystem PlayerRightHand;
     public ParticleSystem PlayerRightLeg;
+  
 
     void Start()
     {
@@ -151,6 +152,10 @@ public class OponentController : CharacterBase
         if (!blocking && grounded){
 
             health -= damage;
+            if (healthBar != null)
+            {    
+                healthBar.SetHealth(health);
+            }
             Debug.Log("oponent got hit, current health: " + health);
             checkKnockDown(damage);
             lastHitTime = Time.time;
