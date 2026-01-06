@@ -10,6 +10,9 @@ public class CharacterBase : MonoBehaviour
     protected float hSpeedUniversal = 1.3f;     //horizontal speed obeh igralcev
     protected float hitExtraSpeed = 3.0f;       //konckback speed - koliko se premakne nazaj ko je hittan
     public GameManager gameManager;
+    public int ultimateMeter = 0;
+    public int ultimateThreshold = 10;
+    public bool playerIsUsingUltimate = false;
 
     protected int health = 100;
 
@@ -31,11 +34,13 @@ public class CharacterBase : MonoBehaviour
         float hitStoptime = damageDefinition[damageLevel].Item2;
         float shakeIntensity = damageDefinition[damageLevel].Item3;
 
-        if (!hitCooldown){
-            OnHitReceived?.Invoke(damage, hitStoptime, shakeIntensity, bodyPart);        //if anyone is listening to this event, tell them it happened (zaradi argumenta uporabimo Listener)
-            hitCooldown = true;
-            Invoke("ClearHitCooldown", 0.3f);       //0.5s cooldawna med hiti
-        }
+        //if (!hitCooldown){
+        //    OnHitReceived?.Invoke(damage, hitStoptime, shakeIntensity, bodyPart);        //if anyone is listening to this event, tell them it happened (zaradi argumenta uporabimo Listener)
+        //    hitCooldown = true;
+        //    Invoke("ClearHitCooldown", 0.3f);       //0.5s cooldawna med hiti
+        //}
+
+        OnHitReceived?.Invoke(damage, hitStoptime, shakeIntensity, bodyPart);
     }
 
     //metoda hit freeze - na podlagi damage (s tem tudi vrste udarca) se doloci freeze time
