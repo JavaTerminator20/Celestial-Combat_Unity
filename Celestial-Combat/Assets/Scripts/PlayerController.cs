@@ -38,6 +38,7 @@ public class PlayerController : CharacterBase
     public ParticleSystem beamEnd;
     public ParticleSystem beamEndOponent;
     public bool usingUltimate = false;
+
     private Dictionary<FighterAction, int> priority = new Dictionary<FighterAction, int>        //ce se dve stvari zgodita hkrati, da se doloci katera ima prednost
     {
         { FighterAction.idle, 0 },
