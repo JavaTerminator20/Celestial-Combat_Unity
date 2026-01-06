@@ -12,7 +12,9 @@ public class CharacterBase : MonoBehaviour
     public GameManager gameManager;
 
     protected int health = 100;
-
+  
+    public HealthBar healthBar;
+    
     protected float initKnockdownSpeed = 17.0f;
     protected float initDecay = 60.0f;
 
@@ -74,5 +76,18 @@ public class CharacterBase : MonoBehaviour
     {
         gameManager = FindFirstObjectByType<GameManager>();
         health = 100;
+        
     }
+
+    void Start()  
+    {
+        if (healthBar != null)
+        {
+            healthBar.SetHealth(health);
+        }
+        
+        
+
+    }
+
 }
