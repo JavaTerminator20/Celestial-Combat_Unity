@@ -37,7 +37,6 @@ public class PlayerController : CharacterBase
     public ParticleSystem beam;
     public ParticleSystem beamEnd;
     public ParticleSystem beamEndOponent;
-
     private Dictionary<FighterAction, int> priority = new Dictionary<FighterAction, int>        //ce se dve stvari zgodita hkrati, da se doloci katera ima prednost
     {
         { FighterAction.idle, 0 },
@@ -50,7 +49,6 @@ public class PlayerController : CharacterBase
     public ParticleSystem OponentLeftHand;         //to do komponente od nasprotnika
     public ParticleSystem OponentRightHand;
     public ParticleSystem OponentRightLeg;
-
 
     public void OnStepForward(InputValue value)
     { stepForward = value.isPressed ? 1 : 0; }
@@ -141,11 +139,6 @@ public class PlayerController : CharacterBase
 
         if (grounded && !invincible){         //TODO: naredi da bo player pri pristanku (fron/back flip) se nekaj casa invincible
             health -= damage;
-           
-            if (healthBar != null)
-            {    
-                healthBar.SetHealth(health);
-            }
             Debug.Log("player got hit, health: " + health);
             animator.SetBool("hit", true);
             Invoke("clearHit", 0.4f);
@@ -167,12 +160,10 @@ public class PlayerController : CharacterBase
     void Start()
     {   
         animator = GetComponent<Animator>();
-      
         OnHitReceived += GettingHit;        //dodamo metodo na seznam "poslusalcev" - potrebno bi bilo sicer ga odstraniti pri OnDisable(){OnHitReceived -= GettingHit;}
         hSpeed = base.hSpeedUniversal;      //spremenljivka hSpeedUniversal je v nadrejenem razredu, da lahko obema igralcema nastavimo isto hitrost
         gameManager = FindFirstObjectByType<GameManager>();
         invincible = false;
-        
     }
 
     float hSpeed;
