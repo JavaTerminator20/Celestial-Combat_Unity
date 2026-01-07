@@ -89,7 +89,6 @@ public class CharacterBase : MonoBehaviour
         {
             PlayBlockSound();
             Debug.Log("BLOCKED!");
-            return;
         }
 
         
