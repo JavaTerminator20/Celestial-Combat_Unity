@@ -29,6 +29,7 @@ public class enableHitBoxes : StateMachineBehaviour
     float enableTime = 0.0f;
     float disableTime = 1.0f;
     string bodyPart;
+    string actionName;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)       //v tej funkciji najdemo pravi collider in ga omogocimo
@@ -36,7 +37,8 @@ public class enableHitBoxes : StateMachineBehaviour
         damageLevel = 0;
         doOnce = true;
         disableOnce = true;
-
+        actionName = null;
+        
         //preverimo katera animacija se je zacela in omogicimo samo nujen hitbox (enega)
         if (stateInfo.IsName("Armature|punchBlended") || stateInfo.IsName("Armature|punch")){   //zaradi tega ker imata zemlja in sonce drugacno ime za punch
             hitbox = FindHitBox(rightHand, animator);
@@ -44,6 +46,7 @@ public class enableHitBoxes : StateMachineBehaviour
             disableTime = 0.7f;
             damageLevel = 1;
             bodyPart = "RH";    //right hand
+            actionName = "punch";
         }
         if (stateInfo.IsName("Armature|hookPunch")){
             hitbox = FindHitBox(rightHand, animator);
@@ -51,6 +54,7 @@ public class enableHitBoxes : StateMachineBehaviour
             disableTime = 0.7f;
             damageLevel = 2;
             bodyPart = "RH";    //right hand
+            actionName = "hook";
         }
         if (stateInfo.IsName("Armature|kick")){
             hitbox = FindHitBox(rightLeg, animator);
@@ -58,6 +62,7 @@ public class enableHitBoxes : StateMachineBehaviour
             disableTime = 0.6f;
             damageLevel = 3;
             bodyPart = "RL";     //right leg
+            actionName  = "kick";
 
         }
         if (stateInfo.IsName("Armature_flyingPunch")){
@@ -67,8 +72,10 @@ public class enableHitBoxes : StateMachineBehaviour
             disableTime = 0.7f;
             damageLevel = 4;
             bodyPart = "LH";    //right leg
+            actionName = "flyingPunch";
         }
 
+        Debug.Log("HITBOX ENABLED: " + actionName);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -76,7 +83,7 @@ public class enableHitBoxes : StateMachineBehaviour
     {
         //ko pridemo v pravilni time frame potem omogocimo hit boxe
         if (hitbox != null && stateInfo.normalizedTime > enableTime && doOnce){ 
-            hitbox.EnableColliderAndSetDamageLevel(damageLevel, bodyPart);
+            hitbox.EnableColliderAndSetDamageLevel(damageLevel, bodyPart, actionName);
             doOnce = false;
         }
 
