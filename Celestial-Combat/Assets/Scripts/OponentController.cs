@@ -77,7 +77,7 @@ public class OponentController : CharacterBase
     float hSpeed;
     public int orientation = -1;
     bool weAreHit = false;
-    bool blocking = false;
+    public bool blocking = false;
 
     //float distance = Mathf.Abs(player.position.x - transform.position.x);
     float punchRange = 1.385f;
@@ -209,9 +209,11 @@ public class OponentController : CharacterBase
         {
             float r = UnityEngine.Random.value;
 
-            if(r < 0.7f) {
+            if(r < 0.4f) {
                 currentState = AIState.Approach;
 
+            } else if( r < 0.8f){
+                currentState = AIState.Attack; 
             } else {
                 currentState = AIState.Evade;
             }
@@ -339,7 +341,7 @@ public class OponentController : CharacterBase
         float dist = DistanceToPlayer();
 
         if(ultimateMeter >= ultimateThreshold) {
-            if (dist > punchRange && UnityEngine.Random.value < 0.8f) {
+            if (dist > kickRange && UnityEngine.Random.value < 1f) {
                 animator.SetInteger("action", (int)FighterAction.ultimate);
                 ultimateMeter = 0;
                 currentState = AIState.Recover;
@@ -377,6 +379,15 @@ public class OponentController : CharacterBase
 
     void EndRecover() {
         currentState = AIState.Idle;
+    }
+
+    public void CheckForMiss()
+    {
+        Debug.Log("CheckForMiss called.");
+        foreach (HitBox hitbox in GetComponentsInChildren<HitBox>())
+        {
+            hitbox.CheckForMiss();
+        }
     }
 
     //spremenljivke za flipe

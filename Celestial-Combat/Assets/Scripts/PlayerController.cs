@@ -174,6 +174,15 @@ public class PlayerController : CharacterBase
         }   
     }
 
+    public void CheckForMiss()
+    {
+        Debug.Log("CheckForMiss called.");
+        foreach (HitBox hitbox in GetComponentsInChildren<HitBox>())
+        {
+            hitbox.CheckForMiss();
+        }
+    }
+
     
 
     private Animator animator;
