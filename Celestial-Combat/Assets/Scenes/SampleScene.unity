@@ -21369,10 +21369,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   gameManager: {fileID: 0}
-  healthBar: {fileID: 1814139072}
   ultimateMeter: 0
   ultimateThreshold: 10
   playerIsUsingUltimate: 0
+  healthBar: {fileID: 1814139072}
   audioSource: {fileID: 919132147708770631}
   punchSound: {fileID: 8300000, guid: cc9eb7fab732c0749964704c0ce0af64, type: 3}
   punchMissSound: {fileID: 8300000, guid: 3f6737164e458ae4a9cfb630d3603e7b, type: 3}
@@ -21518,10 +21518,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterBase
   gameManager: {fileID: 336973803}
-  healthBar: {fileID: 1814139072}
   ultimateMeter: 0
   ultimateThreshold: 10
   playerIsUsingUltimate: 0
+  healthBar: {fileID: 1814139072}
   audioSource: {fileID: 919132147708770631}
   punchSound: {fileID: 8300000, guid: cc9eb7fab732c0749964704c0ce0af64, type: 3}
   punchMissSound: {fileID: 8300000, guid: 3f6737164e458ae4a9cfb630d3603e7b, type: 3}
@@ -21852,7 +21852,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
-  m_LocalEulerAnglesHint: {x: 49.71, y: -29.802, z: 0.259}
 --- !u!1 &736247911
 GameObject:
   m_ObjectHideFlags: 0
@@ -33072,7 +33071,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0029190804, y: -0, z: -0, w: 0.99999577}
-  m_LocalPosition: {x: 0.00000008940697, y: 2.266493, z: 1.3507202}
+  m_LocalPosition: {x: 0.00000008940697, y: 2.2677014, z: 1.3471653}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34077,6 +34076,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d20a1a266f9864aae3d786d509fa96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HitBox
+  owner: {fileID: 0}
+  currentAction: 
 --- !u!1 &1362895464
 GameObject:
   m_ObjectHideFlags: 0
@@ -34214,8 +34215,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362895464}
   m_CullTransparentMesh: 1
-  owner: {fileID: 0}
-  currentAction: 
 --- !u!1 &1376300352
 GameObject:
   m_ObjectHideFlags: 0
@@ -39528,7 +39527,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -1349.533, y: -520.4572}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1542083540
@@ -55690,11 +55689,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77a1a31ac1be97746ada7f34e36140d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  gameManager: {fileID: 336973803}
-  healthBar: {fileID: 89108771}
+  gameManager: {fileID: 0}
   ultimateMeter: 0
   ultimateThreshold: 10
   playerIsUsingUltimate: 0
+  healthBar: {fileID: 89108771}
   audioSource: {fileID: 2017573271}
   punchSound: {fileID: 8300000, guid: cc9eb7fab732c0749964704c0ce0af64, type: 3}
   punchMissSound: {fileID: 8300000, guid: 3f6737164e458ae4a9cfb630d3603e7b, type: 3}
@@ -55807,10 +55806,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   gameManager: {fileID: 336973803}
-  healthBar: {fileID: 89108771}
   ultimateMeter: 0
   ultimateThreshold: 10
   playerIsUsingUltimate: 0
+  healthBar: {fileID: 89108771}
   audioSource: {fileID: 2017573271}
   punchSound: {fileID: 8300000, guid: cc9eb7fab732c0749964704c0ce0af64, type: 3}
   punchMissSound: {fileID: 8300000, guid: 3f6737164e458ae4a9cfb630d3603e7b, type: 3}
