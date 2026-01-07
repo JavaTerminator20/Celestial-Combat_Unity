@@ -4,6 +4,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.Scripting.APIUpdating;
 
 public class OponentController : CharacterBase
@@ -96,6 +97,13 @@ public class OponentController : CharacterBase
 
     public bool canChangeOrientation = true;
 
+    public void playDead(){
+        animator.SetBool("dead", true);
+        animator.SetInteger("dir", 0);
+        animator.SetInteger("action", 0);
+        AIdisabled = true;
+        gameManager.disablePlayer();
+    }
 
     void clearHit(){
         animator.SetBool("hit", false);
@@ -167,6 +175,10 @@ public class OponentController : CharacterBase
             StartCoroutine(HitFreeze(hitStopTime));                                 //zazenemo hitFreeze efekt
             CameraShake(cameraShakeIntensity, false);
             playBloodVFX(bloodBodyPart, PlayerLeftHand, PlayerRightHand, null, PlayerRightLeg);
+
+            if (health < 0){
+                playDead();
+            }
         } else{
             CameraShake(cameraShakeIntensity, true);
             blockSparks.Play();
@@ -401,8 +413,12 @@ public class OponentController : CharacterBase
     float gravity;
     float vSpeed;
 
+    public bool AIdisabled = false;
+
     void Update()
     {
+        if (AIdisabled){animator.SetInteger("action", 0); animator.SetInteger("dir", 0); return;}
+
         AnimatorStateInfo animInfo = animator.GetCurrentAnimatorStateInfo(0);
 
         //Debug.Log("AI State: " + currentState + " | Distance: "+ DistanceToPlayer());

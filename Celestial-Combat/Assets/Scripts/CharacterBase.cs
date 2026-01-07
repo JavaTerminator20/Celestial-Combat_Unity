@@ -14,7 +14,7 @@ public class CharacterBase : MonoBehaviour
     public int ultimateThreshold = 10;
     public bool playerIsUsingUltimate = false;
 
-    protected int health = 100;
+    protected int health = 15;
   
     public HealthBar healthBar;
     
@@ -67,7 +67,7 @@ public class CharacterBase : MonoBehaviour
         {3, new Tuple<int, float, float>(8, 0.10f, 0.2f)},
         {4, new Tuple<int, float, float>(10, 0.13f, 0.25f)},
     };
-       
+    
 
     //metoda, ki jo poklice HurtBox ko prejme udarec. Ce je hitCooldown vredu, potem poklicemo metodo preko notification systema
     public void TakeDamage(int damageLevel, string bodyPart){

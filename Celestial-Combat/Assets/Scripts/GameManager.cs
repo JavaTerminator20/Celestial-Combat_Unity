@@ -80,7 +80,6 @@ public class GameManager : MonoBehaviour
         float dist = Mathf.Abs(playerPos.x - oponentPos.x);
         //Debug.Log("Punch hitbox distance: " + dist);
 
-
     }
 
     public Transform getPlayerTransform(){return playerTransform;}
@@ -117,6 +116,14 @@ public class GameManager : MonoBehaviour
             impulseSource.GenerateImpulse(impulse);
             yield return new WaitForSecondsRealtime(0.4f);
         }
+    }
+
+    public void disableAI(){
+        oponent.AIdisabled = true;
+    }
+
+    public void disablePlayer(){
+        player.disablePlayer = true;
     }
 
     //funkcija ki jo poklice bigStomp.cs (ko sonce udari z nogo ob tla)

@@ -15,7 +15,7 @@ public class HitBox : MonoBehaviour
 
     //metoda ki se klice, ko hitbox zadane nek drug collider ki je oznacen kot "trigger"
     void OnTriggerEnter(Collider other){
-        Debug.Log("HITBOX TRIGGERED!");
+        //Debug.Log("HITBOX TRIGGERED!");
         HurtBox hurtbox = other.GetComponent<HurtBox>();    //preverimo ce ima ta collider komponento "HurtBox"
         if (hurtbox != null){
             hurtbox.TakeDamage(damageLevel, bloodBodyPart);                     //ce je ima, potem poklicemo njeno metodo za damageLevel
@@ -54,14 +54,14 @@ public class HitBox : MonoBehaviour
     {
         collider1 = GetComponent<Collider>();
         owner = GetComponentInParent<CharacterBase>();
-        Debug.Log("HitBox owner = " + (owner != null ? owner.name : "NULL"));
+        //Debug.Log("HitBox owner = " + (owner != null ? owner.name : "NULL"));
     }
 
     //sounds
     void PlayHitSound() {
-        Debug.Log("HIT SOUND: " + currentAction);
+        //Debug.Log("HIT SOUND: " + currentAction);
         if (owner == null) { 
-            Debug.Log("OWNER IS NULL");
+            //Debug.Log("OWNER IS NULL");
             return;
         }
 
@@ -107,7 +107,7 @@ public class HitBox : MonoBehaviour
 
     public void CheckForMiss()
     {
-        Debug.Log("CheckForMiss called. hasHit = " + hasHit + " action = " + currentAction);
+        //Debug.Log("CheckForMiss called. hasHit = " + hasHit + " action = " + currentAction);
 
 
         if(!hasHit) PlayMissSound();

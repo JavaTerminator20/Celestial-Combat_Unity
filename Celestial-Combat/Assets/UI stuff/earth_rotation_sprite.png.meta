@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,12 +95,6392 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: earth_rotation_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24380c4812ff0124281b5ca6b938af39
+      internalID: -2041364478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a408c9e96661d1544a69fffc0230b653
+      internalID: 848472848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8f0cb73e02cfc4ea25f747de5e0189
+      internalID: -134068692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319ca2a14b94e6f4c90baa20f6dff793
+      internalID: -897457328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866da07fb96dd94418f95e093d859777
+      internalID: 1966594541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c634d2c8eced24ab8e163d2f17cebf
+      internalID: -359556070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0774178cdc396743a877b6c649c97f6
+      internalID: 1435220076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1932180f00aeca4a9f0fa2c4c55afa7
+      internalID: -1599253657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2632859acd872a498314a579efc23be
+      internalID: 1078072255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4e6437cc9f80e4facf01d34d71a92f
+      internalID: -1783738462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ff0e60f40ecae49a230e3002b9f5dd
+      internalID: 862641206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487f323978ade8d4e8d1e70d7d4d0204
+      internalID: 1532451474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623c7161ef4d1764cb27c1861b294d23
+      internalID: -479824691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d6cdd55370c9b478a8a8fc55506907
+      internalID: 825557013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff335799685fce447a217b0a16547f55
+      internalID: 345320511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2662acc844442499097a15b30d7860
+      internalID: 921620908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9de147c0bb0c74590eee5ba24718dc
+      internalID: 653710433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362c988024732fc4faa0bfd5f19bf0a6
+      internalID: 923997001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71066391482fd5e409de3986a760fbac
+      internalID: 1092910125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02621a5b9b7bc8847afc55540e3364b4
+      internalID: 1682323226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acb5a76ea7b8aa4c9a589a5fb9dc19d
+      internalID: 103968138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2e227b5e423b74ab025352ead02140
+      internalID: -1027724250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91572e4286fb8ef46b2296ee348a8864
+      internalID: -312155856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec798793063a0914ea2eba45cfeb27e2
+      internalID: 853999372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a60ca7633ea5bf4e8a85e172c971b05
+      internalID: 115391266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e0179c9055e064494f1889374d9c4e
+      internalID: 1814147109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8653047a42ac78441a21b0767db6c65c
+      internalID: 1916032110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc20c0f8703f164fb05f8e876195a61
+      internalID: -330511179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff485e5198453e4897a4b6ac4499809
+      internalID: 581291706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ad420080679844da6a11078c0b98c2
+      internalID: -463567761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01605a9509125ea459c7a6740d6c95c5
+      internalID: 1241162369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04984a5ab42040540a176b5b17c7b441
+      internalID: 1511212306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9d8b4d94fe8644fa466fc8386f939e
+      internalID: 1965286381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3997bd78b155ced4f8b37193b9feba09
+      internalID: -1233500980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dab37a46d31e8b428926048ba66aaa3
+      internalID: 1399521507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659c8e4c2f653c540b602a2f920b7bff
+      internalID: -508026187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f7fec826934fe409becace0f9a4b27
+      internalID: -1640203890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32e8d45e2f39bd43a6664658df5d3cc
+      internalID: 368551709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578fe445a4a35084988bd40d60742407
+      internalID: -992738184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bae88874d23f44984f0702a93a69e8
+      internalID: 1457237812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d56dec0f99bc949982ec827d39d34a
+      internalID: 364185496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6d8c8bcb0b65e4aa95190a5ae3f69d
+      internalID: -359188641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41b432e8392062418975d2e8b04ddcb
+      internalID: 1191702228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd1d5cd1af879c47acf9361a1643b9c
+      internalID: 2146768878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cfb5e754b68754a96ffbaf31f82c1b
+      internalID: -394192815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_45
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700202acdd192e6439ff2371018d0816
+      internalID: -277268055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_46
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bffc11928e1792488982d33948bb9ef
+      internalID: -1197771440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_47
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d346a77eaa697d42a4e020e81b0f3e7
+      internalID: 1354537132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_48
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18497fcd93e1a34683aafdc64d8324d
+      internalID: 1528065580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_49
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513b34941b89a214aad3b540bb67524e
+      internalID: -391196103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a826fda1edc96b746abdd381a0510eb8
+      internalID: -797659896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_51
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124bab113d207ae4e87eea41e6244a9c
+      internalID: -1271728090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_52
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bc9e04f925a6247a421c5a6316989c
+      internalID: -678777513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_53
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78bed0adf252ea4ba2a83a84b6bcb3e
+      internalID: -235447236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_54
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30be4a5d9e186264bab3f789b8a18a46
+      internalID: -1648578638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_55
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e5ab703412ddb4e929315e75163a67
+      internalID: 266270594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_56
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811f8d0e2de0d6e4aba50b882211941f
+      internalID: -1938193062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_57
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7e434b3db4f8448a6e012c96324b80
+      internalID: -684189965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_58
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddf96bafd354964991c8ae8087c3d9f
+      internalID: -591343740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_59
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4bafbf7e6d51d4b9e1016db5bcaaac
+      internalID: 757944886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6777749eafccc5a4ba1ab24c200da1cd
+      internalID: 1500609681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_61
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d81e4e3392368545be988f184f77075
+      internalID: -472197009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_62
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7ada4c6681d6247a5ed4a494b01dd2
+      internalID: -14412928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_63
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d660cb5eb6c5f48aa740af93d830ff
+      internalID: -1669875800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_64
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10317243d4f8eb743b0f7abf1e3679ed
+      internalID: 1249035702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_65
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744e990a8f7960547986c304adf5a3c9
+      internalID: 1728510858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_66
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154c3d5f507cb7a4d87d03abafb4998b
+      internalID: 986477515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_67
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1942b4241770c439790a04fb6dbf95
+      internalID: 479150551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_68
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309f88ce41359254baa313487df57603
+      internalID: 253848027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_69
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df448c5385356da4fab16218a37b0b11
+      internalID: 454463616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0c5bb3503b2e643b8df7ce72186d18
+      internalID: 811169780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_71
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f934d24e55ceeb6459e69b7045a9357a
+      internalID: 1223961611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_72
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200bb1fc777e08c4380449f70db49f11
+      internalID: 1790383314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_73
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881dc3e0a51e91c40ad8eb5fced7a738
+      internalID: 1796890446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_74
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f416cadd58297d64589b5e49dee3fb0e
+      internalID: 169451298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_75
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8666d0d8bdb4742a96655c0d22a774
+      internalID: -793763900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_76
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aff04ad31149bd438e3b167082b04da
+      internalID: 6591797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_77
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce4eb7e7dc7bc948a7bc41ef921d466
+      internalID: -735497559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_78
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd7e492ed32ea6449a5006112d9a82b
+      internalID: 439857925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_79
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ebcb3c16d9ba74680d0f9404867af1
+      internalID: 772470715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb59034d88d0ca9499a84daa5875d5c3
+      internalID: -520573236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_81
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48f29bbc92b2934e9c020c246279113
+      internalID: 146282055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_82
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7c5771cf6f22e419c14cc850dffcb1
+      internalID: 495225941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_83
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cf77c9993cae04a93dcf3f47decb11
+      internalID: 465280819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_84
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcba981f6fee3664a80bca65c2d81565
+      internalID: 173183593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_85
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c99fb30f1df16b4296612fd3b09c23c
+      internalID: 88114155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_86
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b6184d2ffd9e546aa0369ba16db65d
+      internalID: 1624684789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_87
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f236b10ea25cf419ecdd4a4f53d4aa
+      internalID: 1285359455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_88
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5417b5f5f5db63c4599d8fa72e37dfd5
+      internalID: -1448096683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_89
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314e1a8681ba96e4da2e9fdabeff0a7f
+      internalID: 1054783453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8794209050904419f7100ad5e4dca3
+      internalID: 748987988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_91
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c432dc15b06e34ab4fb837fbd89ace
+      internalID: -1912623653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_92
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b6e02a6a667134fba6cc9e727b5035
+      internalID: 1385904527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_93
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2125a3c41fe31164e89c2cf2c6e98ac6
+      internalID: -1669909263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_94
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d35d199c0d4c24ba4d0909591eea63
+      internalID: 1056383354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_95
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c423bfbe1dd597c4eabb78b6a8207b56
+      internalID: -1076051759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_96
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd9864469440c04b8f745a555f42188
+      internalID: 414620503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_97
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632066833b7946f43b4cc23b4b20e365
+      internalID: -383645082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_98
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14cad640cf20804e8e3a2a358c4dff2
+      internalID: 1243721745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_99
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042a7df97a52170449b8c0bbda124c0a
+      internalID: 856711630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45690dfbb6070a94fbdc1eb856026d86
+      internalID: 2006040521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_101
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ce61f8cfe695c4aa4236becbfc9031
+      internalID: -1556802798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_102
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc4c6bf50b9fdb4ba0bd3a3004aecab
+      internalID: -202391428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_103
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70778d4e6a3bef14b8b4f837e4c7e7f1
+      internalID: -143233180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_104
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8c1565a69f1fc45b6b4767c8f8ff58
+      internalID: -84962123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_105
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0995d7a7604fdf246ac30c674c651490
+      internalID: 1379271516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_106
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9416db5a4e8eed242b4343206df5acc8
+      internalID: -1576496459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_107
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4e5656b2cfd974b9fffd4052bf8480
+      internalID: 1806885306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_108
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57051bc29145a584d80ff783f14ad010
+      internalID: -1538931810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_109
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f3acc6f72cc6347b03d4b1123424c7
+      internalID: 1300980921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c8ecbe226d06d4a874401c30cdce7d
+      internalID: 1323609658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_111
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c81e99537b37b4f8a7d8cef1848554
+      internalID: 3425105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_112
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d111af1a147c7a3489343cd4f8db526b
+      internalID: 1312457807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_113
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a190995cd262847b39e7c811f280df
+      internalID: 1387011225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_114
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23410806b472e6848b608ffdb78488dd
+      internalID: 1283135114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_115
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e567e0e4dba1f74a96ddd24b4ac6805
+      internalID: 1049567469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_116
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8222910f9aea68845af310eb2235cec1
+      internalID: -1219164342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_117
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056c857ff1fa53545ba4d89b4e9a21cd
+      internalID: -1622430054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_118
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa1694413c82c446b08f7ac39627121
+      internalID: 1228692085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_119
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbad3a9c1bdc3143a2d56e019544725
+      internalID: 2083669844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2960ece3c20b244eb21da628151afce
+      internalID: -46448399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_121
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a10d5f428c8e724aba989fccb00dcb4
+      internalID: 809577926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_122
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbeae0c01ec5bb4b85370ff0dc1cbac
+      internalID: -400153073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_123
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b03ce48a12cb6040b12dd3184f70302
+      internalID: 1601343656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_124
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad462239c9015674ca902d9c2daf8fb5
+      internalID: 1816977152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_125
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e570053f4f1324448b6aaad61246b4b
+      internalID: 1065109500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_126
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94c9cf67cc2b9042b754d8f43eea2fa
+      internalID: 951449162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_127
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa97a43938fa67147b00b599e4b9262f
+      internalID: 48342053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_128
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8732aeed40de5478ee7033cb5d5e68
+      internalID: 823383472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_129
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cab131ca007284e89fa3ec365e312c
+      internalID: 885267018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8151a66aabf535d4e9f743b49ee8b94e
+      internalID: -1447625251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_131
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19148338e1c79ef4990a9588c8f52b45
+      internalID: -724588694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_132
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf2734b4816ead42a86932b082855cd
+      internalID: -2047333214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_133
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd27740e3d84acc45a930d1f4e1a5c1a
+      internalID: 1620671493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_134
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46a75284f952e74197e55c74a4223a9
+      internalID: 1359214326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_135
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd18767957330b40a52a0c74830c391
+      internalID: 1822458971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_136
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b52db859d6e4774aa2f738f8ced5b92
+      internalID: 2003160998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_137
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e419209526aff49b0050bde2044eaf
+      internalID: 1853473744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_138
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39bd51e8c60b354e9928f496a9e5bee
+      internalID: -1180289318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_139
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7230e551a13a1064c80ebfcddfbd81b9
+      internalID: -1273839344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1fb8fda63579743b3b47b661407c47
+      internalID: -1389830872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_141
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b95090ec84262b428639a82648ab32f
+      internalID: 1080458669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_142
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cff1cd85f32aa41b5eb6a40e9e7bbd
+      internalID: 963179329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_143
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5738d06900f62e94187e26fe463a2214
+      internalID: 1853518824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_144
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5889a4bbe4bf343b27e54485a2038a
+      internalID: -1894535938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_145
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d6949a4c78a9446a473a277eb31c8e
+      internalID: 1421307443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_146
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5df3c5e97ddb849ad6300bff31556e
+      internalID: 2096512785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_147
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903d3e6807d045147a0652e16390937e
+      internalID: -1698766184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_148
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a900c9d18a5963469bcb687f1c97c8b
+      internalID: 555282222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_149
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031568f80080f294bbe83e6274286d6b
+      internalID: 851105096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6b6972d3a120e41800aa8de5ca9fbb
+      internalID: -2117870703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_151
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a264fc2069c9ea6468e7740211a33082
+      internalID: 562417963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_152
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4303b466b6d35c4ba0c960378cf0f20
+      internalID: -1249208088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_153
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93df5a310754ee444b4b39404abf0163
+      internalID: 1221087941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_154
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd22307575c98a14884acd04aae364bb
+      internalID: -1949725471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_155
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382e7fb68396b744a92e1c3a48999c0e
+      internalID: 393516017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_156
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8720af7b9fe6d3e4096b725e260b3bda
+      internalID: -391943749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_157
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68b98376eec64a45949908ace002ad4
+      internalID: -1516086552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_158
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1e28fa431f33547a74ac07e8029e4b
+      internalID: 1575642562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_159
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55535308a53ba95479e514f0eef1e4f9
+      internalID: 923090646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013507d4c56885b40b823c76c599653b
+      internalID: 1857446368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_161
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cd1e881562e604e9f19bd0bed6db3d
+      internalID: -669513396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_162
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1965e37a0fe3544a43c88a6b834d40
+      internalID: 57555539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_163
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7c9ab2acbdbf2458d12c280cc0a19e
+      internalID: 647641345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_164
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0860abd0831b0545bff62229ec10cea
+      internalID: -1681326228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_165
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58c8cb826a7c4d498edae3fbbb169cc
+      internalID: 309746271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_166
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998b59752beece248829a6209a763fd3
+      internalID: -573591410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_167
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33c283d444bd4b44b01311d8ade915e
+      internalID: -587693465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_168
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1f3c98b92a38b4b8547ac0527ae9bc
+      internalID: 375886325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_169
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7601a153f7635374cb88fa2c88c33fbb
+      internalID: 653969184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848e1e98d886cf64e9cf93428795e95a
+      internalID: 1561485835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_171
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccb2c750f894fb4ba465a20f9162c17
+      internalID: -233867458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_172
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d618826ea932f469d1656f27412b7d
+      internalID: -410710823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_173
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b455c0f9c921e51418a389347a9c0452
+      internalID: -179614823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_174
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebda36cbf8b20ba44921891e633837ce
+      internalID: 1034497467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_175
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0494d14e94df7a34e90674ebc56d1c91
+      internalID: 1172032947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_176
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf576909920e204438c4ded12751e158
+      internalID: 352492043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_177
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d672c9ba4273e4db6c38ba1bd8cfac
+      internalID: 308443244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_178
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a825bc74a3e80b04bbc353543453145e
+      internalID: -2080195388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_179
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf1b7c5737254945b2a7a8a940bef4c
+      internalID: -1108260786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c919d87692a1ccb41bd45223616e0952
+      internalID: 1509377126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_181
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca06687b9b76854da93671c275ff47e
+      internalID: 1541266086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_182
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083e1209052cb444fa2c2d5c1e1f3aee
+      internalID: -697201326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_183
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03363ce4da677624e885d2cc03fba48c
+      internalID: -986516101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_184
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f3b15080150db43820fdc57be74f78
+      internalID: 2034034760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_185
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe55b303df454e449fd81f2cc0555a5
+      internalID: -1040702039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_186
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223a7b4635a45314fa788deee8c90eab
+      internalID: 1463315516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_187
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad5ad03988dab14cb32cf7d94038148
+      internalID: -2065831756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_188
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddbfddcc4342c543a736af55db83d93
+      internalID: -1604225394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_189
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4463e5010fec6cb43a5efb5ea170f6ee
+      internalID: 413798577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02abf402b202e34b84f0aeee5f78950
+      internalID: 341204890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_191
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773b2ee5be080f446a390445d8ab3f44
+      internalID: -981460477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_192
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e59825e43c18445b841702036813e2
+      internalID: -1953106951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_193
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a824540339e4a4bb6f0476fb6a8f48
+      internalID: 152452237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_194
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1127390c87e00794a96c5f26e82ed215
+      internalID: -1179460431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_195
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df2046ef77b41b478a743c3a0cfbc49
+      internalID: -790968621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_196
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fc92e2cd810764d8ce46eba869f235
+      internalID: -2037352983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_197
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0a7c123deeff34abd8d447e529fdb6
+      internalID: 1898494097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_198
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30b4349187396745bf3bbd91d7e3aca
+      internalID: -989515166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_199
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7545725927c28b840a242937b1e08e6c
+      internalID: -2023889350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8565a645bb7dc4b8e515bdb73c566a
+      internalID: -1872785868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_201
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b550fe15bbc704e93b36d81c2fbe23
+      internalID: 155118016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_202
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f85e26da73076479892bf2978fc047
+      internalID: -2082664257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_203
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc49104bcd5cff4cb732204b2b42af7
+      internalID: -1900421424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_204
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4fc1df6c02bf94e888166d4f1e0755
+      internalID: 588002263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_205
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb2917ec50cd3848817e393e9df6f24
+      internalID: -11638784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_206
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cbbc85c9982d1419e51e186300e400
+      internalID: 1967014467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_207
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a452a6b04e3ff7419e503f648ba9eb5
+      internalID: 569837343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_208
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66be02d39d231a14eb9080629747d02d
+      internalID: 1544217544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_209
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948753dbd8b4459459d3456118810462
+      internalID: 1688102760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1035861f5f96df47a4d9ed9f25ab909
+      internalID: 519986911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_211
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fdfea77cdf4c840a6705ad3b987b84
+      internalID: -777189302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_212
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4059de7dca24143b773342c6d44370
+      internalID: -101030030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_213
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c9e696b83588a48803e1f9defb3fde
+      internalID: 760239454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_214
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8723170fe2e07b0418cdb6e0a7a40937
+      internalID: 1974230217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_215
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df38939ac46884d44ad96b739fa1b276
+      internalID: -683458360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_216
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5942b8ad03216cd43b6777eb477f565f
+      internalID: -594482062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_217
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8804379b3d6f342a18c49884885cd1
+      internalID: 883765107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_218
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6d416447121b94abfc482123ef26ee
+      internalID: -788340893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_219
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8905f7b7cf00dae449cf6f48015c4f65
+      internalID: 1013734000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4183f5dabb27cb54fb27972c11f52761
+      internalID: 1822287629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_221
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94b4d3588e3e0c4da5f78525d932f39
+      internalID: 1154536038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_222
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d098eabeb5c314092e53d833897fa4
+      internalID: -1960478553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_223
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfda4300130d0a54692ff42670f44f93
+      internalID: 1308973316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_224
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885cebe9716b4964ba01e428c82e720d
+      internalID: 2063415412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_225
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d815ae76dcbdfe4428d759a59d4ce258
+      internalID: -1571828153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_226
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38abcf625d4ced944a2dd5c7ced8dd89
+      internalID: 1305012986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_227
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d3d53e097a59048bffe5c5c9ff3bb9
+      internalID: -67320101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_228
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fdb2c8a11fb1e4eaa961241d1c883b
+      internalID: 1073270488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_229
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0182e71c181dca440817757f85a40312
+      internalID: 1675178401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_230
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df497611cad03c4b856e5885b104c00
+      internalID: 1324583587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_231
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b8a53c95584a5429520787a6bfeb31
+      internalID: 772675237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_232
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2618a75bcc962cc4382471307005e38e
+      internalID: -1217489762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_233
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7def5e1afb0b9f34bbca142d27584df5
+      internalID: -40915327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_234
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e919a4d268fe2443ac5086779cdc3a4
+      internalID: 2034181261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_235
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338f63b2eda866a4eb044070acf3f794
+      internalID: 462499525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_236
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eccd812709163f458304c6228faf7bc
+      internalID: -2024982303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_237
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323dbd8ec6ca07446babee1ce5a2b616
+      internalID: 1034321307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_238
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1449a3209af41994888e4f0101f93ef1
+      internalID: -1534670596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_239
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e3c2b58d0c41a4c9142a4a451c0eaf
+      internalID: 850312392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c034ef7d0a061344ca1b88a13ded17db
+      internalID: 1542107635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_241
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca5b57696d75974b9fc496d957180e2
+      internalID: 859262446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_242
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87cf356b44f14045beaf5071c11fe20
+      internalID: -1692661236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_243
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941c0e2cbe3ad114a892176fa2a9ed9f
+      internalID: -1626681738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_244
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95b29061cd6d864c807cd4ce84901ab
+      internalID: -100165748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_245
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713b443c19713914293c48eeec867991
+      internalID: 1681811758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_246
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d571326060162f348bbf1d265f576c28
+      internalID: 1633619194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_247
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdb15f762bbaf4459e4433af881f8b3
+      internalID: -334178570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_248
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321a8cfa87a5a0b439a966037b205f9a
+      internalID: -1138204905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_249
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1f8a2018244a945a698ac516553f5a
+      internalID: -138808175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_250
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66638113ddd4a14fa054f825e727440
+      internalID: -1682652126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_251
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e546da6e5bd7c48a2586a4e318d96f
+      internalID: 1000849864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_252
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a34f21d24b7f64d8566168a9164e14
+      internalID: -1633639178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_253
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4df9e1a5bba2d74c893ff2610cac05b
+      internalID: -77108754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_254
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc03b97dc82033498d3c44bfd774281
+      internalID: 277702233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_255
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb85809e5ef9234489f12a9d112eccd
+      internalID: 635027955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_256
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c08a3d46ad82148891e4a99d0a9347
+      internalID: -1467759588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_257
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6f7abb82b78844eb9229830eda385e
+      internalID: 1806093859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_258
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaede2e56b625446b73ec66eaa48838
+      internalID: -1297630749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_259
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af9e9e564a08954c92f592828e3f3bc
+      internalID: 2039970105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_260
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687105f99d11b324e8720276ccafe57d
+      internalID: -1537634131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_261
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d675677cbe870fa4fac149c2aad6cd01
+      internalID: -1634880005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_262
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9147aab3371ce1c4d835ef766818d947
+      internalID: -762903023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_263
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc854c3179973944881bc5b7e4d5150
+      internalID: -1429032450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_264
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f448bbaf63864304d86623b909dea20f
+      internalID: -1402998628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_265
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e1a3bd2d7f9284f911462070e59b49
+      internalID: -1841648626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_266
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00fb68d3fad8ea47aba0f2eb8ae3552
+      internalID: -1582941979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_267
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a21737bda6c1944b5c11d2acf0c60b
+      internalID: -113237582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_268
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf2bb7f6eb4ad74b9439e1946306932
+      internalID: 876308542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_269
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e12b9caa7458a94ca63a0ed87b63fb7
+      internalID: 1647513097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_270
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157740af805fdcd4b9db4ae54685d705
+      internalID: 1582266214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_271
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043583ed386144b42a4c6b61e0e25d08
+      internalID: -1721906801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_272
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5440f54b0f72c4aadbb70b1b0ca1d8
+      internalID: 620798581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_273
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5909c125524ed674485d74fbe5cd9ab9
+      internalID: 1044350974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_274
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b719769b571ca468e851d3beffb98b
+      internalID: 1141091474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_275
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a025636371862244ebf471bbfc5b70ee
+      internalID: -334599252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_276
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe9afb66af0e044c95888c4d9b76f86
+      internalID: 1594811352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_277
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314f38b1c167e5d47a318b1e8bc329e1
+      internalID: 204278288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_278
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d0c5845cb178848a29154edb9fe7c1
+      internalID: -205793853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_279
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d2ac61c1efff84eb543c49d13f976e
+      internalID: 157952216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_280
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60025f825680f4b40abb51c12d5bc33a
+      internalID: 34729617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_281
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea1a7b53cc744c49b0627198be59871
+      internalID: 1588412016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_282
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc4baa92dc54df40a7be4b70ed889b1
+      internalID: 477017919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_283
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3da0af23ac83d49bc784209259b5be
+      internalID: 1035722873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_284
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb36c979f53a164db0a3e559b0d7287
+      internalID: 2081292877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_285
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6faac28516807aa4fb37bcebf183b2a1
+      internalID: -347559261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_286
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1bc2c5afb3fa148ae11d0b4070d127
+      internalID: -1612103491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_287
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba345e8915334d241b251cda6a4956d2
+      internalID: -1464471091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_288
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfa0d27ffed74946a0211d676bd149d
+      internalID: -870306598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth_rotation_sprite_289
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabbd0fb12c2aca4381bfb07aa4eba74
+      internalID: -1105245118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4814977f0bc2d264b9a9ea88cfd2ee1a
     internalID: 0
     vertices: []
     indices: 
@@ -108,8 +6488,302 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":29.0},"gridSpriteSize":{"x":105.0,"y":105.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: False
+    nameFileIdTable:
+      earth_rotation_sprite_0: -2041364478
+      earth_rotation_sprite_1: 848472848
+      earth_rotation_sprite_10: 862641206
+      earth_rotation_sprite_100: 2006040521
+      earth_rotation_sprite_101: -1556802798
+      earth_rotation_sprite_102: -202391428
+      earth_rotation_sprite_103: -143233180
+      earth_rotation_sprite_104: -84962123
+      earth_rotation_sprite_105: 1379271516
+      earth_rotation_sprite_106: -1576496459
+      earth_rotation_sprite_107: 1806885306
+      earth_rotation_sprite_108: -1538931810
+      earth_rotation_sprite_109: 1300980921
+      earth_rotation_sprite_11: 1532451474
+      earth_rotation_sprite_110: 1323609658
+      earth_rotation_sprite_111: 3425105
+      earth_rotation_sprite_112: 1312457807
+      earth_rotation_sprite_113: 1387011225
+      earth_rotation_sprite_114: 1283135114
+      earth_rotation_sprite_115: 1049567469
+      earth_rotation_sprite_116: -1219164342
+      earth_rotation_sprite_117: -1622430054
+      earth_rotation_sprite_118: 1228692085
+      earth_rotation_sprite_119: 2083669844
+      earth_rotation_sprite_12: -479824691
+      earth_rotation_sprite_120: -46448399
+      earth_rotation_sprite_121: 809577926
+      earth_rotation_sprite_122: -400153073
+      earth_rotation_sprite_123: 1601343656
+      earth_rotation_sprite_124: 1816977152
+      earth_rotation_sprite_125: 1065109500
+      earth_rotation_sprite_126: 951449162
+      earth_rotation_sprite_127: 48342053
+      earth_rotation_sprite_128: 823383472
+      earth_rotation_sprite_129: 885267018
+      earth_rotation_sprite_13: 825557013
+      earth_rotation_sprite_130: -1447625251
+      earth_rotation_sprite_131: -724588694
+      earth_rotation_sprite_132: -2047333214
+      earth_rotation_sprite_133: 1620671493
+      earth_rotation_sprite_134: 1359214326
+      earth_rotation_sprite_135: 1822458971
+      earth_rotation_sprite_136: 2003160998
+      earth_rotation_sprite_137: 1853473744
+      earth_rotation_sprite_138: -1180289318
+      earth_rotation_sprite_139: -1273839344
+      earth_rotation_sprite_14: 345320511
+      earth_rotation_sprite_140: -1389830872
+      earth_rotation_sprite_141: 1080458669
+      earth_rotation_sprite_142: 963179329
+      earth_rotation_sprite_143: 1853518824
+      earth_rotation_sprite_144: -1894535938
+      earth_rotation_sprite_145: 1421307443
+      earth_rotation_sprite_146: 2096512785
+      earth_rotation_sprite_147: -1698766184
+      earth_rotation_sprite_148: 555282222
+      earth_rotation_sprite_149: 851105096
+      earth_rotation_sprite_15: 921620908
+      earth_rotation_sprite_150: -2117870703
+      earth_rotation_sprite_151: 562417963
+      earth_rotation_sprite_152: -1249208088
+      earth_rotation_sprite_153: 1221087941
+      earth_rotation_sprite_154: -1949725471
+      earth_rotation_sprite_155: 393516017
+      earth_rotation_sprite_156: -391943749
+      earth_rotation_sprite_157: -1516086552
+      earth_rotation_sprite_158: 1575642562
+      earth_rotation_sprite_159: 923090646
+      earth_rotation_sprite_16: 653710433
+      earth_rotation_sprite_160: 1857446368
+      earth_rotation_sprite_161: -669513396
+      earth_rotation_sprite_162: 57555539
+      earth_rotation_sprite_163: 647641345
+      earth_rotation_sprite_164: -1681326228
+      earth_rotation_sprite_165: 309746271
+      earth_rotation_sprite_166: -573591410
+      earth_rotation_sprite_167: -587693465
+      earth_rotation_sprite_168: 375886325
+      earth_rotation_sprite_169: 653969184
+      earth_rotation_sprite_17: 923997001
+      earth_rotation_sprite_170: 1561485835
+      earth_rotation_sprite_171: -233867458
+      earth_rotation_sprite_172: -410710823
+      earth_rotation_sprite_173: -179614823
+      earth_rotation_sprite_174: 1034497467
+      earth_rotation_sprite_175: 1172032947
+      earth_rotation_sprite_176: 352492043
+      earth_rotation_sprite_177: 308443244
+      earth_rotation_sprite_178: -2080195388
+      earth_rotation_sprite_179: -1108260786
+      earth_rotation_sprite_18: 1092910125
+      earth_rotation_sprite_180: 1509377126
+      earth_rotation_sprite_181: 1541266086
+      earth_rotation_sprite_182: -697201326
+      earth_rotation_sprite_183: -986516101
+      earth_rotation_sprite_184: 2034034760
+      earth_rotation_sprite_185: -1040702039
+      earth_rotation_sprite_186: 1463315516
+      earth_rotation_sprite_187: -2065831756
+      earth_rotation_sprite_188: -1604225394
+      earth_rotation_sprite_189: 413798577
+      earth_rotation_sprite_19: 1682323226
+      earth_rotation_sprite_190: 341204890
+      earth_rotation_sprite_191: -981460477
+      earth_rotation_sprite_192: -1953106951
+      earth_rotation_sprite_193: 152452237
+      earth_rotation_sprite_194: -1179460431
+      earth_rotation_sprite_195: -790968621
+      earth_rotation_sprite_196: -2037352983
+      earth_rotation_sprite_197: 1898494097
+      earth_rotation_sprite_198: -989515166
+      earth_rotation_sprite_199: -2023889350
+      earth_rotation_sprite_2: -134068692
+      earth_rotation_sprite_20: 103968138
+      earth_rotation_sprite_200: -1872785868
+      earth_rotation_sprite_201: 155118016
+      earth_rotation_sprite_202: -2082664257
+      earth_rotation_sprite_203: -1900421424
+      earth_rotation_sprite_204: 588002263
+      earth_rotation_sprite_205: -11638784
+      earth_rotation_sprite_206: 1967014467
+      earth_rotation_sprite_207: 569837343
+      earth_rotation_sprite_208: 1544217544
+      earth_rotation_sprite_209: 1688102760
+      earth_rotation_sprite_21: -1027724250
+      earth_rotation_sprite_210: 519986911
+      earth_rotation_sprite_211: -777189302
+      earth_rotation_sprite_212: -101030030
+      earth_rotation_sprite_213: 760239454
+      earth_rotation_sprite_214: 1974230217
+      earth_rotation_sprite_215: -683458360
+      earth_rotation_sprite_216: -594482062
+      earth_rotation_sprite_217: 883765107
+      earth_rotation_sprite_218: -788340893
+      earth_rotation_sprite_219: 1013734000
+      earth_rotation_sprite_22: -312155856
+      earth_rotation_sprite_220: 1822287629
+      earth_rotation_sprite_221: 1154536038
+      earth_rotation_sprite_222: -1960478553
+      earth_rotation_sprite_223: 1308973316
+      earth_rotation_sprite_224: 2063415412
+      earth_rotation_sprite_225: -1571828153
+      earth_rotation_sprite_226: 1305012986
+      earth_rotation_sprite_227: -67320101
+      earth_rotation_sprite_228: 1073270488
+      earth_rotation_sprite_229: 1675178401
+      earth_rotation_sprite_23: 853999372
+      earth_rotation_sprite_230: 1324583587
+      earth_rotation_sprite_231: 772675237
+      earth_rotation_sprite_232: -1217489762
+      earth_rotation_sprite_233: -40915327
+      earth_rotation_sprite_234: 2034181261
+      earth_rotation_sprite_235: 462499525
+      earth_rotation_sprite_236: -2024982303
+      earth_rotation_sprite_237: 1034321307
+      earth_rotation_sprite_238: -1534670596
+      earth_rotation_sprite_239: 850312392
+      earth_rotation_sprite_24: 115391266
+      earth_rotation_sprite_240: 1542107635
+      earth_rotation_sprite_241: 859262446
+      earth_rotation_sprite_242: -1692661236
+      earth_rotation_sprite_243: -1626681738
+      earth_rotation_sprite_244: -100165748
+      earth_rotation_sprite_245: 1681811758
+      earth_rotation_sprite_246: 1633619194
+      earth_rotation_sprite_247: -334178570
+      earth_rotation_sprite_248: -1138204905
+      earth_rotation_sprite_249: -138808175
+      earth_rotation_sprite_25: 1814147109
+      earth_rotation_sprite_250: -1682652126
+      earth_rotation_sprite_251: 1000849864
+      earth_rotation_sprite_252: -1633639178
+      earth_rotation_sprite_253: -77108754
+      earth_rotation_sprite_254: 277702233
+      earth_rotation_sprite_255: 635027955
+      earth_rotation_sprite_256: -1467759588
+      earth_rotation_sprite_257: 1806093859
+      earth_rotation_sprite_258: -1297630749
+      earth_rotation_sprite_259: 2039970105
+      earth_rotation_sprite_26: 1916032110
+      earth_rotation_sprite_260: -1537634131
+      earth_rotation_sprite_261: -1634880005
+      earth_rotation_sprite_262: -762903023
+      earth_rotation_sprite_263: -1429032450
+      earth_rotation_sprite_264: -1402998628
+      earth_rotation_sprite_265: -1841648626
+      earth_rotation_sprite_266: -1582941979
+      earth_rotation_sprite_267: -113237582
+      earth_rotation_sprite_268: 876308542
+      earth_rotation_sprite_269: 1647513097
+      earth_rotation_sprite_27: -330511179
+      earth_rotation_sprite_270: 1582266214
+      earth_rotation_sprite_271: -1721906801
+      earth_rotation_sprite_272: 620798581
+      earth_rotation_sprite_273: 1044350974
+      earth_rotation_sprite_274: 1141091474
+      earth_rotation_sprite_275: -334599252
+      earth_rotation_sprite_276: 1594811352
+      earth_rotation_sprite_277: 204278288
+      earth_rotation_sprite_278: -205793853
+      earth_rotation_sprite_279: 157952216
+      earth_rotation_sprite_28: 581291706
+      earth_rotation_sprite_280: 34729617
+      earth_rotation_sprite_281: 1588412016
+      earth_rotation_sprite_282: 477017919
+      earth_rotation_sprite_283: 1035722873
+      earth_rotation_sprite_284: 2081292877
+      earth_rotation_sprite_285: -347559261
+      earth_rotation_sprite_286: -1612103491
+      earth_rotation_sprite_287: -1464471091
+      earth_rotation_sprite_288: -870306598
+      earth_rotation_sprite_289: -1105245118
+      earth_rotation_sprite_29: -463567761
+      earth_rotation_sprite_3: -897457328
+      earth_rotation_sprite_30: 1241162369
+      earth_rotation_sprite_31: 1511212306
+      earth_rotation_sprite_32: 1965286381
+      earth_rotation_sprite_33: -1233500980
+      earth_rotation_sprite_34: 1399521507
+      earth_rotation_sprite_35: -508026187
+      earth_rotation_sprite_36: -1640203890
+      earth_rotation_sprite_37: 368551709
+      earth_rotation_sprite_38: -992738184
+      earth_rotation_sprite_39: 1457237812
+      earth_rotation_sprite_4: 1966594541
+      earth_rotation_sprite_40: 364185496
+      earth_rotation_sprite_41: -359188641
+      earth_rotation_sprite_42: 1191702228
+      earth_rotation_sprite_43: 2146768878
+      earth_rotation_sprite_44: -394192815
+      earth_rotation_sprite_45: -277268055
+      earth_rotation_sprite_46: -1197771440
+      earth_rotation_sprite_47: 1354537132
+      earth_rotation_sprite_48: 1528065580
+      earth_rotation_sprite_49: -391196103
+      earth_rotation_sprite_5: -359556070
+      earth_rotation_sprite_50: -797659896
+      earth_rotation_sprite_51: -1271728090
+      earth_rotation_sprite_52: -678777513
+      earth_rotation_sprite_53: -235447236
+      earth_rotation_sprite_54: -1648578638
+      earth_rotation_sprite_55: 266270594
+      earth_rotation_sprite_56: -1938193062
+      earth_rotation_sprite_57: -684189965
+      earth_rotation_sprite_58: -591343740
+      earth_rotation_sprite_59: 757944886
+      earth_rotation_sprite_6: 1435220076
+      earth_rotation_sprite_60: 1500609681
+      earth_rotation_sprite_61: -472197009
+      earth_rotation_sprite_62: -14412928
+      earth_rotation_sprite_63: -1669875800
+      earth_rotation_sprite_64: 1249035702
+      earth_rotation_sprite_65: 1728510858
+      earth_rotation_sprite_66: 986477515
+      earth_rotation_sprite_67: 479150551
+      earth_rotation_sprite_68: 253848027
+      earth_rotation_sprite_69: 454463616
+      earth_rotation_sprite_7: -1599253657
+      earth_rotation_sprite_70: 811169780
+      earth_rotation_sprite_71: 1223961611
+      earth_rotation_sprite_72: 1790383314
+      earth_rotation_sprite_73: 1796890446
+      earth_rotation_sprite_74: 169451298
+      earth_rotation_sprite_75: -793763900
+      earth_rotation_sprite_76: 6591797
+      earth_rotation_sprite_77: -735497559
+      earth_rotation_sprite_78: 439857925
+      earth_rotation_sprite_79: 772470715
+      earth_rotation_sprite_8: 1078072255
+      earth_rotation_sprite_80: -520573236
+      earth_rotation_sprite_81: 146282055
+      earth_rotation_sprite_82: 495225941
+      earth_rotation_sprite_83: 465280819
+      earth_rotation_sprite_84: 173183593
+      earth_rotation_sprite_85: 88114155
+      earth_rotation_sprite_86: 1624684789
+      earth_rotation_sprite_87: 1285359455
+      earth_rotation_sprite_88: -1448096683
+      earth_rotation_sprite_89: 1054783453
+      earth_rotation_sprite_9: -1783738462
+      earth_rotation_sprite_90: 748987988
+      earth_rotation_sprite_91: -1912623653
+      earth_rotation_sprite_92: 1385904527
+      earth_rotation_sprite_93: -1669909263
+      earth_rotation_sprite_94: 1056383354
+      earth_rotation_sprite_95: -1076051759
+      earth_rotation_sprite_96: 414620503
+      earth_rotation_sprite_97: -383645082
+      earth_rotation_sprite_98: 1243721745
+      earth_rotation_sprite_99: 856711630
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

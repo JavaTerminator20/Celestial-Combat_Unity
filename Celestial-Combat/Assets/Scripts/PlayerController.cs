@@ -102,6 +102,16 @@ public class PlayerController : CharacterBase
         action = 0;
     }
 
+    void clearDead(){
+        animator.SetBool("dead", true);
+    }
+
+    void playDead(){
+        Debug.Log("player DIED");
+        animator.SetBool("dead", true);
+        Invoke("clearDead", 1.0f);      //da pocistimo flag
+    }
+
     public void Ultimate(){
         usingUltimate = true;
         playerIsUsingUltimate = true;
@@ -161,7 +171,7 @@ public class PlayerController : CharacterBase
 
         if (grounded && !invincible){         //TODO: naredi da bo player pri pristanku (fron/back flip) se nekaj casa invincible
             health -= damage;
-           
+
             if (healthBar != null)
             {    
                 healthBar.SetHealth(health);
@@ -172,6 +182,12 @@ public class PlayerController : CharacterBase
             StartCoroutine(HitFreeze(hitStopTime));        //to pozene HitFreeze
             CameraShake(shakeIntensity, false);
             playBloodVFX(bloodBodyPart, OponentLeftHand, OponentRightHand, null, OponentRightLeg);
+
+            //preveri ce smo mrtvi
+            if (health < 0){
+                playDead();
+                gameManager.disableAI();
+            }
 
         } else if (blocking){
             //Debug.Log("shake when blocking");
@@ -225,8 +241,12 @@ public class PlayerController : CharacterBase
     float decayFactor;
     bool initKDS;
 
+    public bool disablePlayer=false;
+
     void Update()
     {
+        if (disablePlayer){animator.SetInteger("action", 0); animator.SetInteger("dir", 0); return;}
+
         rawDir = stepForward - stepBack;
         dir = rawDir * orientation;
         animator.SetInteger("dir", dir);

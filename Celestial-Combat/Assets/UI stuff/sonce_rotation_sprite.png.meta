@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,12 +95,6392 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ad58486a95c354f91e36d94c28cb9d
+      internalID: 1261719234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fdb29c54ea48b4c92ea8364e466814
+      internalID: 1597013933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc253a5d7c21ae45836f5f0f81b19cb
+      internalID: -959072632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a493d886fde3d4dac54190978e916f
+      internalID: 1709748246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45b90fc12b6b0347b98d04983a13f50
+      internalID: 1519323080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c152fa1892e69b444ab8cab4c4d09c14
+      internalID: 48994477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6faee3faaae058b408eb937e43b9637b
+      internalID: -1368714432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ef6168aebe9474e98b13edbb05bb18
+      internalID: 1656133088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e81c658146c6446a573e18da38101d
+      internalID: 1044767132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2940
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2062718cd06f641b9821246d53ff5f
+      internalID: 1466490026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bd2127338d6ad40a37e8af60801951
+      internalID: -1125369345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1e12b6815da8344b2773ea381edea9
+      internalID: -1938851855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71663dc3a5a8b5e458f7dd6327e046ab
+      internalID: 1549814698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f0807bbfd051f40b29eb13e25e072a
+      internalID: -392564988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd126920b0c1374eb300e566ca70acf
+      internalID: -1777970170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ab8ccb2f0bbe14b8be92658a5f0381
+      internalID: -126748318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743635ab7710f2140bbafa535538d074
+      internalID: 172744457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872d17e028c6cf64db9b662aa27238fb
+      internalID: -2061342711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f836b0994174ed6428ccd38e93123882
+      internalID: 1132445804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2835
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee76566df0c5fe40a7cfd840f02df85
+      internalID: -1673046746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572d0cd4269f3954bacdb49880d69ced
+      internalID: 2017733924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e5f5d9e7f60024a8d631c5bebce323
+      internalID: 187506604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958a51b24a1c7854c98a6f3cfc518374
+      internalID: 1671108146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfd8c3ceab3611408bebd13e9083a1b
+      internalID: 1116906567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb40412ff8d9fe41a733c3d2f14440f
+      internalID: 1448662387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6de271bf4675942a43b01ca95951ab
+      internalID: -1804114183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa454ca94c016934893f457365cc4d96
+      internalID: -1822349359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b06d5cc27168047bb99bc2a63f08d5
+      internalID: 120958789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e225f738964ec40b0629838cffca03
+      internalID: 1187072867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2730
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d86dfce3103fd478ca25659a5d3d70
+      internalID: -704323165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b22ca7da75749e459622723509667ef
+      internalID: -1759161756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6502c8bc79b9bb74981ae29396a59099
+      internalID: -2139622555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845d550579f8b314cbee06dac4f33d31
+      internalID: -812472817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3464465897fc2114f8d96a3b245cf542
+      internalID: 1156039479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2ae44912d6bd242937010f4e37dc83
+      internalID: -1434342073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9a3e9cc5ebe044ea37e9be18787ce5
+      internalID: -143542198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6178819d383a7bb4b818455084364874
+      internalID: -473322494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ae986f588a9084eb6dd7377a7a87f3
+      internalID: -1239922587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f155085ca39d15a469d4b9c396edcb3f
+      internalID: 436267214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2625
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fd566d79645e54fadac53017568b9d
+      internalID: 473067226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107667a5d6a73f7449347ac1ac5f71e3
+      internalID: -1134794322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf1018702afe3343bf2097680a1d629
+      internalID: 1857248982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962a0958e4b0cf546a03ea4a67fbde1d
+      internalID: -56635821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a22533683f4aa4ab9b1c7e2a49eb3a
+      internalID: -522271586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421a0c7ae20be8e4d8afc9aa56eaa0df
+      internalID: 1753371862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_45
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1339a879f5af94ebc33c29aafd9854
+      internalID: -902896377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_46
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e826091f8b8527f4382fbe2a5b060f86
+      internalID: 1981814788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_47
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce60e2b8de9a6a3499f7e4daf6652905
+      internalID: -1606305637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_48
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7771a70f07bfd24395850cf4f1fe7fe
+      internalID: -2121203696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_49
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2520
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f34b9e3c0bd2114ebf49a5eb7ec9a94
+      internalID: 591006219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c22eab232ab2154badbd9f74ccb1f17
+      internalID: -2030211086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_51
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7cc02253e480f4fab8c560282fb327
+      internalID: -1468450863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_52
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38002638912fb6249a27a405a1225b0e
+      internalID: -4551975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_53
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c8a223d3e759f4d94d06fa5d94f834
+      internalID: 1110474803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_54
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66007c3b65232447839af4d2212c577
+      internalID: -880073884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_55
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0b9411157c6c64a883faeecc2bfa03
+      internalID: -1055017605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_56
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbe7495ddabee743bd7c846ddd2e107
+      internalID: 501552964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_57
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb781e31849bbe44d91f121fec999226
+      internalID: 253670977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_58
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9635ec893d17e384dbc6d303763226fc
+      internalID: 492532400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_59
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2415
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8622bfaca06f824b9b8d9f7c23f2952
+      internalID: 1976163956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee784610a3d1c2409b073411258453d
+      internalID: 446050609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_61
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062f2b0e5f3bb174aa9522d3a120a6e6
+      internalID: -1864824475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_62
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32efababa887e1f42ab0e7f7bd71ea29
+      internalID: -1753607788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_63
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5b8a6ee56c9d341a56d65957d06fa8
+      internalID: -175388695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_64
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1a814b953c3e342952fb3f5d63aa30
+      internalID: 1844600796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_65
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbb71728e256fa4b93bd4914a75d44b
+      internalID: 442564939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_66
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea7220a575e0fe4088f948eda67cfb4
+      internalID: -1494153383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_67
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f1d849b06503d4b9b3b2e321308953
+      internalID: 958151075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_68
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca87bfe71cecbd478e4fdae4524e36b
+      internalID: 1210106399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_69
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2310
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b4d6f55aca93e4191a9fc7dd629b59
+      internalID: -41690079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3620728c9ae31428c4ba9005980bb5
+      internalID: -975396530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_71
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46023716909596a4f81f5b11852c2312
+      internalID: 814080934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_72
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee22b773f2d18244a186829e74c8c77
+      internalID: -1242826272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_73
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049d235ee8a630f44921e592922fd600
+      internalID: 334815059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_74
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b36231ae2fb7fe498d0e55adf5d9dc0
+      internalID: -1715841800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_75
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b57ecf65bd1a04fb4c9d2d2b9bd20c
+      internalID: 566033749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_76
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be51e93915c8efc4faf8b86a5a891104
+      internalID: -748804400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_77
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a3641bfe4b6f549aed8bac5098d2f8
+      internalID: 554583934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_78
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba898e352613624084b9ed84b9d2f96
+      internalID: 1276338089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_79
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2205
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00a04bfcdf03844fa5f88bb06080a9b
+      internalID: 1259816073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a305bef8d702bf458258acd1eba6f5a
+      internalID: -905683067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_81
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290df5a0bdc31c949a947318f0a4dee0
+      internalID: -1870831669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_82
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1523b0037d339cd4c9f229645d538c47
+      internalID: 1035715347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_83
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18b38ab5146d9d42a2640288bd6a23c
+      internalID: 1453515619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_84
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f60396c6934d08488d692a1344d62e4
+      internalID: 1819660185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_85
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcf853ae9e66a642aa6359dbcf2eb76
+      internalID: -1282308305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_86
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359643fc63d6d794ab579723fe7fbebd
+      internalID: 1666226980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_87
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc350f7d87e09a246b499bec717a65ba
+      internalID: -195775282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_88
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d563e79a3be597242a909f65a00942ae
+      internalID: -258880726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_89
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2100
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877f1199818efaa459cd95096564ed8f
+      internalID: 1568423495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f8090cddd1eb147b08ed8c481932ab
+      internalID: -361192350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_91
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e35240e9257c6d4789e7e5ee5c334ff
+      internalID: 1201117015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_92
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ba1586a365ff548b27694f1ba130c8
+      internalID: 577297038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_93
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b8beff2a8d4ac4190bb0d9d2d30168
+      internalID: 594452260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_94
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730d3c3c9ca4e63489ac74fbc30f7623
+      internalID: -435732186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_95
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993dcd7999b6f90419990138cd766449
+      internalID: -497969723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_96
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f35dca5b4b79f54f8aa3ae114de64b3
+      internalID: 1949898264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_97
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5b8b57caf9d6b4e9781079ec8b632f
+      internalID: 88550705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_98
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fdfd7bda5d3f34bbbc5f5ca13ca2d0
+      internalID: -1243726813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_99
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1995
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8016861950d2b1a4190a7ea0db9c14dc
+      internalID: 1129159941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19490c5009b3bb54aaa3dd413904a282
+      internalID: 37232372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_101
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ff656d37ca0e4478bcdb32a415ac3b
+      internalID: -1866265476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_102
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9af7e0d673c3f428f5eac12211b6ed
+      internalID: -79051285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_103
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90276463521308c49bc96b644fc3ced7
+      internalID: 2066515809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_104
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694c2300e4d212e45b17e31c48f611d0
+      internalID: -799407899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_105
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694295537e60e64408ef1263a9c56a47
+      internalID: 701115643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_106
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e7730d9c523244a9dbd0a4f3e0b6bf
+      internalID: 176063126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_107
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2a82b1c4336824a9743cd0af87d605
+      internalID: -272513684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_108
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d0259e4fd1b034390d19baa84a73f8
+      internalID: -553791285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_109
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1890
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f603bc8e99fb8764ebc64baa69a48504
+      internalID: 1072136650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2332ac3ab155ce249b49c50f79738e53
+      internalID: 1794357123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_111
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476f395c66d06fe4c8b4db354b0fb3cc
+      internalID: 358733994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_112
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ecc5b4b80bed54ab2ccab0fa664e3e
+      internalID: 395523303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_113
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db915e9e531bea47b634ea8358c17c0
+      internalID: -2039487018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_114
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0426fbe8276c54947a08999e73e5c439
+      internalID: 104587262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_115
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a69ab3b23dc5fa48ba1761881121a8d
+      internalID: 1426230711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_116
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2ff5f57cc41ef41b6570736ed38ee3
+      internalID: 277537205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_117
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc1d45c279b167418ae634b910b2c5d
+      internalID: 1233495353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_118
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed78118ea3f3ab14d95288637f61cf10
+      internalID: 1166114794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_119
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1785
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124466ae247091443be714abb04a6313
+      internalID: -1392423589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50b7972e77a21542a54f0be2113146b
+      internalID: -539139843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_121
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440bfb0e810f7a34ab9ad76c3ca6af07
+      internalID: 1043050189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_122
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abf91c970ffdf04594d2d9067b5eb08
+      internalID: -174347466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_123
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51443f26bab9a2b48a3a95787b00035c
+      internalID: -1271775707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_124
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602b594a3212a9d4ba250ee92dea2fc8
+      internalID: 1526122216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_125
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f501729e56d8c984daedf22821aff521
+      internalID: 1556484709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_126
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31df882147524ef449863184f0edb375
+      internalID: -993437672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_127
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e810cd2d0efe00438aebeb293ba4ef2
+      internalID: 970533126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_128
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d5cc3d616f5234295439f32233991d
+      internalID: 1451969648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_129
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1680
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54143c75fafb4754c8f3e756ea6b43e2
+      internalID: -872431556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df1e1b3d346be041bdf894743827a02
+      internalID: 1392792842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_131
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12eb3ffa61aec7a438e47e9026247692
+      internalID: 1815793838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_132
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23741509bb635049a507969182baac4
+      internalID: 215649604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_133
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e8bd302c91fa34d991004d964c5ee0
+      internalID: 1954817386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_134
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79e3f1ba162d294cae2bd8a768c7011
+      internalID: 1362441486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_135
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a718310957de93047b1f060df7af324c
+      internalID: -366233405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_136
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a7793776a6e074a8f1dff7e02ec9db
+      internalID: -311148943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_137
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bc8bd1d4f959e4c8ca783aaccd5f85
+      internalID: 1423358653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_138
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac200866e34e42c44b2f4e0cc23fe7f1
+      internalID: 868996788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_139
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1575
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92756017d4a5be2409636b6fb12c1700
+      internalID: -1824453805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740f2cb14eae69f4bbeda9fe78d13a94
+      internalID: -1375883601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_141
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b7bf5a57dfe314a8850a57e44dcd73
+      internalID: 1571367084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_142
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3c9349d866e2c4998bbb1c0c4cad30
+      internalID: -326955862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_143
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b809f3e2da2051458b3152eb076fc0c
+      internalID: 1039577791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_144
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b30108bfd1c49d46b5d4fad730dda78
+      internalID: -519808322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_145
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245636f0fae8cc9448cf42272ee47f00
+      internalID: 604970899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_146
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2bbd0fe0f6c3546a2d09438423d415
+      internalID: 606785964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_147
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d25aaa9e124b447b50a5a3259ac16f
+      internalID: 1275838174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_148
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c46923e41ec72a4f82913c53564b269
+      internalID: -1828676465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_149
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1470
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9035e04fab058194a84512534c85b5f0
+      internalID: -2080180431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56e16c3826ea7b4aa233b9148397f69
+      internalID: -21710590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_151
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00696eda9cdda3d44ad1bfd51f688390
+      internalID: -764262484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_152
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baf32939f751a648a856f9b1d61e063
+      internalID: -556506331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_153
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05d44d4cb14fea4983b7fb7cd3e72f4
+      internalID: 1867600969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_154
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5bb6199e6f7fc409df655ce622c873
+      internalID: 1546245108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_155
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364144782b2a6974eac7ad884571f463
+      internalID: 1269730503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_156
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f961149c1360b47a5801cde90f9458
+      internalID: -37490277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_157
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac72d674a32e4f458bf0c57cfe8144a
+      internalID: -53894939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_158
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f20be1f5e21ec042930949299e5b5ec
+      internalID: -619773442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_159
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1365
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31440ddd29ff811469edc97450425eaa
+      internalID: 1150595790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c98eb906f58154ea6d16116474e7f6
+      internalID: -862601148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_161
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057f5ccc9c0c7c444b3acd364efe0464
+      internalID: 1314167833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_162
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b459e6f99b221034489e6f133190859a
+      internalID: -1744279135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_163
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f18fdea82c621242bc2e5da9aea735c
+      internalID: -1067600018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_164
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58febcceb3e4eef40af6ed6872bf5b90
+      internalID: -263909811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_165
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fda4a35225fa34391cbb7bdce6881c
+      internalID: 2096112265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_166
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20ed8a54deac8f4f9a956a3ef10a4fe
+      internalID: 1617424147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_167
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5c6e33e655d1a4fb17f4e83fc4f3aa
+      internalID: 1150051991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_168
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c29cf05bf74ad4ca8ab8b1980c07a8
+      internalID: 304589353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_169
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1260
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d669fd5f22a56fd419c557e9dae01cad
+      internalID: 1874007435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e368ce035d8614498dc33e53f439bee
+      internalID: 858858344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_171
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfb383c65a2a2342a7e757c3ff517b5
+      internalID: 1909399228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_172
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed897cfcf22c5884db70f548b88543bf
+      internalID: -321869629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_173
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82932f3e38f3a1d4d931855ce02e13de
+      internalID: -1608693276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_174
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebad36b63a981b40b5a38af84e1773a
+      internalID: 726609666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_175
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345676804ae412843b7aeddb756b9e1b
+      internalID: -1083500013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_176
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b4605cf9652274cb2ed41a18cb0791
+      internalID: -2003463987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_177
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea27a4bbcbcafdf41bdd849fd5e90835
+      internalID: -625052822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_178
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4b811ac741c4840a63eeba744ba564
+      internalID: 282631680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_179
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1155
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398c77060d537bd459e6ba41f2d5b036
+      internalID: -1521659847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adf4ffc474ab9b4f8779aaa858c4732
+      internalID: 286997722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_181
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaf9ce9fe331e04e991720c2053b171
+      internalID: -561099273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_182
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1028d77189a374f914a1e1a13ccd28
+      internalID: 1265450049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_183
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23de3f369961abe498cdd1edaf0427c6
+      internalID: 1203328540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_184
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504a99a19e0ed4547896c403e44a95c5
+      internalID: 2103346573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_185
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2647eb0aac79bb340960612c94209375
+      internalID: -789276375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_186
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5017c39971866489459143762eee2c
+      internalID: 942761247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_187
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c926c544cd12f45bc58980bc194707
+      internalID: -1398427695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_188
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccd8ff8429b7a34eb13d1db7a236500
+      internalID: 217223647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_189
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1050
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca59967c8e51b5d48b807e89333f6c99
+      internalID: -464255489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dc69366b908a04ba75efba4fc9acf6
+      internalID: -1290136170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_191
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73964c996a6dd3f45837a6b3ace2f4c3
+      internalID: 534811734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_192
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b879fdd2b7ba8444d940495c1ba6a863
+      internalID: -776176748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_193
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c205fb86987b359478188254fb442734
+      internalID: -742122239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_194
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24b58e897dc6e34f9950f495ce93217
+      internalID: -618737748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_195
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5067e11ca6864a64087a95a5bcd74561
+      internalID: 1241759144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_196
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7334a95a4b046814db2b77bb0fc1662d
+      internalID: 518651014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_197
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79ff911ba1e77b46a305ce8a6688852
+      internalID: 1807379280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_198
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f446405d098f1b84d8c6f102ab848d88
+      internalID: -2046015992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_199
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 945
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264486c02e48c164b94cb119ed211d15
+      internalID: -518247911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4518d0fda6aef894bbc38a18fe82f3d3
+      internalID: -623699098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_201
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e845701b76033842b84e60edbfe60dc
+      internalID: -1327558115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_202
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ddc05c8be855f4894e577dd5f23f84
+      internalID: -1953161313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_203
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fef9306379b7074790497755213a92f
+      internalID: 1806185109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_204
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c610ff89503ab924d9ee853a11b8eadd
+      internalID: -383109687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_205
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b6a7ee71ae63140b344c8d4d30bdc7
+      internalID: -1381488885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_206
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d8e860d23b19143b8adb3006d083c8
+      internalID: -1044465709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_207
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbb7450eb2f2d340a21445f26dab4db
+      internalID: 558199836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_208
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98423a78128d12344831935de076a24f
+      internalID: 1194799566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_209
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 840
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45e3632585b1f6438586a70f50e88a2
+      internalID: -53332206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc1b62472d2ec84da7e78036b77c04f
+      internalID: 1572132513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_211
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e319e5e0b6d0d41ae04985685c6cb6
+      internalID: 674284719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_212
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ac71dc70a42ef4d983a202ac205dfd
+      internalID: 627453642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_213
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b039b283981fb4a8818a75ae19fb1d
+      internalID: 293814243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_214
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e65a10a17b69d49a2335001fe9d758
+      internalID: 1239933898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_215
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfabaa2339a905498f21c4615bfc797
+      internalID: 1350469865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_216
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80978f5fe093c3a46abcaec253c1ba4b
+      internalID: 122628061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_217
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c42e03cc71029b4c8bfc63ce0326820
+      internalID: 640537139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_218
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f04e1503499ae4ab9b7a3d97c85321
+      internalID: -378977874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_219
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 735
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29e0dce94b6299428e503e4c88ec0fc
+      internalID: -831559343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fac9721adeaf44a97bda569c0cc8b9
+      internalID: -359900065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_221
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc29819c05a0cc945ada6e8a03a62d83
+      internalID: -17969296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_222
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7975fe6de656a97448782658caffe66d
+      internalID: -1649277459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_223
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539f7a0233755ad439e8f0e739b47abb
+      internalID: -158083354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_224
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2df96931dc7b842b047db5fce8022f
+      internalID: 504396764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_225
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7b3751b094bb542af39a4b9b24b14d
+      internalID: -1486878659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_226
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1c72139012d8249a6793bff13b20f3
+      internalID: -2033603560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_227
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bb1b6114633574fbe31e77276555f4
+      internalID: 740080229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_228
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf39ba12ec438f408f0e17cc3df7962
+      internalID: -1492845254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_229
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 630
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7824d799c8aff48b55586ad0e6b3ed
+      internalID: 639324202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_230
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0494e4a1b524dfd459abe4b0c0fb7a12
+      internalID: 2005778638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_231
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b261f750dad11849a76080b5621b54f
+      internalID: 1938443418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_232
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2d652d14530d0409356ce1f3a0cf6d
+      internalID: 1600495420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_233
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dde0eb58ce733a47a2935a2f1d36fa5
+      internalID: 899129961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_234
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1d8bfff72931c46a87ad9d0576cd71
+      internalID: -460774731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_235
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0129d7e8d6044ae478345f0a9d105ec1
+      internalID: 3178719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_236
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b434999fbdb37494389f7f6b71e4628b
+      internalID: 1794857164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_237
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a384771575b69f347b4122bd3ccfd1fa
+      internalID: 154339997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_238
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac20f13e4c1b9e4a80cd05a5ef4a206
+      internalID: -15702864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_239
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 525
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4889e35224c2a9488b0eb3b6f1be5f5
+      internalID: -1695835141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0867f176d4d6fb542aa8cd876186bddc
+      internalID: -1367866279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_241
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c438ca197ab374a948707bb0bcae49
+      internalID: 73406493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_242
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2758622ae2b91344588c5ee1095f602e
+      internalID: -179905331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_243
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5799cbc7bd247c34bb2457afa2d1b4fe
+      internalID: -371129617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_244
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8bc2b94f0464a4cafa85afd17aabce
+      internalID: -1518837121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_245
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbd8cafab0627446a5f3c8402af1340
+      internalID: 1755589225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_246
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833f1e25c4a6af0458468cc24f5b4a48
+      internalID: 641114233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_247
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510e449e647f7514a93a5190cc61d0fd
+      internalID: -438754703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_248
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025a711490cbede419613c8899fb87c5
+      internalID: -843140819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_249
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 420
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553e6929a516ebe4fbd7d297d0c37689
+      internalID: 45938045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_250
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1517a0dac84b143879659cb5821210
+      internalID: -1385474691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_251
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8547394b7bc63ac4baf40bcaf5dde959
+      internalID: 419784663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_252
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03048768803a5b43a60841a93ad882e
+      internalID: -1642734984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_253
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae6c5abb7a393a4396f775ce23757ec
+      internalID: -720354840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_254
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1115ef66939307146aec6e426649b3a2
+      internalID: -103173268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_255
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab252d7832f4f94587f2c4f6a2b58e1
+      internalID: 619112761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_256
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c20861984c75849b30548d9478c9e0
+      internalID: 1069706663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_257
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e4dd215a9485e44a7290a3e8bcbcbe
+      internalID: -624018167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_258
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560628a93610e12469c4f5cca4e707ec
+      internalID: 1937036438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_259
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6085f04ebbc064fbf2ea98c416f2bf
+      internalID: -1881390604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_260
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99ec100dcc0bdc4f922384ecf1f71cd
+      internalID: 901826307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_261
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4986f5126d4192840ba31856dcc24075
+      internalID: -702670817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_262
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8630a0e29f2b74fa7359a5cfbe36e7
+      internalID: 1427463413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_263
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aed36d9d35129642a0374d69e52fa0c
+      internalID: 2030819192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_264
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9387eeaf772bb9b498dae49558267174
+      internalID: -1582468350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_265
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666908f49b4633b478b4853e9c50ec54
+      internalID: 1609144949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_266
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac467e06cc8c8ac4abd2807ac7bf907c
+      internalID: 1585754720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_267
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16899c79ba5a434ca2c10599ee4b841
+      internalID: -1778752397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_268
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a50f9cc1cf5844583064970f284ec1
+      internalID: -1341467289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_269
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2845a3e7d7dc54c4b91a72d48b7e39dc
+      internalID: -1949453160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_270
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ebed43c583da14facacf280c94f683
+      internalID: 316511247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_271
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62285e32c24d1864ab9f13cb2f5fa0aa
+      internalID: -1885532142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_272
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4bd715d350dea409a6f5672347b7d9
+      internalID: 470920667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_273
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ccf3b740e4aca42948ab8cbc12066b
+      internalID: -910656394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_274
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb2090648dde4d449c9dd2c11783811
+      internalID: 1363959396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_275
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af4c5117dd2f324e89b9b1d36d0a8d0
+      internalID: -1476072921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_276
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0c48f7171f4c848a68b3cb2c4af749
+      internalID: 1819306502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_277
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62daa33cda1f114b80b4e4022480638
+      internalID: -283349062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_278
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca154e6f433dfeb4abc6d1d53438de03
+      internalID: 198120041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_279
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 105
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9522a1512727f549920d8e4026cd74b
+      internalID: 1910625229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_280
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b434561fdbe704b9bf2c4c000de946
+      internalID: 1323118074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_281
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b3799f617d4394f916cf72fb4e2097
+      internalID: 742522018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_282
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74bc711e3268bb4fb38202e9520e63e
+      internalID: -1362090771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_283
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e44913cf9bdd864b8dc8ff6478feb4f
+      internalID: 116840121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_284
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf5b60a94efe8a4a8e8a80d3c3ad73d
+      internalID: -905404468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_285
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d860d145d59ce284fac702546039c327
+      internalID: 305826505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_286
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636a5a91ca0074442aea57964d5eb3c3
+      internalID: 1273206908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_287
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8694f7c5376f2441b2a560bcf265ee9
+      internalID: 485483048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_288
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80a85842b832bc499b0228073b72095
+      internalID: -616468482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonce_rotation_sprite_289
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d5e2490cbc94a4d9acda57fb038aa4
+      internalID: 257927504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 98b05cc7d945dc646a1c59d073ca7c30
     internalID: 0
     vertices: []
     indices: 
@@ -108,8 +6488,300 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":29.0},"gridSpriteSize":{"x":105.0,"y":105.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      sonce_rotation_sprite_0: 1261719234
+      sonce_rotation_sprite_1: 1597013933
+      sonce_rotation_sprite_10: -1125369345
+      sonce_rotation_sprite_100: 37232372
+      sonce_rotation_sprite_101: -1866265476
+      sonce_rotation_sprite_102: -79051285
+      sonce_rotation_sprite_103: 2066515809
+      sonce_rotation_sprite_104: -799407899
+      sonce_rotation_sprite_105: 701115643
+      sonce_rotation_sprite_106: 176063126
+      sonce_rotation_sprite_107: -272513684
+      sonce_rotation_sprite_108: -553791285
+      sonce_rotation_sprite_109: 1072136650
+      sonce_rotation_sprite_11: -1938851855
+      sonce_rotation_sprite_110: 1794357123
+      sonce_rotation_sprite_111: 358733994
+      sonce_rotation_sprite_112: 395523303
+      sonce_rotation_sprite_113: -2039487018
+      sonce_rotation_sprite_114: 104587262
+      sonce_rotation_sprite_115: 1426230711
+      sonce_rotation_sprite_116: 277537205
+      sonce_rotation_sprite_117: 1233495353
+      sonce_rotation_sprite_118: 1166114794
+      sonce_rotation_sprite_119: -1392423589
+      sonce_rotation_sprite_12: 1549814698
+      sonce_rotation_sprite_120: -539139843
+      sonce_rotation_sprite_121: 1043050189
+      sonce_rotation_sprite_122: -174347466
+      sonce_rotation_sprite_123: -1271775707
+      sonce_rotation_sprite_124: 1526122216
+      sonce_rotation_sprite_125: 1556484709
+      sonce_rotation_sprite_126: -993437672
+      sonce_rotation_sprite_127: 970533126
+      sonce_rotation_sprite_128: 1451969648
+      sonce_rotation_sprite_129: -872431556
+      sonce_rotation_sprite_13: -392564988
+      sonce_rotation_sprite_130: 1392792842
+      sonce_rotation_sprite_131: 1815793838
+      sonce_rotation_sprite_132: 215649604
+      sonce_rotation_sprite_133: 1954817386
+      sonce_rotation_sprite_134: 1362441486
+      sonce_rotation_sprite_135: -366233405
+      sonce_rotation_sprite_136: -311148943
+      sonce_rotation_sprite_137: 1423358653
+      sonce_rotation_sprite_138: 868996788
+      sonce_rotation_sprite_139: -1824453805
+      sonce_rotation_sprite_14: -1777970170
+      sonce_rotation_sprite_140: -1375883601
+      sonce_rotation_sprite_141: 1571367084
+      sonce_rotation_sprite_142: -326955862
+      sonce_rotation_sprite_143: 1039577791
+      sonce_rotation_sprite_144: -519808322
+      sonce_rotation_sprite_145: 604970899
+      sonce_rotation_sprite_146: 606785964
+      sonce_rotation_sprite_147: 1275838174
+      sonce_rotation_sprite_148: -1828676465
+      sonce_rotation_sprite_149: -2080180431
+      sonce_rotation_sprite_15: -126748318
+      sonce_rotation_sprite_150: -21710590
+      sonce_rotation_sprite_151: -764262484
+      sonce_rotation_sprite_152: -556506331
+      sonce_rotation_sprite_153: 1867600969
+      sonce_rotation_sprite_154: 1546245108
+      sonce_rotation_sprite_155: 1269730503
+      sonce_rotation_sprite_156: -37490277
+      sonce_rotation_sprite_157: -53894939
+      sonce_rotation_sprite_158: -619773442
+      sonce_rotation_sprite_159: 1150595790
+      sonce_rotation_sprite_16: 172744457
+      sonce_rotation_sprite_160: -862601148
+      sonce_rotation_sprite_161: 1314167833
+      sonce_rotation_sprite_162: -1744279135
+      sonce_rotation_sprite_163: -1067600018
+      sonce_rotation_sprite_164: -263909811
+      sonce_rotation_sprite_165: 2096112265
+      sonce_rotation_sprite_166: 1617424147
+      sonce_rotation_sprite_167: 1150051991
+      sonce_rotation_sprite_168: 304589353
+      sonce_rotation_sprite_169: 1874007435
+      sonce_rotation_sprite_17: -2061342711
+      sonce_rotation_sprite_170: 858858344
+      sonce_rotation_sprite_171: 1909399228
+      sonce_rotation_sprite_172: -321869629
+      sonce_rotation_sprite_173: -1608693276
+      sonce_rotation_sprite_174: 726609666
+      sonce_rotation_sprite_175: -1083500013
+      sonce_rotation_sprite_176: -2003463987
+      sonce_rotation_sprite_177: -625052822
+      sonce_rotation_sprite_178: 282631680
+      sonce_rotation_sprite_179: -1521659847
+      sonce_rotation_sprite_18: 1132445804
+      sonce_rotation_sprite_180: 286997722
+      sonce_rotation_sprite_181: -561099273
+      sonce_rotation_sprite_182: 1265450049
+      sonce_rotation_sprite_183: 1203328540
+      sonce_rotation_sprite_184: 2103346573
+      sonce_rotation_sprite_185: -789276375
+      sonce_rotation_sprite_186: 942761247
+      sonce_rotation_sprite_187: -1398427695
+      sonce_rotation_sprite_188: 217223647
+      sonce_rotation_sprite_189: -464255489
+      sonce_rotation_sprite_19: -1673046746
+      sonce_rotation_sprite_190: -1290136170
+      sonce_rotation_sprite_191: 534811734
+      sonce_rotation_sprite_192: -776176748
+      sonce_rotation_sprite_193: -742122239
+      sonce_rotation_sprite_194: -618737748
+      sonce_rotation_sprite_195: 1241759144
+      sonce_rotation_sprite_196: 518651014
+      sonce_rotation_sprite_197: 1807379280
+      sonce_rotation_sprite_198: -2046015992
+      sonce_rotation_sprite_199: -518247911
+      sonce_rotation_sprite_2: -959072632
+      sonce_rotation_sprite_20: 2017733924
+      sonce_rotation_sprite_200: -623699098
+      sonce_rotation_sprite_201: -1327558115
+      sonce_rotation_sprite_202: -1953161313
+      sonce_rotation_sprite_203: 1806185109
+      sonce_rotation_sprite_204: -383109687
+      sonce_rotation_sprite_205: -1381488885
+      sonce_rotation_sprite_206: -1044465709
+      sonce_rotation_sprite_207: 558199836
+      sonce_rotation_sprite_208: 1194799566
+      sonce_rotation_sprite_209: -53332206
+      sonce_rotation_sprite_21: 187506604
+      sonce_rotation_sprite_210: 1572132513
+      sonce_rotation_sprite_211: 674284719
+      sonce_rotation_sprite_212: 627453642
+      sonce_rotation_sprite_213: 293814243
+      sonce_rotation_sprite_214: 1239933898
+      sonce_rotation_sprite_215: 1350469865
+      sonce_rotation_sprite_216: 122628061
+      sonce_rotation_sprite_217: 640537139
+      sonce_rotation_sprite_218: -378977874
+      sonce_rotation_sprite_219: -831559343
+      sonce_rotation_sprite_22: 1671108146
+      sonce_rotation_sprite_220: -359900065
+      sonce_rotation_sprite_221: -17969296
+      sonce_rotation_sprite_222: -1649277459
+      sonce_rotation_sprite_223: -158083354
+      sonce_rotation_sprite_224: 504396764
+      sonce_rotation_sprite_225: -1486878659
+      sonce_rotation_sprite_226: -2033603560
+      sonce_rotation_sprite_227: 740080229
+      sonce_rotation_sprite_228: -1492845254
+      sonce_rotation_sprite_229: 639324202
+      sonce_rotation_sprite_23: 1116906567
+      sonce_rotation_sprite_230: 2005778638
+      sonce_rotation_sprite_231: 1938443418
+      sonce_rotation_sprite_232: 1600495420
+      sonce_rotation_sprite_233: 899129961
+      sonce_rotation_sprite_234: -460774731
+      sonce_rotation_sprite_235: 3178719
+      sonce_rotation_sprite_236: 1794857164
+      sonce_rotation_sprite_237: 154339997
+      sonce_rotation_sprite_238: -15702864
+      sonce_rotation_sprite_239: -1695835141
+      sonce_rotation_sprite_24: 1448662387
+      sonce_rotation_sprite_240: -1367866279
+      sonce_rotation_sprite_241: 73406493
+      sonce_rotation_sprite_242: -179905331
+      sonce_rotation_sprite_243: -371129617
+      sonce_rotation_sprite_244: -1518837121
+      sonce_rotation_sprite_245: 1755589225
+      sonce_rotation_sprite_246: 641114233
+      sonce_rotation_sprite_247: -438754703
+      sonce_rotation_sprite_248: -843140819
+      sonce_rotation_sprite_249: 45938045
+      sonce_rotation_sprite_25: -1804114183
+      sonce_rotation_sprite_250: -1385474691
+      sonce_rotation_sprite_251: 419784663
+      sonce_rotation_sprite_252: -1642734984
+      sonce_rotation_sprite_253: -720354840
+      sonce_rotation_sprite_254: -103173268
+      sonce_rotation_sprite_255: 619112761
+      sonce_rotation_sprite_256: 1069706663
+      sonce_rotation_sprite_257: -624018167
+      sonce_rotation_sprite_258: 1937036438
+      sonce_rotation_sprite_259: -1881390604
+      sonce_rotation_sprite_26: -1822349359
+      sonce_rotation_sprite_260: 901826307
+      sonce_rotation_sprite_261: -702670817
+      sonce_rotation_sprite_262: 1427463413
+      sonce_rotation_sprite_263: 2030819192
+      sonce_rotation_sprite_264: -1582468350
+      sonce_rotation_sprite_265: 1609144949
+      sonce_rotation_sprite_266: 1585754720
+      sonce_rotation_sprite_267: -1778752397
+      sonce_rotation_sprite_268: -1341467289
+      sonce_rotation_sprite_269: -1949453160
+      sonce_rotation_sprite_27: 120958789
+      sonce_rotation_sprite_270: 316511247
+      sonce_rotation_sprite_271: -1885532142
+      sonce_rotation_sprite_272: 470920667
+      sonce_rotation_sprite_273: -910656394
+      sonce_rotation_sprite_274: 1363959396
+      sonce_rotation_sprite_275: -1476072921
+      sonce_rotation_sprite_276: 1819306502
+      sonce_rotation_sprite_277: -283349062
+      sonce_rotation_sprite_278: 198120041
+      sonce_rotation_sprite_279: 1910625229
+      sonce_rotation_sprite_28: 1187072867
+      sonce_rotation_sprite_280: 1323118074
+      sonce_rotation_sprite_281: 742522018
+      sonce_rotation_sprite_282: -1362090771
+      sonce_rotation_sprite_283: 116840121
+      sonce_rotation_sprite_284: -905404468
+      sonce_rotation_sprite_285: 305826505
+      sonce_rotation_sprite_286: 1273206908
+      sonce_rotation_sprite_287: 485483048
+      sonce_rotation_sprite_288: -616468482
+      sonce_rotation_sprite_289: 257927504
+      sonce_rotation_sprite_29: -704323165
+      sonce_rotation_sprite_3: 1709748246
+      sonce_rotation_sprite_30: -1759161756
+      sonce_rotation_sprite_31: -2139622555
+      sonce_rotation_sprite_32: -812472817
+      sonce_rotation_sprite_33: 1156039479
+      sonce_rotation_sprite_34: -1434342073
+      sonce_rotation_sprite_35: -143542198
+      sonce_rotation_sprite_36: -473322494
+      sonce_rotation_sprite_37: -1239922587
+      sonce_rotation_sprite_38: 436267214
+      sonce_rotation_sprite_39: 473067226
+      sonce_rotation_sprite_4: 1519323080
+      sonce_rotation_sprite_40: -1134794322
+      sonce_rotation_sprite_41: 1857248982
+      sonce_rotation_sprite_42: -56635821
+      sonce_rotation_sprite_43: -522271586
+      sonce_rotation_sprite_44: 1753371862
+      sonce_rotation_sprite_45: -902896377
+      sonce_rotation_sprite_46: 1981814788
+      sonce_rotation_sprite_47: -1606305637
+      sonce_rotation_sprite_48: -2121203696
+      sonce_rotation_sprite_49: 591006219
+      sonce_rotation_sprite_5: 48994477
+      sonce_rotation_sprite_50: -2030211086
+      sonce_rotation_sprite_51: -1468450863
+      sonce_rotation_sprite_52: -4551975
+      sonce_rotation_sprite_53: 1110474803
+      sonce_rotation_sprite_54: -880073884
+      sonce_rotation_sprite_55: -1055017605
+      sonce_rotation_sprite_56: 501552964
+      sonce_rotation_sprite_57: 253670977
+      sonce_rotation_sprite_58: 492532400
+      sonce_rotation_sprite_59: 1976163956
+      sonce_rotation_sprite_6: -1368714432
+      sonce_rotation_sprite_60: 446050609
+      sonce_rotation_sprite_61: -1864824475
+      sonce_rotation_sprite_62: -1753607788
+      sonce_rotation_sprite_63: -175388695
+      sonce_rotation_sprite_64: 1844600796
+      sonce_rotation_sprite_65: 442564939
+      sonce_rotation_sprite_66: -1494153383
+      sonce_rotation_sprite_67: 958151075
+      sonce_rotation_sprite_68: 1210106399
+      sonce_rotation_sprite_69: -41690079
+      sonce_rotation_sprite_7: 1656133088
+      sonce_rotation_sprite_70: -975396530
+      sonce_rotation_sprite_71: 814080934
+      sonce_rotation_sprite_72: -1242826272
+      sonce_rotation_sprite_73: 334815059
+      sonce_rotation_sprite_74: -1715841800
+      sonce_rotation_sprite_75: 566033749
+      sonce_rotation_sprite_76: -748804400
+      sonce_rotation_sprite_77: 554583934
+      sonce_rotation_sprite_78: 1276338089
+      sonce_rotation_sprite_79: 1259816073
+      sonce_rotation_sprite_8: 1044767132
+      sonce_rotation_sprite_80: -905683067
+      sonce_rotation_sprite_81: -1870831669
+      sonce_rotation_sprite_82: 1035715347
+      sonce_rotation_sprite_83: 1453515619
+      sonce_rotation_sprite_84: 1819660185
+      sonce_rotation_sprite_85: -1282308305
+      sonce_rotation_sprite_86: 1666226980
+      sonce_rotation_sprite_87: -195775282
+      sonce_rotation_sprite_88: -258880726
+      sonce_rotation_sprite_89: 1568423495
+      sonce_rotation_sprite_9: 1466490026
+      sonce_rotation_sprite_90: -361192350
+      sonce_rotation_sprite_91: 1201117015
+      sonce_rotation_sprite_92: 577297038
+      sonce_rotation_sprite_93: 594452260
+      sonce_rotation_sprite_94: -435732186
+      sonce_rotation_sprite_95: -497969723
+      sonce_rotation_sprite_96: 1949898264
+      sonce_rotation_sprite_97: 88550705
+      sonce_rotation_sprite_98: -1243726813
+      sonce_rotation_sprite_99: 1129159941
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
