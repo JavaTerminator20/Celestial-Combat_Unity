@@ -130,12 +130,19 @@ public class OponentController : CharacterBase
         knockDownMeter += damage*comboBonus;
 
         if (knockDownMeter > 20.0f){
-            knockDownMeter += damage;
+            //knockDownMeter += damage;
+            weAreHit = false;
+            blocking = false;
+            CancelInvoke("clearHit");
+            animator.SetBool("hit", false);
+            canMove = false;
+            
             animator.SetBool("knockdown", true);
             animator.SetInteger("action", 0);
             animator.SetInteger("dir", 0);
             knockDownMeter = 0.0f;
             
+            return;
         } else{
             animator.SetBool("hit", true);
             animator.SetInteger("action", 0);
@@ -180,6 +187,12 @@ public class OponentController : CharacterBase
             {    
                 healthBar.SetHealth(health);
             }
+
+            if (health <= 0){
+                playDead();
+                return;
+            }
+
             Debug.Log("oponent got hit, current health: " + health);
             checkKnockDown(damage);
             lastHitTime = Time.time;
@@ -189,9 +202,7 @@ public class OponentController : CharacterBase
             CameraShake(cameraShakeIntensity, false);
             playBloodVFX(bloodBodyPart, PlayerLeftHand, PlayerRightHand, null, PlayerRightLeg);
 
-            if (health < 0){
-                playDead();
-            }
+            
         } else{
             CameraShake(cameraShakeIntensity, true);
             blockSparks.Play();
@@ -213,6 +224,11 @@ public class OponentController : CharacterBase
         airMoon.GetComponent<Rigidbody>().useGravity = true;
         float velocityY = -250f + gameManager.GetDistance()*30f;    
         airMoon.GetComponent<Rigidbody>().AddForce(new Vector3(700f*orientation, velocityY, 60f*orientation));
+    }
+
+    public void OnUltimateFired()
+    {
+        ultimateMeter = 0;
     }
 
     public void BringBackMoon(){
@@ -373,7 +389,7 @@ public class OponentController : CharacterBase
         if(ultimateMeter >= ultimateThreshold) {
             if (dist > kickRange && UnityEngine.Random.value < 1f) {
                 animator.SetInteger("action", (int)FighterAction.ultimate);
-                ultimateMeter = 0;
+                //ultimateMeter = 0;
                 currentState = AIState.Recover;
                 return;
             }

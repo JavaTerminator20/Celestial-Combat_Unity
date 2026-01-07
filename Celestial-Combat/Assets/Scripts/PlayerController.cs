@@ -259,6 +259,7 @@ public class PlayerController : CharacterBase
 
     void Update()
     {
+        
         if (disablePlayer){animator.SetInteger("action", 0); animator.SetInteger("dir", 0); return;}
 
         rawDir = stepForward - stepBack;
@@ -279,8 +280,9 @@ public class PlayerController : CharacterBase
         AnimatorStateInfo animInfo = animator.GetCurrentAnimatorStateInfo(0);
         AnimatorClipInfo[] clipInfo = animator.GetCurrentAnimatorClipInfo(0);
         string curAnimPlaying = clipInfo[0].clip.name;
+        Debug.Log("Current anim: " + curAnimPlaying);
 
-        if (curAnimPlaying == "Armature|backflip"){  //0.67, 1.37
+        if (curAnimPlaying == "Armature_backflip"){  //0.67, 1.37
             grounded = false;
             float currentTime = animInfo.normalizedTime * animInfo.length;
             float extraHSpeed = 3.0f;
@@ -303,7 +305,7 @@ public class PlayerController : CharacterBase
         }
 
         //premikanje ob predvajanju animacije | TODO: prestavi zacetni del kode direktno pod animacijo (OnStateEnter)
-        if (curAnimPlaying == "Armature|frontFlip"){
+        if (curAnimPlaying == "Armature_frontFlip"){
             grounded = false;
             float currentTime = animInfo.normalizedTime * animInfo.length;
             float extraHSpeed = 3.5f;             //dodatek k horizontalni hitrosti

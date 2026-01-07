@@ -60,6 +60,15 @@ public class CharacterBase : MonoBehaviour
     public AudioClip earthStompSound;
     public AudioClip moonThrowSound;
 
+    [Header("Jump & Flip Sound")]
+    public AudioClip jumpSound;
+
+    [Header("Win sound")]
+    public AudioClip winSound;
+
+    [Header("Lose Sound")]
+    public AudioClip loseSound;
+
     //dictionary ki mapira Int(damageLevel) -> Tuple(damageAmount, hitStopTime, CameraShakeIntensity)
     protected Dictionary<int, Tuple<int, float, float>> damageDefinition = new Dictionary<int, Tuple<int, float, float>>{
         {1, new Tuple<int, float, float>(3, 0.04f, 0.1f)},
@@ -239,4 +248,21 @@ public class CharacterBase : MonoBehaviour
             audioSource.PlayOneShot(moonThrowSound);
     }
 
+    public void PlayjumpSound()
+    {
+        if(jumpSound != null)
+            audioSource.PlayOneShot(jumpSound);
+    }
+
+    public void PlayWinSound()
+    {
+        if(winSound != null)
+            audioSource.PlayOneShot(winSound);
+    }
+
+    public void PlayLoseSound()
+    {
+        if(loseSound != null)
+            audioSource.PlayOneShot(loseSound);
+    }
 }
