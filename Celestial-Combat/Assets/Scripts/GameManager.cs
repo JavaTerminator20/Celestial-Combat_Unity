@@ -131,6 +131,11 @@ public class GameManager : MonoBehaviour
         StartCoroutine(ActualStomp(sunFloat));   
     }
 
+    public void dealDamage(int value, bool isPlayer){
+        if (isPlayer){player.SendDamage(value);}
+        else{oponent.SendDamage(value);}
+    }
+
     private IEnumerator<WaitForSecondsRealtime> ActualStomp(bool sunFloat){
         Debug.Log("stomp camera shake");
         Vector3 impulse = new Vector3(0.15f, -0.7f, 0f);

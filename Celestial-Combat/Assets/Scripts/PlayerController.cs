@@ -167,6 +167,20 @@ public class PlayerController : CharacterBase
         animator.SetBool("hit", false);
     }
 
+    public void SendDamage(int value){
+        Debug.Log("recieved ultimate damage");
+        health -= value;
+        //preveri ce smo mrtvi
+        if (health < 0){
+            playDead();
+            gameManager.disableAI();
+        }
+        if (healthBar != null)
+        {    
+            healthBar.SetHealth(health);
+        }
+    }
+
     void GettingHit(int damage, float hitStopTime, float shakeIntensity, string bloodBodyPart){
 
         if (grounded && !invincible){         //TODO: naredi da bo player pri pristanku (fron/back flip) se nekaj casa invincible
@@ -199,7 +213,7 @@ public class PlayerController : CharacterBase
 
     public void CheckForMiss()
     {
-        Debug.Log("CheckForMiss called.");
+        //Debug.Log("CheckForMiss called.");
         foreach (HitBox hitbox in GetComponentsInChildren<HitBox>())
         {
             hitbox.CheckForMiss();

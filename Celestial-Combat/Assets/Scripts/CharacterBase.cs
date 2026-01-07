@@ -62,8 +62,8 @@ public class CharacterBase : MonoBehaviour
 
     //dictionary ki mapira Int(damageLevel) -> Tuple(damageAmount, hitStopTime, CameraShakeIntensity)
     protected Dictionary<int, Tuple<int, float, float>> damageDefinition = new Dictionary<int, Tuple<int, float, float>>{
-        {1, new Tuple<int, float, float>(2, 0.04f, 0.1f)},
-        {2, new Tuple<int, float, float>(5, 0.07f, 0.15f)},
+        {1, new Tuple<int, float, float>(3, 0.04f, 0.1f)},
+        {2, new Tuple<int, float, float>(6, 0.07f, 0.15f)},
         {3, new Tuple<int, float, float>(8, 0.10f, 0.2f)},
         {4, new Tuple<int, float, float>(10, 0.13f, 0.25f)},
     };

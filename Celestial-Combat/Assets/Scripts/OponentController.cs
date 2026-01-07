@@ -157,6 +157,19 @@ public class OponentController : CharacterBase
 
     }
 
+    public void SendDamage(int value){
+        Debug.Log("oponent recieved ultimate damage");
+        health -= value;
+        if (health < 0){
+            playDead();
+        }
+
+        if (healthBar != null)
+        {    
+            healthBar.SetHealth(health);
+        }
+    }
+
     void GettingHit(int damage, float hitStopTime, float cameraShakeIntensity, string bloodBodyPart){
         if (animator.GetBool("knockdown")) return;
 
@@ -427,7 +440,6 @@ public class OponentController : CharacterBase
         //Debug.Log("NPC ultimate meter:" + ultimateMeter);
 
         if (animInfo.IsName("Armature_knockdown")){
-            Debug.Log("inside knockdown");
             if (initKDS){
                 knockDownSpeed = initKnockdownSpeed;
                 decayFactor = initDecay;

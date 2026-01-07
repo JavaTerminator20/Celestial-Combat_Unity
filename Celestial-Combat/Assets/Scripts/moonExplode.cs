@@ -22,6 +22,7 @@ public class moonExplode : MonoBehaviour
             GetComponent<Rigidbody>().linearVelocity = Vector3.zero; //to je duplicirano zato ker v nasprotnem primeru se particle origin premakne med ...
             GetComponent<Rigidbody>().angularVelocity = Vector3.zero;   //... animiranjem flash-a - izgleda kot da na vec mestih explodira
             explotionParticles = GetComponentsInChildren<ParticleSystem>();
+            FindFirstObjectByType<GameManager>().dealDamage(15, true);
             foreach (ParticleSystem sys in explotionParticles){
                 sys.Play();
                 FindFirstObjectByType<PlayerController>().GetComponent<Animator>().SetBool("knockdown", true);
