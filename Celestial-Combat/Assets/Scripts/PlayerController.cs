@@ -177,10 +177,7 @@ public class PlayerController : CharacterBase
             
             playDead();
             gameManager.disableAI();
-            EndgameManager endgameManager = FindFirstObjectByType<EndgameManager>();
-            if (endgameManager != null){
-                    endgameManager.ShowLose();
-            }
+         
             
         }
         if (healthBar != null)
@@ -210,10 +207,7 @@ public class PlayerController : CharacterBase
                 
                 playDead();
                 gameManager.disableAI();
-                EndgameManager endgameManager = FindFirstObjectByType<EndgameManager>();
-                if (endgameManager != null){
-                    endgameManager.ShowLose();
-                }
+                
                
             }
 
