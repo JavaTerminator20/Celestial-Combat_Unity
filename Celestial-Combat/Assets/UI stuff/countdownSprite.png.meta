@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,12 +95,2168 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: countdownSprite_0
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 2403
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6ff608126e7434c852845a2378d279
+      internalID: -1222542923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_1
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 2403
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba87bbdd3ce1a74683edfc902e42b68
+      internalID: 538395728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_2
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 2403
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91935f4ef55ec4f4e973c6138cf1d8be
+      internalID: -2003102956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_3
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 2403
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f107e18dc636b0b4a97d87952f4ae3f2
+      internalID: 2059536935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_4
+      rect:
+        serializedVersion: 2
+        x: 3990
+        y: 2403
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6511cc57dedc790438c3e64456b733d8
+      internalID: 1318807649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_5
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 2403
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d41d502c7f1945489b6196ebf2e030a
+      internalID: 301507701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_6
+      rect:
+        serializedVersion: 2
+        x: 5586
+        y: 2403
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb5be2674d18444da97ba2fac253360
+      internalID: 1172734232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_7
+      rect:
+        serializedVersion: 2
+        x: 6384
+        y: 2403
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57042802b5ff2504cbdd4db680c2e8f5
+      internalID: 1527994126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_8
+      rect:
+        serializedVersion: 2
+        x: 7182
+        y: 2403
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03996d997a235584a8959f33ac9ab34b
+      internalID: 1183819303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2136
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26288303adea8b43a3ddde83d7c1045
+      internalID: 1195923358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_10
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 2136
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7487244d5a9e848971dbbafacba053
+      internalID: 837257496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_11
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 2136
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fdba16667993048aa409a2103a7f4a
+      internalID: -1164399841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_12
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 2136
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123bb44311e7d3f4bb7da13db3e6e129
+      internalID: 1774852080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_13
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 2136
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53aa91556e9e6f4c9865248cd619f0e
+      internalID: -1330958838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_14
+      rect:
+        serializedVersion: 2
+        x: 3990
+        y: 2136
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6b9adcc3ee1314c833cd9487b2628d
+      internalID: 548855935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_15
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 2136
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441c7b9d7468b6248ae0ab2bbae54988
+      internalID: -332596328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_16
+      rect:
+        serializedVersion: 2
+        x: 5586
+        y: 2136
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bf8418526841649a7a1a8bcfeb897b
+      internalID: 782231381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_17
+      rect:
+        serializedVersion: 2
+        x: 6384
+        y: 2136
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d7507435da0504cb6d03b914beb393
+      internalID: -1295980689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_18
+      rect:
+        serializedVersion: 2
+        x: 7182
+        y: 2136
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98a5654e4d716c4391b2eb9629350a7
+      internalID: 523449651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1869
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7e34f37864f1b4585dd67889a7627a
+      internalID: 1143270202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_20
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1869
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedc84ad24319c049bfef1f4e8696c52
+      internalID: -89886096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_21
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1869
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298c7d726c40545499878e26cb0096c0
+      internalID: -1939107363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_22
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 1869
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46876d2270a11940afab61e94432eab
+      internalID: 330922841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_23
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 1869
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b198dae0afa42b41bc12889b2d2b916
+      internalID: 2017990278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_24
+      rect:
+        serializedVersion: 2
+        x: 3990
+        y: 1869
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b66df59e31454347a314492a63cac44
+      internalID: 1804740639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_25
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 1869
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1553eb8fbfd425f4b88ee78821479836
+      internalID: -716366605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_26
+      rect:
+        serializedVersion: 2
+        x: 5586
+        y: 1869
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75962e92c2b012c4faf222b8dfe0fd56
+      internalID: 1242181977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_27
+      rect:
+        serializedVersion: 2
+        x: 6384
+        y: 1869
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bc23d3a6b994a4686dc8c4244c857d
+      internalID: 1194182034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_28
+      rect:
+        serializedVersion: 2
+        x: 7182
+        y: 1869
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05eff344f60ff440987e0c836f1a688
+      internalID: 1069134592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1602
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f29b5f27345564bacaa7e11f943f03
+      internalID: 841553572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_30
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1602
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb59fac914469e147a146ec03eb8d70e
+      internalID: 1439538965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_31
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1602
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3544ff5940da9fd4bab4f0dfafd5ac42
+      internalID: -1420908554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_32
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 1602
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840bda29d0175474abb0b2997f721ae1
+      internalID: 233010408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_33
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 1602
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6c9f1cb69707948b0569147df24ac9
+      internalID: 321701562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_34
+      rect:
+        serializedVersion: 2
+        x: 3990
+        y: 1602
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c371fa046d81f469a15cb4dfb3e0d0
+      internalID: -135397647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_35
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 1602
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5712ab8bc33b6674ab2fcce144ff1c39
+      internalID: 540740211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_36
+      rect:
+        serializedVersion: 2
+        x: 5586
+        y: 1602
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9521f179f3efb4596d1fd5f1f44b30
+      internalID: -47940810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_37
+      rect:
+        serializedVersion: 2
+        x: 6384
+        y: 1602
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88571030e89e58e45b73790399c96edd
+      internalID: -970922042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_38
+      rect:
+        serializedVersion: 2
+        x: 7182
+        y: 1602
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d813dd77d5692244b993184230c51309
+      internalID: 1536535920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1335
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90e3ea17dd640047867127f23e6c44c
+      internalID: 302846181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_40
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1335
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca9a38dce77d4e47b8ab45fdfa81372
+      internalID: -733682114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_41
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1335
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05250333b7a3ef438625f430f932f20
+      internalID: 1258232429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_42
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 1335
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acfa4aa8b31f0745a57f43a273f772c
+      internalID: 1006775510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_43
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 1335
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5dd87131d91e949ab047d1c0082bb3
+      internalID: 946235180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_44
+      rect:
+        serializedVersion: 2
+        x: 3990
+        y: 1335
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6287476b35aa3f24a8d30314c4ab5005
+      internalID: -1875060293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_45
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 1335
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7e298e528bb224695fb745d1535973
+      internalID: -635586307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_46
+      rect:
+        serializedVersion: 2
+        x: 5586
+        y: 1335
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a4e9f6cdbf4e149bf9c88e41b32cbf
+      internalID: 971151043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_47
+      rect:
+        serializedVersion: 2
+        x: 6384
+        y: 1335
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998136ddbc1ef4e489c8ca38f4ebdba9
+      internalID: 727713689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_48
+      rect:
+        serializedVersion: 2
+        x: 7182
+        y: 1335
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff66de943030d24daa3da9cea1a83a9
+      internalID: -1708335786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1068
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bc2ad50b6f4814fb67afdca1296592
+      internalID: 108930890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_50
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1068
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43573f8835cb87d4d8c4a7069ef10bba
+      internalID: 1357433895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_51
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1068
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdb8ddd0a7be9e4f800e9ea29a1c956
+      internalID: -507782710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_52
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 1068
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053e78d6dd471e44980d01419b3f8173
+      internalID: -1625374887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_53
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 1068
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d999709acc24a64cba88df05f45e7c1
+      internalID: -1912736354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_54
+      rect:
+        serializedVersion: 2
+        x: 3990
+        y: 1068
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122aba37949d5f446a53f824036fb30e
+      internalID: 574873658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_55
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 1068
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ec1a48b920f384d9bf1a06b892ebe7
+      internalID: 133111956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_56
+      rect:
+        serializedVersion: 2
+        x: 5586
+        y: 1068
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349fce0d21bd0134fad17045e960b613
+      internalID: -1611704744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_57
+      rect:
+        serializedVersion: 2
+        x: 6384
+        y: 1068
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3e64028c8bf3846b6b8c0dc5eabddd
+      internalID: 629637807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_58
+      rect:
+        serializedVersion: 2
+        x: 7182
+        y: 1068
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad83c02b4118204584f672feb6555ff
+      internalID: 488959008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 801
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791928827c3d2fb4aaf4f38de1ba68e2
+      internalID: 2072248384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_60
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 801
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783798d9f245a894fa852138a1f08cee
+      internalID: -687644587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_61
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 801
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc551d2a675a394393aabf20eb1810d
+      internalID: -30042070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_62
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 801
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f100373a091db9f4d9a6200f014553b2
+      internalID: 426810978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_63
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 801
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a440b558fe5ede34b9d6b747d3e4978f
+      internalID: 1672282647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_64
+      rect:
+        serializedVersion: 2
+        x: 3990
+        y: 801
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf1620790e34814892a29e279f33aee
+      internalID: 1405588878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_65
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 801
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75d0c187e56c7b4d971036e35875f4e
+      internalID: 1809756419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_66
+      rect:
+        serializedVersion: 2
+        x: 5586
+        y: 801
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f00bea662c4ec143afe5620a10bc807
+      internalID: 1072335736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_67
+      rect:
+        serializedVersion: 2
+        x: 6384
+        y: 801
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f54ea39e99f93149aaee2f8fbfe9689
+      internalID: 331012960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_68
+      rect:
+        serializedVersion: 2
+        x: 7182
+        y: 801
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0c0fc4787feeb4fbe1d903e9bd396a
+      internalID: -1020941788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 534
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5ba6702b22a6049b06dcef6a287678
+      internalID: 1288926878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_70
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 534
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7393658a6f448ed4b981654e55899540
+      internalID: 1369495759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_71
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 534
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874f615832ea15643b66affe9cca6378
+      internalID: 865642901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_72
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 534
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886ef74e4548a0f4d9ca936353935f21
+      internalID: -384278424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_73
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 534
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2ff78cf9d9c3645a46021e2765e564
+      internalID: -554792091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_74
+      rect:
+        serializedVersion: 2
+        x: 3990
+        y: 534
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d4ff26b0b2ea84a8405a56fdafd1f9
+      internalID: 1203685684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_75
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 534
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396b53737a470984e9f98f7e2a83f39a
+      internalID: -1647198572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_76
+      rect:
+        serializedVersion: 2
+        x: 5586
+        y: 534
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699139fcf7e944e40bdacff10842594a
+      internalID: -968101191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_77
+      rect:
+        serializedVersion: 2
+        x: 6384
+        y: 534
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28468842faa4c048bce69a56ff92ba8
+      internalID: -1538176005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_78
+      rect:
+        serializedVersion: 2
+        x: 7182
+        y: 534
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfca8aabedcb0043a881fadaf3ee351
+      internalID: -372633313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbaf73e67bfd9642ac78f467d12a445
+      internalID: -2037021369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_80
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 267
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee51a5a652d17fd4b8ea5993f02b4121
+      internalID: 1438908387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_81
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 267
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9546836a2cc578346b90f27110bda088
+      internalID: 1664023496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_82
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 267
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc363d288f1363458364608e67c0e97
+      internalID: 1916604700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_83
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 267
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1cc6d2594326734dbe8e5e333e45a1b
+      internalID: -1414546854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_84
+      rect:
+        serializedVersion: 2
+        x: 3990
+        y: 267
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4e65154deb9e6439fae5f9d2766a5b
+      internalID: 1379786837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_85
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 267
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd0e836fcceb0041997edf22f263347
+      internalID: -489012204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_86
+      rect:
+        serializedVersion: 2
+        x: 5586
+        y: 267
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180a3377f09993f44bba7419077adaac
+      internalID: -1121789018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_87
+      rect:
+        serializedVersion: 2
+        x: 6384
+        y: 267
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532baa22bf3c6114e9b1c3cf398a7f4b
+      internalID: -620074817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_88
+      rect:
+        serializedVersion: 2
+        x: 7182
+        y: 267
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7444c58dd7f6341a9ab335fa0b19fa
+      internalID: -859776615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76cb8472fcc5814ab9faa1a28848049
+      internalID: -1640341840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_90
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 0
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118f57e32eba2e64492460d4564ca78c
+      internalID: -290283106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_91
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 0
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2871953052385247b362c3a3ccf15e7
+      internalID: -1801657545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_92
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 0
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2582da9235f6c38418d48975bd9fe464
+      internalID: 704402447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_93
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 0
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8353300598cf04eb8ff5005c121af4
+      internalID: -2030160293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_94
+      rect:
+        serializedVersion: 2
+        x: 3990
+        y: 0
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d09b57470f791243a8393a1483ed990
+      internalID: 1633906141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_95
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 0
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619af8d861010964b865d10c153ea167
+      internalID: 1290509910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_96
+      rect:
+        serializedVersion: 2
+        x: 5586
+        y: 0
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36bb10ac3774754f88292c1b61550db
+      internalID: -1160286184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdownSprite_97
+      rect:
+        serializedVersion: 2
+        x: 7182
+        y: 0
+        width: 798
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f13cbb3a9d91b144a28af41e5cb6cbe
+      internalID: 1731127991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 302e2262ea69447479816ac90265f15c
     internalID: 0
     vertices: []
     indices: 
@@ -108,8 +2264,108 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":10.0},"gridSpriteSize":{"x":798.0,"y":267.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      countdownSprite_0: -1222542923
+      countdownSprite_1: 538395728
+      countdownSprite_10: 837257496
+      countdownSprite_11: -1164399841
+      countdownSprite_12: 1774852080
+      countdownSprite_13: -1330958838
+      countdownSprite_14: 548855935
+      countdownSprite_15: -332596328
+      countdownSprite_16: 782231381
+      countdownSprite_17: -1295980689
+      countdownSprite_18: 523449651
+      countdownSprite_19: 1143270202
+      countdownSprite_2: -2003102956
+      countdownSprite_20: -89886096
+      countdownSprite_21: -1939107363
+      countdownSprite_22: 330922841
+      countdownSprite_23: 2017990278
+      countdownSprite_24: 1804740639
+      countdownSprite_25: -716366605
+      countdownSprite_26: 1242181977
+      countdownSprite_27: 1194182034
+      countdownSprite_28: 1069134592
+      countdownSprite_29: 841553572
+      countdownSprite_3: 2059536935
+      countdownSprite_30: 1439538965
+      countdownSprite_31: -1420908554
+      countdownSprite_32: 233010408
+      countdownSprite_33: 321701562
+      countdownSprite_34: -135397647
+      countdownSprite_35: 540740211
+      countdownSprite_36: -47940810
+      countdownSprite_37: -970922042
+      countdownSprite_38: 1536535920
+      countdownSprite_39: 302846181
+      countdownSprite_4: 1318807649
+      countdownSprite_40: -733682114
+      countdownSprite_41: 1258232429
+      countdownSprite_42: 1006775510
+      countdownSprite_43: 946235180
+      countdownSprite_44: -1875060293
+      countdownSprite_45: -635586307
+      countdownSprite_46: 971151043
+      countdownSprite_47: 727713689
+      countdownSprite_48: -1708335786
+      countdownSprite_49: 108930890
+      countdownSprite_5: 301507701
+      countdownSprite_50: 1357433895
+      countdownSprite_51: -507782710
+      countdownSprite_52: -1625374887
+      countdownSprite_53: -1912736354
+      countdownSprite_54: 574873658
+      countdownSprite_55: 133111956
+      countdownSprite_56: -1611704744
+      countdownSprite_57: 629637807
+      countdownSprite_58: 488959008
+      countdownSprite_59: 2072248384
+      countdownSprite_6: 1172734232
+      countdownSprite_60: -687644587
+      countdownSprite_61: -30042070
+      countdownSprite_62: 426810978
+      countdownSprite_63: 1672282647
+      countdownSprite_64: 1405588878
+      countdownSprite_65: 1809756419
+      countdownSprite_66: 1072335736
+      countdownSprite_67: 331012960
+      countdownSprite_68: -1020941788
+      countdownSprite_69: 1288926878
+      countdownSprite_7: 1527994126
+      countdownSprite_70: 1369495759
+      countdownSprite_71: 865642901
+      countdownSprite_72: -384278424
+      countdownSprite_73: -554792091
+      countdownSprite_74: 1203685684
+      countdownSprite_75: -1647198572
+      countdownSprite_76: -968101191
+      countdownSprite_77: -1538176005
+      countdownSprite_78: -372633313
+      countdownSprite_79: -2037021369
+      countdownSprite_8: 1183819303
+      countdownSprite_80: 1438908387
+      countdownSprite_81: 1664023496
+      countdownSprite_82: 1916604700
+      countdownSprite_83: -1414546854
+      countdownSprite_84: 1379786837
+      countdownSprite_85: -489012204
+      countdownSprite_86: -1121789018
+      countdownSprite_87: -620074817
+      countdownSprite_88: -859776615
+      countdownSprite_89: -1640341840
+      countdownSprite_9: 1195923358
+      countdownSprite_90: -290283106
+      countdownSprite_91: -1801657545
+      countdownSprite_92: 704402447
+      countdownSprite_93: -2030160293
+      countdownSprite_94: 1633906141
+      countdownSprite_95: 1290509910
+      countdownSprite_96: -1160286184
+      countdownSprite_97: 1731127991
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

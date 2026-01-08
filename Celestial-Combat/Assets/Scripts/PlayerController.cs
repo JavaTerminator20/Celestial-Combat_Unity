@@ -110,6 +110,7 @@ public class PlayerController : CharacterBase
         Debug.Log("player DIED");
         animator.SetBool("dead", true);
         Invoke("clearDead", 1.0f);      //da pocistimo flag
+        gameManager.Invoke("YouLoose", 1.0f);
     }
 
     public void Ultimate(){
@@ -231,6 +232,8 @@ public class PlayerController : CharacterBase
         hSpeed = base.hSpeedUniversal;      //spremenljivka hSpeedUniversal je v nadrejenem razredu, da lahko obema igralcema nastavimo isto hitrost
         gameManager = FindFirstObjectByType<GameManager>();
         invincible = false;
+
+        disablePlayer=true;
         
     }
 
@@ -255,7 +258,7 @@ public class PlayerController : CharacterBase
     float decayFactor;
     bool initKDS;
 
-    public bool disablePlayer=false;
+    public bool disablePlayer=true;     //na zacetku je countdown
 
     void Update()
     {

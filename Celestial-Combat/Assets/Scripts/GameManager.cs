@@ -14,7 +14,10 @@ public class GameManager : MonoBehaviour
     Transform oponentTransform;
     public CinemachineImpulseSource impulseSource;
 
-    
+    public GameObject countdown;
+    public GameObject youwin;
+    public GameObject youlose;
+    public GameObject endgamePopUp;
     
     //limit game to 120fps
     void Awake()
@@ -31,6 +34,7 @@ public class GameManager : MonoBehaviour
         oponentTransform = oponent.GetComponent<Transform>();
         impulseSource = GetComponent<CinemachineImpulseSource>();
 
+        countdown.SetActive(true);
     }
 
     float maxDist = 9;
@@ -124,6 +128,28 @@ public class GameManager : MonoBehaviour
 
     public void disablePlayer(){
         player.disablePlayer = true;
+    }
+
+    public void StartGame(){
+        player.disablePlayer = false;
+        oponent.AIdisabled = false;
+    }
+
+    public void YouWin(){
+        youwin.SetActive(true);
+        Invoke("GameEndPopUp", 6.0f);
+
+    }
+
+    public void YouLoose(){
+        youlose.SetActive(true);
+        Invoke("GameEndPopUp", 6.0f);
+    }
+
+    public void GameEndPopUp(){
+        youwin.SetActive(false);
+        youlose.SetActive(false);
+        endgamePopUp.SetActive(true);
     }
 
     //funkcija ki jo poklice bigStomp.cs (ko sonce udari z nogo ob tla)

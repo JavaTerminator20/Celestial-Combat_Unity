@@ -52,6 +52,8 @@ public class OponentController : CharacterBase
         OnHitReceived += GettingHit;        //dodamo metodo na seznam "poslusalcev" - potrebno bi bilo sicer ga odstraniti pri OnDisable(){OnHitReceived -= GettingHit;}
         animator = GetComponent<Animator>();
         hSpeed = base.hSpeedUniversal;
+
+        AIdisabled = true;
     }
 
     void MakeAction(){
@@ -103,6 +105,7 @@ public class OponentController : CharacterBase
         animator.SetInteger("action", 0);
         AIdisabled = true;
         gameManager.disablePlayer();
+        gameManager.Invoke("YouWin", 1.0f);
     }
 
     void clearHit(){
@@ -442,7 +445,7 @@ public class OponentController : CharacterBase
     float gravity;
     float vSpeed;
 
-    public bool AIdisabled = false;
+    public bool AIdisabled = true;
 
     void Update()
     {
