@@ -6,7 +6,7 @@ public class MainMenu : MonoBehaviour
 {
     public void StartPlayerSelect()
     {
-        SceneManager.LoadScene("PlayerSelect"); 
+        SceneManager.LoadScene("SampleScene"); 
     }
 
   
