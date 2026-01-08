@@ -109,7 +109,9 @@ public class PlayerController : CharacterBase
     void playDead(){
         Debug.Log("player DIED");
         animator.SetBool("dead", true);
+        
         Invoke("clearDead", 1.0f);      //da pocistimo flag
+       
     }
 
     public void Ultimate(){
@@ -172,8 +174,14 @@ public class PlayerController : CharacterBase
         health -= value;
         //preveri ce smo mrtvi
         if (health < 0){
+            
             playDead();
             gameManager.disableAI();
+            EndgameManager endgameManager = FindFirstObjectByType<EndgameManager>();
+            if (endgameManager != null){
+                    endgameManager.ShowLose();
+            }
+            
         }
         if (healthBar != null)
         {    
@@ -199,8 +207,14 @@ public class PlayerController : CharacterBase
 
             //preveri ce smo mrtvi
             if (health < 0){
+                
                 playDead();
                 gameManager.disableAI();
+                EndgameManager endgameManager = FindFirstObjectByType<EndgameManager>();
+                if (endgameManager != null){
+                    endgameManager.ShowLose();
+                }
+               
             }
 
         } else if (blocking){

@@ -1,32 +1,49 @@
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PausePopupController : MonoBehaviour
 {
-    public GameObject pauseOverlay;
+ 
+    public PopupController pauseMenuUI;    
 
-    public void OpenPause()
+
+ 
+    public void Pause()
     {
-        pauseOverlay.SetActive(true);
+        
         Time.timeScale = 0f;
+        pauseMenuUI.ShowPopup();
+
+     
+
+      
+       
     }
 
+   
     public void Resume()
     {
-        pauseOverlay.SetActive(false);
-        Time.timeScale = 1f;
+       
+
+        Time.timeScale = 1f; 
+        pauseMenuUI.HidePopup();
     }
 
+    
+ 
+
+   
     public void Restart()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+   
     public void MainMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu"); 
     }
 }

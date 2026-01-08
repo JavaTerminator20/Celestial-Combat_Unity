@@ -2,17 +2,21 @@ using UnityEngine;
 
 public class InstructionsPopup : MonoBehaviour
 {
-    public GameObject instructionsPanel;
+   public PopupController instructionsPopup; 
 
-
+  
     public void ShowPanel()
     {
-        instructionsPanel.SetActive(true);
+        if (instructionsPopup != null)
+            instructionsPopup.ShowPopup();
+        else
+            Debug.LogWarning("InstructionsPopup reference not set!");
     }
 
-   
+  
     public void HidePanel()
     {
-        instructionsPanel.SetActive(false);
+        if (instructionsPopup != null)
+            instructionsPopup.HidePopup();
     }
 }

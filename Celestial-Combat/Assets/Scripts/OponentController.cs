@@ -103,6 +103,7 @@ public class OponentController : CharacterBase
         animator.SetInteger("action", 0);
         AIdisabled = true;
         gameManager.disablePlayer();
+      
     }
 
     void clearHit(){

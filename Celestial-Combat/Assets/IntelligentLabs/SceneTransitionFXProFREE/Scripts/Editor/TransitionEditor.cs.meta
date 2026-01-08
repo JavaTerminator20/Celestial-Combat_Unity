@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c2900464449458e44adcb2a4850ca28d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301124
+  packageName: 'Scene Transition FX Pro: Free Edition'
+  packageVersion: 2.0.1
+  assetPath: Assets/IntelligentLabs/SceneTransitionFXProFREE/Scripts/Editor/TransitionEditor.cs
+  uploadId: 732834

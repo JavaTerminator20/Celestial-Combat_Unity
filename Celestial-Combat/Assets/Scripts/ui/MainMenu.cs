@@ -4,10 +4,11 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void StartPlayerSelect()
+    /*public void StartPlayerSelect()
     {
-        SceneManager.LoadScene("PlayerSelect"); 
+        transitionManager.PlayEffect();
     }
+    */
 
   
 }
