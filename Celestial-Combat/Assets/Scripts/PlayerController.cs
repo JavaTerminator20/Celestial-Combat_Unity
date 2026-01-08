@@ -283,7 +283,7 @@ public class PlayerController : CharacterBase
         AnimatorStateInfo animInfo = animator.GetCurrentAnimatorStateInfo(0);
         AnimatorClipInfo[] clipInfo = animator.GetCurrentAnimatorClipInfo(0);
         string curAnimPlaying = clipInfo[0].clip.name;
-        Debug.Log("Current anim: " + curAnimPlaying);
+        //Debug.Log("Current anim: " + curAnimPlaying);
 
         if (curAnimPlaying == "Armature_backflip"){  //0.67, 1.37
             grounded = false;

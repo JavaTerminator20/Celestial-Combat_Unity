@@ -251,6 +251,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d20a1a266f9864aae3d786d509fa96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  owner: {fileID: 0}
+  currentAction: 
 --- !u!135 &29027694
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15713,6 +15715,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   impulseSource: {fileID: 0}
+  countdown: {fileID: 0}
+  youwin: {fileID: 0}
+  youlose: {fileID: 0}
+  endgamePopUp: {fileID: 0}
 --- !u!4 &336973804
 Transform:
   m_ObjectHideFlags: 0
@@ -21467,19 +21473,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   gameManager: {fileID: 0}
+  ultimateMeter: 0
+  ultimateThreshold: 10
+  playerIsUsingUltimate: 0
   healthBar: {fileID: 0}
+  audioSource: {fileID: 0}
+  punchSound: {fileID: 0}
+  punchMissSound: {fileID: 0}
+  kickSound: {fileID: 0}
+  kickMissSound: {fileID: 0}
+  blockSound: {fileID: 0}
+  hookSound: {fileID: 0}
+  hookMissSound: {fileID: 0}
+  flyingPunchSound: {fileID: 0}
+  flyingPunchMissSound: {fileID: 0}
+  sunStompSound: {fileID: 0}
+  beamSound: {fileID: 0}
+  earthStompSound: {fileID: 0}
+  moonThrowSound: {fileID: 0}
+  jumpSound: {fileID: 0}
+  winSound: {fileID: 0}
+  loseSound: {fileID: 0}
   blockSparks: {fileID: 1858946464}
   player: {fileID: 2017573270}
   PlayerLeftHand: {fileID: 1278430285}
   PlayerRightHand: {fileID: 1460939799}
   PlayerRightLeg: {fileID: 410876638}
   orientation: -1
+  blocking: 0
   canMove: 1
   canChangeOrientation: 1
   ogMoon: {fileID: 2111037180}
   handMoon: {fileID: 2109284777}
   airMoon: {fileID: 576782329}
   grounded: 1
+  AIdisabled: 1
 --- !u!95 &675777394
 Animator:
   serializedVersion: 7
@@ -21598,7 +21626,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterBase
   gameManager: {fileID: 336973803}
+  ultimateMeter: 0
+  ultimateThreshold: 10
+  playerIsUsingUltimate: 0
   healthBar: {fileID: 0}
+  audioSource: {fileID: 0}
+  punchSound: {fileID: 0}
+  punchMissSound: {fileID: 0}
+  kickSound: {fileID: 0}
+  kickMissSound: {fileID: 0}
+  blockSound: {fileID: 0}
+  hookSound: {fileID: 0}
+  hookMissSound: {fileID: 0}
+  flyingPunchSound: {fileID: 0}
+  flyingPunchMissSound: {fileID: 0}
+  sunStompSound: {fileID: 0}
+  beamSound: {fileID: 0}
+  earthStompSound: {fileID: 0}
+  moonThrowSound: {fileID: 0}
+  jumpSound: {fileID: 0}
+  winSound: {fileID: 0}
+  loseSound: {fileID: 0}
 --- !u!1 &699321011
 GameObject:
   m_ObjectHideFlags: 0
@@ -26742,6 +26790,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d20a1a266f9864aae3d786d509fa96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HitBox
+  owner: {fileID: 0}
+  currentAction: 
 --- !u!4 &744812954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -5756552144314822023, guid: 25b497b40dfbf52448a7b4e6f4bceb4a, type: 3}
@@ -27695,6 +27745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d20a1a266f9864aae3d786d509fa96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HitBox
+  owner: {fileID: 0}
+  currentAction: 
 --- !u!1 &820952687
 GameObject:
   m_ObjectHideFlags: 0
@@ -27935,7 +27987,7 @@ GameObject:
   - component: {fileID: 857085835}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: TransitionPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28036,6 +28088,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d20a1a266f9864aae3d786d509fa96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HitBox
+  owner: {fileID: 0}
+  currentAction: 
 --- !u!135 &908315093
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -32989,7 +33043,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00000008940697, y: 2.2643971, z: 1.3499999}
+  m_LocalPosition: {x: 0.00000008940697, y: 2.265626, z: 1.3464522}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33039,6 +33093,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d20a1a266f9864aae3d786d509fa96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HitBox
+  owner: {fileID: 0}
+  currentAction: 
 --- !u!135 &1119769830
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -33134,6 +33190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d20a1a266f9864aae3d786d509fa96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HitBox
+  owner: {fileID: 0}
+  currentAction: 
 --- !u!135 &1224497422
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -33228,6 +33286,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d20a1a266f9864aae3d786d509fa96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HitBox
+  owner: {fileID: 0}
+  currentAction: 
 --- !u!135 &1230278459
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -33634,6 +33694,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d20a1a266f9864aae3d786d509fa96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HitBox
+  owner: {fileID: 0}
+  currentAction: 
 --- !u!1 &1376300352
 GameObject:
   m_ObjectHideFlags: 0
@@ -54724,11 +54786,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   gameManager: {fileID: 336973803}
+  ultimateMeter: 0
+  ultimateThreshold: 10
+  playerIsUsingUltimate: 0
   healthBar: {fileID: 0}
+  audioSource: {fileID: 0}
+  punchSound: {fileID: 0}
+  punchMissSound: {fileID: 0}
+  kickSound: {fileID: 0}
+  kickMissSound: {fileID: 0}
+  blockSound: {fileID: 0}
+  hookSound: {fileID: 0}
+  hookMissSound: {fileID: 0}
+  flyingPunchSound: {fileID: 0}
+  flyingPunchMissSound: {fileID: 0}
+  sunStompSound: {fileID: 0}
+  beamSound: {fileID: 0}
+  earthStompSound: {fileID: 0}
+  moonThrowSound: {fileID: 0}
+  jumpSound: {fileID: 0}
+  winSound: {fileID: 0}
+  loseSound: {fileID: 0}
   blockSparks: {fileID: 1795455522}
   beam: {fileID: 1553213400}
   beamEnd: {fileID: 105698390}
   beamEndOponent: {fileID: 545245586}
+  usingUltimate: 0
   OponentLeftHand: {fileID: 1819277875}
   OponentRightHand: {fileID: 1715977898}
   OponentRightLeg: {fileID: 1848715000}
@@ -54738,6 +54821,7 @@ MonoBehaviour:
   orientation: 1
   canChangeOrientation: 1
   blocking: 0
+  disablePlayer: 1
 --- !u!136 &2017573265
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -54822,7 +54906,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   gameManager: {fileID: 336973803}
+  ultimateMeter: 0
+  ultimateThreshold: 10
+  playerIsUsingUltimate: 0
   healthBar: {fileID: 0}
+  audioSource: {fileID: 0}
+  punchSound: {fileID: 0}
+  punchMissSound: {fileID: 0}
+  kickSound: {fileID: 0}
+  kickMissSound: {fileID: 0}
+  blockSound: {fileID: 0}
+  hookSound: {fileID: 0}
+  hookMissSound: {fileID: 0}
+  flyingPunchSound: {fileID: 0}
+  flyingPunchMissSound: {fileID: 0}
+  sunStompSound: {fileID: 0}
+  beamSound: {fileID: 0}
+  earthStompSound: {fileID: 0}
+  moonThrowSound: {fileID: 0}
+  jumpSound: {fileID: 0}
+  winSound: {fileID: 0}
+  loseSound: {fileID: 0}
 --- !u!114 &2017573269
 MonoBehaviour:
   m_ObjectHideFlags: 0

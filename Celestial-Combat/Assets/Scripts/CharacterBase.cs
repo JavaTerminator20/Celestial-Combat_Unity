@@ -149,7 +149,7 @@ public class CharacterBase : MonoBehaviour
     void Awake()
     {
         gameManager = FindFirstObjectByType<GameManager>();
-        health = 10;
+        health = 100;
         
     }
 

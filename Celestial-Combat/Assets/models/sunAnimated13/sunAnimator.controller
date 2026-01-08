@@ -840,7 +840,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Armature|hookPunch
-  m_Speed: 1.2
+  m_Speed: 1.35
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -73173692329870013}
@@ -1286,7 +1286,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Armature|kick
-  m_Speed: 1.2
+  m_Speed: 1.1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1285332851676111200}

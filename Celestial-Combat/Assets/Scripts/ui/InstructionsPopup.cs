@@ -13,6 +13,11 @@ public class InstructionsPopup : MonoBehaviour
    
     public void HidePanel()
     {
+        instructionsPanel.GetComponent<Animator>().SetTrigger("shrink");
+        Invoke("disablePanel", 0.3f);
+    }
+
+    void disablePanel(){
         instructionsPanel.SetActive(false);
     }
 }

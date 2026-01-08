@@ -42,24 +42,24 @@ public class enableHitBoxes : StateMachineBehaviour
         //preverimo katera animacija se je zacela in omogicimo samo nujen hitbox (enega)
         if (stateInfo.IsName("Armature|punchBlended") || stateInfo.IsName("Armature|punch")){   //zaradi tega ker imata zemlja in sonce drugacno ime za punch
             hitbox = FindHitBox(rightHand, animator);
-            enableTime = 0.2f;
-            disableTime = 0.7f;
+            enableTime = 0.3f;
+            disableTime = 0.68f;
             damageLevel = 1;
             bodyPart = "RH";    //right hand
             actionName = "punch";
         }
         if (stateInfo.IsName("Armature|hookPunch")){
             hitbox = FindHitBox(rightHand, animator);
-            enableTime = 0.3f;
-            disableTime = 0.7f;
+            enableTime = 0.45f;
+            disableTime = 0.65f;
             damageLevel = 2;
             bodyPart = "RH";    //right hand
             actionName = "hook";
         }
         if (stateInfo.IsName("Armature|kick")){
             hitbox = FindHitBox(rightLeg, animator);
-            enableTime = 0.25f;
-            disableTime = 0.6f;
+            enableTime = 0.33f;
+            disableTime = 0.49f;
             damageLevel = 3;
             bodyPart = "RL";     //right leg
             actionName  = "kick";

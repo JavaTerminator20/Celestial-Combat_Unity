@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2398128045445ba489c9ffb352b81ed9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301124
+  packageName: 'Scene Transition FX Pro: Free Edition'
+  packageVersion: 2.0.1
+  assetPath: Assets/IntelligentLabs/SceneTransitionFXProFREE/Scripts/PlayEffect.cs
+  uploadId: 732834
