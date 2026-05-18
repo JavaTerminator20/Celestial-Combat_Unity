@@ -137,7 +137,7 @@ public class OponentController : CharacterBase
             weAreHit = false;
             blocking = false;
             CancelInvoke("clearHit");
-            animator.SetBool("hit", false);
+            animator.SetBool("hit", true);
             canMove = false;
             
             animator.SetBool("knockdown", true);
@@ -191,11 +191,7 @@ public class OponentController : CharacterBase
                 healthBar.SetHealth(health);
             }
 
-            if (health <= 0){
-                playDead();
-                return;
-            }
-
+        
             Debug.Log("oponent got hit, current health: " + health);
             checkKnockDown(damage);
             lastHitTime = Time.time;
@@ -204,6 +200,11 @@ public class OponentController : CharacterBase
             StartCoroutine(HitFreeze(hitStopTime));                                 //zazenemo hitFreeze efekt
             CameraShake(cameraShakeIntensity, false);
             playBloodVFX(bloodBodyPart, PlayerLeftHand, PlayerRightHand, null, PlayerRightLeg);
+
+            if (health <= 0){
+                playDead();
+                return;
+            }
 
             
         } else{
